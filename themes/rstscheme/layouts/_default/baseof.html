@@ -7,7 +7,7 @@
         {{ range resources.Match "styles.css" }}
         <link   rel="stylesheet"
                 type="text/css"
-                href="{{ .RelPermalink }}">
+                href=".{{ .RelPermalink }}">
         {{ end }}
         <title>rustamjafar</title>
         </head>

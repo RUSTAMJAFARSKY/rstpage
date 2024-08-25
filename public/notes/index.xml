@@ -1,30 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Notes on rustamjafar</title>
-    <link>http://rustamjafar.com/notes.html</link>
-    <description>Recent content in Notes on rustamjafar</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://rustamjafar.com/notes/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title></title>
-      <link>http://rustamjafar.com/notes/ar.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://rustamjafar.com/notes/ar.html</guid>
-      <description>[20240103130124: معيار الكتابة](/ar/5/20240103130124.html)
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Notes on rustamjafar</title><link>https://rustamjafar.com/notes.html</link><description>Recent content in Notes on rustamjafar</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://rustamjafar.com/notes/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://rustamjafar.com/notes/ar.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/notes/ar.html</guid><description>[20240103130124: معيار الكتابة](/ar/5/20240103130124.html)
 [20231216040115: اللغة العربية الفصحى المعاصرة](/ar/3/20231216040115.html)
 [20231209164915: بعض الكلمات حول موضوع الترجمة](/ar/2/20231209164915.html)
-[20231209155333: رسول الله ﷺ: انما الاعمال بالنيات](/ar/1/20231209155333.html)</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://rustamjafar.com/notes/en.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://rustamjafar.com/notes/en.html</guid>
-      <description>[20240518114611: website: new workflow](/en/44/20240518114611.html)
+[20231209155333: رسول الله ﷺ: انما الاعمال بالنيات](/ar/1/20231209155333.html)</description></item><item><title/><link>https://rustamjafar.com/notes/en.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/notes/en.html</guid><description>[20240518114611: website: new workflow](/en/44/20240518114611.html)
 [20240413201329: enterpreneurship: skills](/en/43/20240413201329.html)
 [20240409162413: bitcoin: exchange](/en/42/20240409162413.html)
 [20240407022236: calibre: managing book library](/en/41/20240407022236.html)
@@ -41,19 +18,6 @@
 [20240225065646: blockchain: usdt gas fees](/en/28/20240225065646.html)
 [20240224060744: argument vs parameter](/en/27/20240224060744.html)
 [20240211144725: mirror’s edge: the conglomerate](/en/26/20240211144725.html)
-[20240211114916: css: multi-directional layout](/en/25/20240211114916.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://rustamjafar.com/notes/ru.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://rustamjafar.com/notes/ru.html</guid>
-      <description>[20240310113656: русский язык: вступительные испытания](/ru/3/20240310113656.html)
+[20240211114916: css: multi-directional layout](/en/25/20240211114916.</description></item><item><title/><link>https://rustamjafar.com/notes/ru.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/notes/ru.html</guid><description>[20240310113656: русский язык: вступительные испытания](/ru/3/20240310113656.html)
 [20231210091457: mail.ru: домен bk](/ru/2/20231210091457.html)
-[20231210090927: пророк (с. а. в.): дела по намерениям](/ru/1/20231210090927.html)</description>
-    </item>
-    
-  </channel>
-</rss>
+[20231210090927: пророк (с. а. в.): дела по намерениям](/ru/1/20231210090927.html)</description></item></channel></rss>
