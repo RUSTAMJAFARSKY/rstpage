@@ -7,18 +7,19 @@ on:
   workflow_dispatch:
 
 jobs:
-  runs-on: ubuntu-18.04
-  steps:
-    - name: Build
-      run: hugo --minify
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build
+        run: hugo --minify
 
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v4
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
 
-    - uses: geekyeggo/delete-artifact@v5
-      with:
+      - uses: geekyeggo/delete-artifact@v5
+        with:
           name: |
             github-pages
