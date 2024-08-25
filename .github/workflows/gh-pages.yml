@@ -7,9 +7,17 @@ on:
   workflow_dispatch:
 
 jobs:
-  Explore-GitHub-Actions:
+  rstpage:
     runs-on: ubuntu-latest
     steps:
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.110.0'
+
+      - name: Build
+        run: hugo --minify
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
