@@ -14,3 +14,8 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./public
+
+    - uses: geekyeggo/delete-artifact@v5
+      with:
+          name: |
+            github-pages
