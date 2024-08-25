@@ -1,14 +1,19 @@
 name: github pages
 
 on:
+  push:
     branches:
       - main
   workflow_dispatch:
 
 jobs:
-  rstpage:
+  deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
