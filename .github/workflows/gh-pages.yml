@@ -16,7 +16,7 @@ jobs:
           hugo-version: '0.110.0'
 
       - name: Build
-        run: hugo --minify
+        run: hugo --minify --config config.yaml
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
