@@ -1,0 +1,10 @@
+#!/usr/bin/bash
+
+while IFS= read -r file; do
+        LINE=$(sed -n '5p' $file)
+        echo $LINE
+        #LINE=${LINE/\#\#/=}
+
+        #sed -i "3a $LINE" "$file"
+        sed -i "5d" "$file"
+done < <( find en/ -iname '[0-9]*.adoc' )
