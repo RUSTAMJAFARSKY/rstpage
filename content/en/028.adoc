@@ -1,0 +1,9 @@
+---
+id: 20240225065646
+---
+= blockchain: usdt gas fees
+:showtitle:
+
+get data on usdt gas fees here
+
+<https://gasfeesnow.com>

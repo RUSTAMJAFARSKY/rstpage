@@ -1,0 +1,10 @@
+---
+id: 20240224060744
+---
+= argument vs parameter
+:showtitle:
+
+some cs vocabulary
+
+* argument is a *coin*
+* parameter is a *coin acceptor*

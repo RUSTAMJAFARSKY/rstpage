@@ -1,0 +1,5 @@
+---
+layout: list
+---
+_all notes are subject to the changes as i gain knowledge and experience
+through life_

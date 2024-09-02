@@ -1,8 +1,50 @@
 baseURL: https://rustamjafar.com/
-languageCode: en-us
+defaultContentLanguage: multilang
+defaultContentLanguageInSubdir: true
 title: rustamjafar
 theme: rstscheme
-uglyURLs: true
+uglyURLs: false
+languages:
+  multilang:
+    disabled: false
+    languageCode: multilang
+    weight: 10
+  ar:
+    disabled: false
+    contentDir: content/ar
+    languageCode: ar
+    languageDirection: rtl
+    languageName: arabic
+    weight: 30
+    params:
+      intention: >-
+        بسم الله الرحمن الرحيم
+      contact: >-
+        اتصل بي
+  en:
+    disabled: false
+    contentDir: content/en
+    languageCode: en-US
+    languageDirection: ltr
+    languageName: english
+    weight: 20
+    params:
+      intention: >-
+        in the name of god, the most beneficent, the most merciful
+      contact: >-
+        rst.jafar@gmail.com
+  ru:
+    disabled: false
+    contentDir: content/ru
+    languageCode: ru-RU
+    languageDirection: ltr
+    languageName: russian
+    weight: 40
+    params:
+      intention: >-
+        во имя бога, милостивого, милующего
+      contact: >-
+        свяжитесь со мной
 # remove hugo version mention in generated html
 disableHugoGeneratorInject: true
 

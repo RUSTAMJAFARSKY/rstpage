@@ -1,4 +1,0 @@
-the website is down for maintenance
-
-you can still check all of my notes at
-https://github.com/rustamjafar/www/tree/main/docs/notes

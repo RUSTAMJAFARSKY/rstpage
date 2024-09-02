@@ -1,37 +1,37 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
 "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" 
+xml:lang="{{ .Site.Language }}" -->
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}">
         <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        {{ range resources.Match "styles.css" }}
-        <link   rel="stylesheet"
-                type="text/css"
-                href=".{{ .RelPermalink }}">
-        {{ end }}
+                {{ range resources.Match "styles.css" }}
+                <link   rel="stylesheet"
+                        type="text/css"
+                        href="{{ .RelPermalink }}">
+                {{ end }}
         <title>rustamjafar</title>
         </head>
         <body>
                 {{ block "header" . }}
                 <header>
-                        in the name of god, the most beneficent,
-                        the most merciful
+                <p>{{ .Site.Params.intention }}</p>
                 <hr/>
                 </header>
                 {{ end }}
+                <main dir="{{ .Site.Language.LanguageDirection }}">
                 {{ block "body" .}}
-                <main>
                 {{ .Content }}
+                {{ end }}
                 </main>
-                {{ end }}
+                <footer dir="{{ .Site.Language.LanguageDirection }}">
                 {{ block "footer" . }}
-                <footer>
-                <hr />
-                        <a href="mailto:rst.jafar@gmail.com"
-                                target="_blank">
-                                rst.jafar@gmail.com
-                        </a>
-                </footer>
+                <hr/>
+                <p><a href="mailto:rst.jafar@gmail.com" target="_blank">
+                {{ .Site.Params.contact }}</a>
                 {{ end }}
+                </footer>
         </body>
 </html>

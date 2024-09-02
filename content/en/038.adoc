@@ -1,0 +1,9 @@
+---
+id: 20240402041806
+---
+# books: project gutenberg
+:showtitle:
+
+check out <https://gutenberg.org/>
+
+TODO: notes later

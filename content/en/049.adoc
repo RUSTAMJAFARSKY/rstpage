@@ -1,0 +1,7 @@
+---
+id: 20240829230242
+---
+= kipling: if --
+:showtitle:
+
+here will be one of the greatest poems of modern times
