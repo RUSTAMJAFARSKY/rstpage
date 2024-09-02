@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                
+                <link   rel="stylesheet"
+                        type="text/css"
+                        href="/styles.css">
+                
+        <title>rustamjafar</title>
+        </head>
+        <body>
+                
+                <header>
+                <p>in the name of god, the most beneficent, the most merciful</p>
+                <hr/>
+                </header>
+                
+                <main dir="ltr">
+                
+<h1>ssh: server and dynamic port forwarding</h1>
+<div class="sect1">
+<h2 id="_running_sshd">running <code>sshd</code></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>keep in mind that running <code>sshd</code> on <strong>ubuntu</strong>, starts server in current
+user scope, and won’t start it system-wide. thus, when running these commands:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><code>/usr/sbin/sshd</code> and then</p>
+</li>
+<li>
+<p><code>systemctl start sshd</code></p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>you get <code>inactive</code> as the response. so, to start server system-wide just run
+the following command:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>systemctl start &lt;sshd | ssh&gt;</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>now, after running <code>system status sshd</code> command, you’ll find its status changed
+to <code>active</code>.</p>
+</div>
+<div class="paragraph">
+<p><strong>This is only done to ease management of ssh server through <code>systemctl</code>
+commands</strong></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_sshd_service_not_found_on_ubuntu"><code>sshd.service</code> not found on ubuntu</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><code>sudo apt purge openssh-server</code></p>
+</li>
+<li>
+<p><code>sudo apt install openssh-server -y</code></p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>here, the <code>purge</code> command is what makes the difference.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_ssh_config_file">ssh config file</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>when you start system-wide ssh server through <code>systemctl</code>, you should edit
+global config file which is usually located in <code>/etc/ssh/sshd_config/</code>.</p>
+</div>
+<div class="paragraph">
+<p>configuring server through <code>sshd -f &lt;your-config-file&gt;</code> is done only when you start
+client-wide ssh server.</p>
+</div>
+<div class="sect2">
+<h3 id="_which_key_where">which key where</h3>
+<div class="paragraph">
+<p>small reminder here</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>remote <code>hostkey</code> → local <code>known_hosts</code></p>
+</li>
+<li>
+<p>local <code>publickey</code> → remote <code>authorized_keys</code></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_dynamic_port_forwarding">dynamic port forwarding</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>to configure dynamic port forwarding, ssh makes use of <code>socks</code> protocol. thus
+general syntax is:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>ssh -D &lt;local-port&gt; &lt;remote-username&gt;@&lt;remote-host&gt;</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>then i wanted to enter something like this in firefox search bar</p>
+</div>
+<div class="paragraph">
+<p><code>localhost:8000</code></p>
+</div>
+<div class="paragraph">
+<p>to get into my vmware machine, but firefox wouldn’t allow me to. after some
+searching, i’ve found this issue described here</p>
+</div>
+<div class="paragraph">
+<p><a href="https://unix.stackexchange.com/questions/532292/browsing-localhost-via-ssh-socks-tunnel-not-working" class="bare">https://unix.stackexchange.com/questions/532292/browsing-localhost-via-ssh-socks-tunnel-not-working</a></p>
+</div>
+<div class="paragraph">
+<p>the thing is, is that firefox browser won’t tunnel <code>localhost</code> address through
+proxy, thus you need to change firefox internal configuration in order to
+force it:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>type <code>about:config</code> in search bar, then accept all risks and continue</p>
+</li>
+<li>
+<p>change <code>network.proxy.allow_hijacking_localhost</code> to true</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>that’s it. now you can proxy you <code>localhost</code> address w/ firefox. but keep in
+mind that these settings vary between different browsers.</p>
+</div>
+<hr/>
+<div class="paragraph">
+<p>recommended book: <strong>ssh - oreilly</strong></p>
+</div>
+<div class="paragraph">
+<p><a href="https://www.oreilly.com/library/view/ssh-the-secure/0596008953/" class="bare">https://www.oreilly.com/library/view/ssh-the-secure/0596008953/</a></p>
+</div>
+</div>
+</div>
+
+
+                </main>
+                <footer dir="ltr">
+                
+                <hr/>
+                <p><a href="mailto:rst.jafar@gmail.com" target="_blank">
+                rst.jafar@gmail.com</a>
+                
+                </footer>
+        </body>
+</html>
