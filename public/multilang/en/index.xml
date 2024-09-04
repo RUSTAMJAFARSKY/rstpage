@@ -334,7 +334,21 @@
       <link>https://rustamjafar.com/multilang/en/049/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://rustamjafar.com/multilang/en/049/</guid>
-      <description>kipling: if — here will be one of the greatest poems of modern times</description>
+      <description>kipling: if — If you can keep your head when all about you Are losing theirs and blaming it on you; If you can trust yourself when all men doubt you, But make allowance for their doubting too: If you can wait and not be tired by waiting, Or being lied about, don’t deal in lies, Or being hated don’t give way to hating, And yet don’t look too good, nor talk too wise;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://rustamjafar.com/multilang/en/050/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rustamjafar.com/multilang/en/050/</guid>
+      <description>git: reset a few notes for myself in regards to what is said in the title&#xA;head&#xA;index&#xA;working tree&#xA;soft reset git reset --soft &amp;lt;commit-name&amp;gt;&#xA;simply moves head to &amp;lt;commit-name&amp;gt;, index and working tree are intact. this one is same as:&#xA;git commit --ammend&#xA;mixed reset git reset --mixed &amp;lt;commit-name&amp;gt;&#xA;updates index with whatever &amp;lt;commit-name&amp;gt; head points to, working tree is intact.&#xA;hard reset git reset --hard &amp;lt;commit-name&amp;gt;&#xA;updates head, index and working tree w/ whatever &amp;lt;commit-name&amp;gt; head points to.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://rustamjafar.com/multilang/en/051/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rustamjafar.com/multilang/en/051/</guid>
+      <description>petro: wiki w/ my doctor of medicine degree, i’ve been admitted to gradute school to get master’s degree in petroleum engineering (more about this background later). so, as i’ve no undergrad knowledge about this field, i’ve to catch up my fellow students fast. thus searching inside petro industry i think one good resource that vastly covers this field is https://www.spe.org/en/ website. they also offer wikipage based on their petroleum engineering handbook located at https://petrowiki.</description>
     </item>
   </channel>
 </rss>
