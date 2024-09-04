@@ -39,6 +39,16 @@
                 />
   </url><url>
     <loc>https://rustamjafar.com/ar/05/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-RU"
+                href="https://rustamjafar.com/ru/05/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://rustamjafar.com/ar/05/"
+                />
   </url><url>
     <loc>https://rustamjafar.com/ar/</loc>
     <xhtml:link
