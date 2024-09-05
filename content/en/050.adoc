@@ -1,0 +1,34 @@
+---
+id: 20240902160709
+---
+= git: reset
+:showtitle:
+
+a few notes for myself in regards to what is said in the title
+
+* head
+* index
+* working tree
+
+== soft reset
+
+`*git reset --soft <commit-name>*`
+
+simply moves _head_ to `<commit-name>`, _index_ and _working tree_ are intact.
+this one is same as:
+
+`git commit --ammend`
+
+== mixed reset
+
+`*git reset --mixed <commit-name>*`
+
+updates _index_ with whatever `<commit-name>` _head_ points to, _working tree_
+is intact.
+
+== hard reset
+
+`*git reset --hard <commit-name>*`
+
+updates _head_, _index_ and _working tree_ w/ whatever `<commit-name>` _head_
+points to.

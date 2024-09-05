@@ -16,6 +16,10 @@ hr {
         border-top: 1px solid black;
 }
 
+li > p {
+        margin: 0;
+}
+
 a {
         text-decoration-line:  none;
 }
