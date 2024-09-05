@@ -1,0 +1,9 @@
+---
+id: 20240102034152
+---
+= bryce vandegrift
+:showtitle:
+
+another power user
+
+<https://brycevandegrift.xyz/>

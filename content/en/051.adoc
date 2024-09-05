@@ -1,0 +1,67 @@
+---
+id: 20240904121826
+---
+= petro: wiki
+:showtitle:
+:toc:
+:toc-title:
+
+w/ my doctor of medicine degree, i've been admitted to gradute school to get
+master's degree in petroleum engineering (more about this background later).
+so, as i've no undergrad knowledge about this field, i've to catch up my fellow
+students fast. thus searching inside petro industry i think one good resource
+that vastly covers this field is https://www.spe.org/en/ website. they also
+offer wikipage based on their petroleum engineering handbook located at
+https://petrowiki.spe.org/PetroWiki.
+
+below are my own notes that help to orgranize the content on this wiki.
+
+== general engineering
+
+. mathematics of vibrating systems
+. mathematics of fluid flow
+. mathematics of transient analysis
+. fluid sampling
+. gas properties
+. oil system correlations
+. thermodynamics and phase behavior
+. phase diagrams
+. asphaltenes and waxes
+. properties of produced water
+. phase behavior of h~2~o + hydrocarbon systems
+. crude oil emulsions
+. rock properties
+. single-phase permeability
+. relative permeability and capillary pressure
+. petroleum economics
+. international oil and gas law
+. the 21st century energy mix
+
+== drilling engineering
+
+. geomechanics applied to drilling engineering
+. drilling fluids
+. fluid mechanics for drilling
+. well control: procedures and principles
+. introduction to roller-cone and polycrystalline diamond drill bits
+. directional drilling
+. casing design
+. introduction to wellhead systems
+. cementing
+. drilling problems and solutions
+. introduction to well planning
+. underbalanced drilling
+. emerging drilling technologies
+. offshore drilling units
+. drilling-data acquisition
+. coiled-tubing well intervention and drilling operations
+
+== faculties and construction engineering
+
+== production operations engineering
+
+== reservoir engineering and petrophysics
+
+== emerging peripheral technologies
+
+== index and standards

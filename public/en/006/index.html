@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+        <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                
+                <link   rel="stylesheet"
+                        type="text/css"
+                        href="/styles.css">
+                
+        <title>rustamjafar</title>
+        </head>
+        <body>
+                
+                <header>
+                <p>in the name of god, the most beneficent, the most merciful</p>
+                <hr/>
+                </header>
+                
+                <main dir="ltr">
+                
+<h1><code>entr</code> and bash scripting</h1>
+<div class="paragraph">
+<p>using <code>entr</code> while writing bash scripts is precious. this small utility
+<strong>listens to the file, you give it, being modified and executes whatever
+it is set to execute</strong>. you can even execute the same file to which <code>entr</code> listens to.</p>
+</div>
+<div class="paragraph">
+<p>so, in my case, as i am not a pro bash script writer, the usage is:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>entr -sc &#34;source &lt;file_to_execute&gt;&#34; &lt;&lt;&lt; $( echo &lt;file_to_listen&gt; )</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>i also want to note that there may be completely different <code>file_to_execute</code>
+and <code>file_to_listen</code>.</p>
+</div>
+<hr/>
+<div class="paragraph">
+<p>recommended book:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>bash - oreilly</strong></p>
+<div class="literalblock">
+<div class="content">
+<pre>&lt;https://www.oreilly.com/library/view/learning-the-bash/0596009658/&gt;</pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+
+
+                </main>
+                <footer dir="ltr">
+                
+                <hr/>
+                <p><a href="mailto:rst.jafar@gmail.com" target="_blank">
+                rst.jafar@gmail.com</a>
+                
+                </footer>
+        </body>
+</html>

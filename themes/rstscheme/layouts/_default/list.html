@@ -1,0 +1,11 @@
+{{ define "body" }}
+{{ .Content }}
+{{ $langa := .Site.Language.Lang }}
+{{ with site.RegularPages }}
+{{ range (.ByParam "id").Reverse }}
+{{ $regh := findRESubmatch `(?s)<h1.*?>(.+?)</h1>` .Content }}
+<p><a href="{{ .Page.RelPermalink }}">{{ .Params.id }}:
+        {{ range $regh }} {{ index . 1 | safeHTML }}{{ end }}</a></p>
+{{ end }}
+{{ end }}
+{{ end }}
