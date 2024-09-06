@@ -3,8 +3,17 @@
         color-scheme: light dark;
 }
 
+* {
+        box-sizing: border-box;
+}
+
 body {
         font-family: Times New Roman;
+        max-width: 501px;
+}
+
+img {
+        width: 100%;
 }
 
 header {
@@ -76,7 +85,7 @@ blockquote {
 
 @media screen and (min-width: 500px) {
         body {
-                max-width: 500px;
+                max-width: 501px;
                 margin-left: auto;
                 margin-right: auto;
         }

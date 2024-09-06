@@ -1,6 +1,6 @@
 baseURL: https://rustamjafar.com/
 defaultContentLanguage: multilang
-defaultContentLanguageInSubdir: true
+defaultContentLanguageInSubdir: false
 title: rustamjafar
 theme: rstscheme
 uglyURLs: false

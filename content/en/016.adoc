@@ -1,7 +1,7 @@
 ---
 id: 20231211030901
 ---
-= s&z precalculus
+= math: s&z precalculus
 :showtitle:
 
 here's a yt playlist w/ solutions to stitz and zeager algebra course

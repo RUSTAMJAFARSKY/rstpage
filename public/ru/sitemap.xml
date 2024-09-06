@@ -56,7 +56,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="multilang"
-                href="http://localhost:1313/multilang/"
+                href="http://localhost:1313/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -78,7 +78,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="multilang"
-                href="http://localhost:1313/multilang/categories/"
+                href="http://localhost:1313/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -100,7 +100,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="multilang"
-                href="http://localhost:1313/multilang/tags/"
+                href="http://localhost:1313/tags/"
                 />
     <xhtml:link
                 rel="alternate"
