@@ -3,6 +3,8 @@ id: 20240719233758
 ---
 = reddit: pros
 :showtitle:
-:showtitle:
 
 ask reddit community first
+
+you can also find reddit page of the interested field and check for some useful
+links on the front page
