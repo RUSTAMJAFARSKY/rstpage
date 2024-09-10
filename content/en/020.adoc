@@ -4,12 +4,12 @@ id: 20240102133615
 = latex: installing tex
 :showtitle:
 
-i use ubuntu server 22.04 lts
+install tex properly for the long run
 
 ## issue
 
-the thing w/ installing tex distribution through ubuntu repositories, such as apt,
-apt-get, etc., is that you won't be able to manage stand-alone tex packages
+the thing w/ installing tex distribution through ubuntu repositories, such as
+apt, apt-get, etc., is that you won't be able to manage stand-alone tex packages
 later as needed.
 
 <https://help.ubuntu.com/community/LaTeX>

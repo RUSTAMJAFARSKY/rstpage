@@ -1,0 +1,18 @@
+---
+id: 20240910205905
+---
+= math: trigonometry
+:showtitle:
+
+here's some visuals of basic circular functions
+
+image::../056_image.jpeg[trigonometry-functions]
+
+thanks to
+https://simpliengineering.com/t/origin-of-trig-terms-tangent-and-secant/1886
+
+there's also a good comment following by the user _BAretired_:
+
+> I love that diagram of a circle of unit radius. It makes everything so
+> clear and actually gives us a rough idea of approximately what size the
+> various trig functions should be.

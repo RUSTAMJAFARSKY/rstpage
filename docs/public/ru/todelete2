@@ -1,0 +1,9 @@
+#!/usr/bin/bash
+
+for file in [0-9]*.adoc;
+        do
+                name=${file%.*}
+                extension=${file##*.}
+                new_name=`printf %03d.%s $(( 10#$name )) ${extension}`
+                mv $file $new_name
+        done

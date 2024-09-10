@@ -1,0 +1,9 @@
+---
+id: 20240909224742
+---
+= math: glossary
+:showtitle:
+
+this both get out of my head all the time, definition vs theorem, and others.
+
+https://users.math.msu.edu/users/duncan42/AxiomNotes.pdf

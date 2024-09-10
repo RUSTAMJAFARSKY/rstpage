@@ -6,4 +6,4 @@ id: 20240905142904
 
 you definitely need this one if you're a part of math community
 
-image::/052_image.jpg[greek-alphabet]
+image::../052_image.jpg[greek-alphabet]
