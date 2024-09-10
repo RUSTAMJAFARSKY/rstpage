@@ -60,8 +60,8 @@ tahoma (sans-serif)
 courier new (monotype)
 https://medium.com/@harbbaraa15/the-comprehensive-guide-for-arabic-web-font-8c6e382a7119
 below is an interesting article on wikipedia about simplified arabic font:
-https://en.wikipedia.org/wiki/Simplified_Arabic</description></item><item><title/><link>https://rustamjafar.com/en/015/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/en/015/</guid><description>symbolic links a small code reminder to me for creating symbolic links in linux cli:
-ln -s &amp;lt;target-file&amp;gt; &amp;lt;symlink-name&amp;gt; #cli #linux</description></item><item><title/><link>https://rustamjafar.com/en/016/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/en/016/</guid><description>math: s&amp;amp;z precalculus here’s a yt playlist w/ solutions to stitz and zeager algebra course
+https://en.wikipedia.org/wiki/Simplified_Arabic</description></item><item><title/><link>https://rustamjafar.com/en/015/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/en/015/</guid><description>linux: symbolic links a small code reminder to me for creating symbolic links in linux cli:
+ln -s &amp;lt;target-file&amp;gt; &amp;lt;symlink-name&amp;gt;</description></item><item><title/><link>https://rustamjafar.com/en/016/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/en/016/</guid><description>math: s&amp;amp;z precalculus here’s a yt playlist w/ solutions to stitz and zeager algebra course
 https://youtube.com/playlist?list=PL953A3729B0E03AAA&amp;amp;feature=shared
 you can find an official book w/ all the latex source code, formula summary sheet and power points for different chapters here
 https://www.stitz-zeager.com/
@@ -80,7 +80,7 @@ private key: 600 (rw-------)
 home directory: 755 (drwxr-xr-x)
 thanks to
 https://superuser.com/questions/215504/permissions-on-private-key-in-ssh-folder</description></item><item><title/><link>https://rustamjafar.com/en/019/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/en/019/</guid><description>bryce vandegrift another power user
-https://brycevandegrift.xyz/</description></item><item><title/><link>https://rustamjafar.com/en/020/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/en/020/</guid><description>latex: installing tex i use ubuntu server 22.04 lts
+https://brycevandegrift.xyz/</description></item><item><title/><link>https://rustamjafar.com/en/020/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/en/020/</guid><description>latex: installing tex install tex properly for the long run
 issue the thing w/ installing tex distribution through ubuntu repositories, such as apt, apt-get, etc., is that you won’t be able to manage stand-alone tex packages later as needed.
 https://help.ubuntu.com/community/LaTeX
 so, for you to install single tex package you first have to check in which ubuntu package it is located, through apt-cache search &amp;lt;tex-package-name&amp;gt;, and then install that ubuntu package which in turn contains other unnecessary tex packages that you don’t need right now, thus taking free space on you machine.</description></item><item><title/><link>https://rustamjafar.com/en/021/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/en/021/</guid><description>physics: beginner’s guide here’s a link for everyone starting learning physics
@@ -185,4 +185,8 @@ timedatectl status
 list availabe time zones w/:
 timedatectl list-timezones
 set time zone w/:
-timedatectl set-timezone &amp;lt;Zone/SubZone&amp;gt;</description></item></channel></rss>
+timedatectl set-timezone &amp;lt;Zone/SubZone&amp;gt;</description></item><item><title/><link>https://rustamjafar.com/en/055/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/en/055/</guid><description>math: glossary this both get out of my head all the time, definition vs theorem, and others.
+https://users.math.msu.edu/users/duncan42/AxiomNotes.pdf</description></item><item><title/><link>https://rustamjafar.com/en/056/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/en/056/</guid><description>math: trigonometry here’s some visuals of basic circular functions
+thanks to https://simpliengineering.com/t/origin-of-trig-terms-tangent-and-secant/1886
+there’s also a good comment following by the user BAretired:
+I love that diagram of a circle of unit radius. It makes everything so clear and actually gives us a rough idea of approximately what size the various trig functions should be.</description></item></channel></rss>
