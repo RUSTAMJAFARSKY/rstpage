@@ -6,15 +6,18 @@ id: 20240904121826
 :toc:
 :toc-title:
 
-w/ my doctor of medicine degree, i've been admitted to gradute school to get
-master's degree in petroleum engineering (more about this background later).
-so, as i've no undergrad knowledge about this field, i've to catch up my fellow
-students fast. thus searching inside petro industry i think one good resource
-that vastly covers this field is https://www.spe.org/en/ website. they also
-offer wikipage based on their petroleum engineering handbook located at
-https://petrowiki.spe.org/PetroWiki.
+w/ my specialist's degree in medicine, i've been admitted to graduate school to
+get master's degree in petroleum engineering (more on this background later).
+so as i have no undergraduate knowledge in this field, i need to catch up my
+fellow students quickly. thus searching inside the petro industry i think
+one good resource that extensively covers this field is the spe website
+https://www.spe.org/en/. in particular, they do this by offering a
+wikipage based on their petroleum engineering handbook located
+at https://petrowiki.spe.org/PetroWiki.
 
-below are my own notes that help to orgranize the content on this wiki.
+below, i will try to list all the articles found at
+https://petrowiki.spe.org/Category:PEH as they appear in the
+table of contents of the original spe handbooks
 
 == general engineering
 
@@ -40,21 +43,53 @@ below are my own notes that help to orgranize the content on this wiki.
 == drilling engineering
 
 . geomechanics applied to drilling engineering
++
+https://petrowiki.spe.org/PEH:Geomechanics_Applied_to_Drilling_Engineering
 . drilling fluids
++
+https://petrowiki.spe.org/PEH:Drilling_Fluids
 . fluid mechanics for drilling
++
+https://petrowiki.spe.org/PEH:Fluid_Mechanics_for_Drilling
 . well control: procedures and principles
++
+https://petrowiki.spe.org/PEH:Well_Control:_Procedures_and_Principles
 . introduction to roller-cone and polycrystalline diamond drill bits
++
+https://petrowiki.spe.org/PEH:Introduction_to_Roller-Cone_and_Polycrystalline_Diamond_Drill_Bits
 . directional drilling
++
+https://petrowiki.spe.org/PEH:Directional_Drilling
 . casing design
++
+https://petrowiki.spe.org/PEH:Casing_Design
 . introduction to wellhead systems
++
+https://petrowiki.spe.org/PEH:Introduction_to_Wellhead_Systems
 . cementing
++
+https://petrowiki.spe.org/PEH:Cementing
 . drilling problems and solutions
++
+https://petrowiki.spe.org/PEH:Drilling_Problems_and_Solutions
 . introduction to well planning
++
+https://petrowiki.spe.org/PEH:Introduction_to_Well_Planning
 . underbalanced drilling
++
+https://petrowiki.spe.org/PEH:Underbalanced_Drilling
 . emerging drilling technologies
++
+https://petrowiki.spe.org/PEH:Emerging_Drilling_Technologies
 . offshore drilling units
++
+https://petrowiki.spe.org/PEH:Offshore_Drilling_Units
 . drilling-data acquisition
++
+https://petrowiki.spe.org/PEH:Drilling-Data_Acquisition
 . coiled-tubing well intervention and drilling operations
++
+https://petrowiki.spe.org/PEH:Coiled-Tubing_Well_Intervention_and_Drilling_Operations
 
 == faculties and construction engineering
 
