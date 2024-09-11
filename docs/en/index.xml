@@ -12,15 +12,11 @@ mysql sakila
 &amp;lt;https://dev.mysql.com/doc/employee/en/&amp;gt; microsoft wide world importers
 &amp;lt;https://github.com/microsoft/sql-server-samples/tree/master/samples/databases/wide-world-importers&amp;gt; this list will be updated later w/ more data</description></item><item><title/><link>https://rustamjafar.com/en/004/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/en/004/</guid><description>data analysis data analysis is just a tool that assists you in what you actually like
 during my job search, w/ my little knowledge of excel, sql and python, i was looking for any position as a junior data analyst or anything alike.
-one day, i’d tried it into an electrical construction company (they needed someone who just knows excel good), they’d agreed to give me a job position, but i’d refused back then due to the salary was very low, even though, the construction is what i like the most.</description></item><item><title/><link>https://rustamjafar.com/en/005/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/en/005/</guid><description>penmanship it is all about being an individual
-one day, i started to repeat my english grammar. going through exercises, i found that i need to complete some exercises by taking a physical pen and writing them down. after i took a pen and began to write, i noticed that my handwriting worsened to a great extent. during my time in university, i thought, i had a good penmanship, (it was not great, though).</description></item><item><title/><link>https://rustamjafar.com/en/006/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/en/006/</guid><description>entr and bash scripting using entr while writing bash scripts is precious. this small utility listens to the file, you give it, being modified and executes whatever it is set to execute. you can even execute the same file to which entr listens to.
+one day, i’d tried it into an electrical construction company (they needed someone who just knows excel good), they’d agreed to give me a job position, but i’d refused back then due to the salary was very low, even though, the construction is what i like the most.</description></item><item><title/><link>https://rustamjafar.com/en/005/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/en/005/</guid><description>penmanship TODO: this note is about to be translated into arabic
+it is all about being an individual
+one day, i started to repeat my english grammar. going through exercises, i found that i need to complete some exercises by taking a physical pen and writing them down. after i took a pen and began to write, i noticed that my handwriting worsened to a great extent. during my time in university, i thought, i had a good penmanship, (it was not great, though).</description></item><item><title/><link>https://rustamjafar.com/en/006/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/en/006/</guid><description>bash: `entr` utility using entr while writing bash scripts is precious. this small utility listens to the file, you give it, being modified and executes whatever it is set to execute. you can even execute the same file to which entr listens to.
 so, in my case, as i am not a pro bash script writer, the usage is:
-entr -sc &amp;#34;source &amp;lt;file_to_execute&amp;gt;&amp;#34; &amp;lt;&amp;lt;&amp;lt; $( echo &amp;lt;file_to_listen&amp;gt; ) i also want to note that there may be completely different file_to_execute and file_to_listen.</description></item><item><title/><link>https://rustamjafar.com/en/007/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/en/007/</guid><description>latex: fonts terminology [font sizes](#font-sizes)
-[font styles](#font-styles)
-[font families](#font-families)
-[font typefaces](#font-typefaces)
-[workflow](#workflow)
-here i will try to describe some confusing terms i’ve used while setting up my latex document:
+entr -sc &amp;#34;source &amp;lt;file_to_execute&amp;gt;&amp;#34; &amp;lt;&amp;lt;&amp;lt; $( echo &amp;lt;file_to_listen&amp;gt; ) i also want to note that there may be completely different file_to_execute and file_to_listen.</description></item><item><title/><link>https://rustamjafar.com/en/007/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/en/007/</guid><description>latex: fonts terminology font sizes font styles font families font typefaces workflow here i will try to describe some confusing terms i’ve used while setting up my latex document:
 font sizes
 font styles
 font families
@@ -30,9 +26,9 @@ font sizes in latex font size is declared by using special commands:
 \large
 etc.
 check out ref guide https://en.wikibooks.org/wiki/LaTeX/Fonts#Sizing_text for a complete list
-i also want to note that these commands are relative to the size set in document’s preamble</description></item><item><title/><link>https://rustamjafar.com/en/008/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/en/008/</guid><description>git: commit identity issue usually, i don’t use graphical user interface when working w/ git repos, and all of my work is happening in terminal. the same w/ github web page, i rarely visit it. one day, i decided to do so, to see how things are going there, and discovered that on my github landing page there was no any single commit that i had been doing through time. actually, when going into the repos, all of the commits were listed, but…​</description></item><item><title/><link>https://rustamjafar.com/en/009/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/en/009/</guid><description>handling charity in today’s world there’re plenty of donating strategies to use. for now i will consider giving to a charity in terms of how much money to donate, and not who should be the recipient of them.
-so, these strategies include: creating different calendars, including payments frequency, amounts of wealth to be given keeping in my mind different types of social classes, etc.
-i encourage any people who give to a charity, no matter what the social class is.</description></item><item><title/><link>https://rustamjafar.com/en/010/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/en/010/</guid><description>a beautiful soil know your roots
+i also want to note that these commands are relative to the size set in document’s preamble</description></item><item><title/><link>https://rustamjafar.com/en/008/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/en/008/</guid><description>git: commit identity issue usually, i don’t use graphical user interface when working w/ git repos, and all of my work is happening in terminal. the same w/ github web page, i rarely visit it. one day, i decided to do so, to see how things are going there, and discovered that on my github landing page there was no any single commit that i had been doing through time. actually, when going into the repos, all of the commits were listed, but…​</description></item><item><title/><link>https://rustamjafar.com/en/009/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/en/009/</guid><description>handling charity TODO: this note is about to be translated into arabic
+in today’s world there’re plenty of donating strategies to use. for now i will consider giving to a charity in terms of how much money to donate, and not who should be the recipient of them.
+so, these strategies include: creating different calendars, including payments frequency, amounts of wealth to be given keeping in my mind different types of social classes, etc.</description></item><item><title/><link>https://rustamjafar.com/en/010/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/en/010/</guid><description>a beautiful soil know your roots
 being born and raised in dagestan, i think this list is worth remembering
 the district of agul
 the district of akhty
@@ -54,7 +50,7 @@ RawGit is now in a sunset phase and will soon shut down. It’s been a fun five 
 GitHub repositories that served content through RawGit within the last month will continue to be served until at least October of 2019. URLs for other repositories are no longer being served.</description></item><item><title/><link>https://rustamjafar.com/en/013/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/en/013/</guid><description>touch typing it is all about xxi
 i think being able to type w/out looking at a keyboard and looking for a letter you want to type is very important in the age of computers. that’s why i want to suggest you a website that will help you on your way to blind typing.
 https://www.typingstudy.com/
-no matter what the language is, you choose whatever you work, and start training. hope this helps.</description></item><item><title/><link>https://rustamjafar.com/en/014/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/en/014/</guid><description>arabic web safe fonts excerpt from the article below:
+no matter what the language is, you choose whatever you work, and start training. hope this helps.</description></item><item><title/><link>https://rustamjafar.com/en/014/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/en/014/</guid><description>arabic: web safe fonts excerpt from the article below:
 arial (serif)
 tahoma (sans-serif)
 courier new (monotype)
@@ -126,16 +122,9 @@ i386: 32-bit amd/intel
 AArch32, arm, ARMv1 to ARMv7: 32-bit arm
 rv64gc, rv64g: 64-bit risc-v
 ppc64le: 64-bit powerpc
-thanks to https://itsfoss.com/arm-aarch64-x86_64/</description></item><item><title/><link>https://rustamjafar.com/en/033/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/en/033/</guid><description>business handwriting: timing [double straight lines and ovals (drill 2)](#double-straight-lines-and-ovals-drill-2)
-[single ovals (drill 4)](#single-ovals-drill-4)
-[loops (drill 24)](#loops-drill-24)
-[10-stroked capital m (drill 25)](#10-stroked-capital-m-drill-25)
-[alphabet letters](#alphabet-letters)
-[capital a](#capital-a)
-[capital b (drill 86, 87)](#capital-b-drill-86-87)
+thanks to https://itsfoss.com/arm-aarch64-x86_64/</description></item><item><title/><link>https://rustamjafar.com/en/033/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/en/033/</guid><description>business handwriting: timing double straight lines and ovals (drill 2) single ovals (drill 4) loops (drill 24) 10-stroked capital m (drill 25) alphabet letters capital a capital b (drill 86, 87) TODO: get the note to be completed
 here’re some average times a student has to spend while training handwriting. these drills are taken from the palmer method of business writing.
-double straight lines and ovals (drill 2) 200 downward strokes to a minute
-ovals are clockwise, then anticlockwise</description></item><item><title/><link>https://rustamjafar.com/en/034/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/en/034/</guid><description>ssh: keep alive the session [server keep alive](#server-keep-alive)
+double straight lines and ovals (drill 2) 200 downward strokes to a minute</description></item><item><title/><link>https://rustamjafar.com/en/034/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/en/034/</guid><description>ssh: keep alive the session [server keep alive](#server-keep-alive)
 [client keep alive](#client-keep-alive)
 server keep alive the settings shown below has to be put into config file on the server side
 client keep alive the settings shown below has to be put into .ssh/config on the client side
@@ -189,4 +178,5 @@ timedatectl set-timezone &amp;lt;Zone/SubZone&amp;gt;</description></item><item>
 https://users.math.msu.edu/users/duncan42/AxiomNotes.pdf</description></item><item><title/><link>https://rustamjafar.com/en/056/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/en/056/</guid><description>math: trigonometry here’s some visuals of basic circular functions
 thanks to https://simpliengineering.com/t/origin-of-trig-terms-tangent-and-secant/1886
 there’s also a good comment following by the user BAretired:
-I love that diagram of a circle of unit radius. It makes everything so clear and actually gives us a rough idea of approximately what size the various trig functions should be.</description></item></channel></rss>
+I love that diagram of a circle of unit radius. It makes everything so clear and actually gives us a rough idea of approximately what size the various trig functions should be.</description></item><item><title/><link>https://rustamjafar.com/en/057/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/en/057/</guid><description>clothes: standards well-documented standards for men’s apparel
+https://propercloth.com/reference/category/fit-advice/</description></item></channel></rss>

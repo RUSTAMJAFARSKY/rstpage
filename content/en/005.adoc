@@ -4,6 +4,8 @@ id: 20231004215701
 = penmanship
 :showtitle:
 
+TODO: this note is about to be translated into arabic
+
 > it is all about being an individual
 
 one day, i started to repeat my english grammar. going through exercises, i

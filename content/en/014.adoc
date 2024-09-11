@@ -1,7 +1,7 @@
 ---
 id: 20231207165031
 ---
-= arabic web safe fonts
+= arabic: web safe fonts
 :showtitle:
 
 excerpt from the article below:

@@ -3,14 +3,10 @@ id: 20240309192240
 ---
 = business handwriting: timing
 :showtitle:
+:toc:
+:toc-title:
 
-* [double straight lines and ovals (drill 2)](#double-straight-lines-and-ovals-drill-2)
-* [single ovals (drill 4)](#single-ovals-drill-4)
-* [loops (drill 24)](#loops-drill-24)
-* [10-stroked capital m (drill 25)](#10-stroked-capital-m-drill-25)
-* [alphabet letters](#alphabet-letters)
-  * [capital a](#capital-a)
-  * [capital b (drill 86, 87)](#capital-b-drill-86-87)
+TODO: get the note to be completed
 
 here're some average times a student has to spend while training handwriting.
 these drills are taken from *the palmer method of business writing*.

@@ -3,12 +3,8 @@ id: 20231008120442
 ---
 = latex: fonts terminology
 :showtitle:
-
-* [font sizes](#font-sizes)
-* [font styles](#font-styles)
-* [font families](#font-families)
-* [font typefaces](#font-typefaces)
-* [workflow](#workflow)
+:toc:
+:toc-title:
 
 here i will try to describe some confusing terms i've used while setting up my
 latex document:
@@ -53,17 +49,17 @@ generally, families in latex are:
 * `sfdefault` - sans
 * `ttdefault` - typewriter
 
-check out ref guide <https://en.wikibooks.org/wiki/LaTeX/Fonts#Font_families> for a
-complete list
+check out ref guide
+https://en.wikibooks.org/wiki/LaTeX/Fonts#Font_families for a complete list
 
 ## font typefaces
 
 these are what you're used to select when choosing font in standard *ms word*
 editor. include:
 
-* Times New Roman
-* Arial
-* Courier
+* times new roman
+* arial
+* courier
 * you name it.
 
 ## workflow
@@ -71,10 +67,4 @@ editor. include:
 so, to stay consistent in configuring your font settings i prefer the following
 workflow order:
 
-typeface > family > style > size
-
----
-
-recommended book:  *latex (beginners) - packt*
-
-<https://www.packtpub.com/product/latex-beginners-guide/9781847199867>
+typeface -> family -> style -> size

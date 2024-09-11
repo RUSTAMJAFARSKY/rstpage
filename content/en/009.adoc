@@ -4,6 +4,8 @@ id: 20231021101701
 = handling charity
 :showtitle:
 
+TODO: this note is about to be translated into arabic
+
 in today's world there're plenty of donating strategies to use. for now i will 
 consider giving to a charity in terms of how much money to donate, and *not*
 who should be the recipient of them.

@@ -4,10 +4,13 @@ defaultContentLanguageInSubdir: true
 title: rustamjafar
 theme: rstscheme
 uglyURLs: false
+publishDir: docs
 languages:
   multilang:
     disabled: false
+    contentDir: content/multilang
     languageCode: multilang
+    languageName: multi
     weight: 10
   ar:
     disabled: false
