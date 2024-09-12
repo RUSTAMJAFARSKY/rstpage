@@ -1,26 +1,170 @@
-<!doctype html><html lang=en><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><link rel=stylesheet type=text/css href=/styles.css><title>rustamjafar</title></head><body><header><p>in the name of god, the most beneficent, the most merciful</p><hr></header><main dir=ltr><h1>git: commit identity</h1><div class=sect1><h2 id=_issue>issue</h2><div class=sectionbody><div class=paragraph><p>usually, i don’t use graphical user interface when working w/ git repos, and all of my work is
+
+<!DOCTYPE html>
+<html lang="en">
+        <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                
+                <link   rel="stylesheet"
+                        type="text/css"
+                        href="/styles.css">
+                
+        <title>rustamjafar</title>
+        </head>
+        <body>
+                
+                <header>
+                <p>in the name of god, the most beneficent, the most merciful</p>
+                <hr/>
+                </header>
+                
+                <main dir="ltr">
+                
+<h1>git: commit identity</h1>
+<div class="sect1">
+<h2 id="_issue">issue</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>usually, i don’t use graphical user interface when working w/ git repos, and all of my work is
 happening in terminal. the same w/ github web page, i rarely visit it.
 one day, i decided to do so, to see how things are
 going there, and discovered that on my github landing page there was no
 any single commit that i had been doing through time. actually, when going into
-the repos, all of the commits were listed, but…​</p></div></div></div><div class=sect1><h2 id=_background>background</h2><div class=sectionbody><div class=sect2><h3 id=_git>git</h3><div class=paragraph><p>googling this issue, i’ve found that <strong>git</strong> tracks commits based on their
-<strong>author</strong> and <strong>committer</strong> emails.</p></div><div class=paragraph><p>the question is who is the author and who is the committer?</p></div><div class=paragraph><p>an <strong>author</strong> is one who creates a patch file. patch file is, as i get it,
+the repos, all of the commits were listed, but…​</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_background">background</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_git">git</h3>
+<div class="paragraph">
+<p>googling this issue, i’ve found that <strong>git</strong> tracks commits based on their
+<strong>author</strong> and <strong>committer</strong> emails.</p>
+</div>
+<div class="paragraph">
+<p>the question is who is the author and who is the committer?</p>
+</div>
+<div class="paragraph">
+<p>an <strong>author</strong> is one who creates a patch file. patch file is, as i get it,
 basically, a list of files and changes that will be included in next
-commit.</p></div><div class=paragraph><p>a <strong>committer</strong> is one who makes a patch file one step further into a commit.</p></div><div class=paragraph><p>the same w/ books. a writer is an author of a book. but a book can have
-completely different publisher.</p></div><div class=paragraph><p><strong>then i remembered, that i’ve changed my github email address last month, and
-not having this change reproduced in my local config file</strong></p></div></div><div class=sect2><h3 id=_github>github</h3><div class=paragraph><p>github hosting service treats commit as <strong>yours</strong> if its [commit’s] <strong>author email</strong> is
+commit.</p>
+</div>
+<div class="paragraph">
+<p>a <strong>committer</strong> is one who makes a patch file one step further into a commit.</p>
+</div>
+<div class="paragraph">
+<p>the same w/ books. a writer is an author of a book. but a book can have
+completely different publisher.</p>
+</div>
+<div class="paragraph">
+<p><strong>then i remembered, that i’ve changed my github email address last month, and
+not having this change reproduced in my local config file</strong></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_github">github</h3>
+<div class="paragraph">
+<p>github hosting service treats commit as <strong>yours</strong> if its [commit’s] <strong>author email</strong> is
 same w/ your <strong>github account email</strong>. no matter who the committer was, if it
 has <strong>author email</strong> matched w/ you <strong>github account email</strong> then you’re <strong>the author</strong> and
-the commit will be displayed on your github landing page.</p></div><div class=paragraph><p>thus, when i’ve changed my github email address, i lost ownership of all of my past
-commits at once.</p></div></div></div></div><div class=sect1><h2 id=_workflow>workflow</h2><div class=sectionbody><div class=sect2><h3 id=_check_git_configurations>check <code>git</code> configurations</h3><div class=paragraph><p>first of all, once you are in your git repo, it is good to check user name and
-email w/ the following cmds:</p></div><div class=ulist><ul><li><p><code>git config --&lt;global | local> --list | grep user</code></p></li></ul></div><div class=paragraph><p>i <strong>strongly</strong> recommend you to set git user name and email on you machine
+the commit will be displayed on your github landing page.</p>
+</div>
+<div class="paragraph">
+<p>thus, when i’ve changed my github email address, i lost ownership of all of my past
+commits at once.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_workflow">workflow</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_check_git_configurations">check <code>git</code> configurations</h3>
+<div class="paragraph">
+<p>first of all, once you are in your git repo, it is good to check user name and
+email w/ the following cmds:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>git config --&lt;global | local&gt; --list | grep user</code></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>i <strong>strongly</strong> recommend you to set git user name and email on you machine
 before you start any work w/ the repo,
-cause this will get you rid of many troubles hereafter. do this w/ the following:</p></div><div class=ulist><ul><li><p><code>git config --&lt;global | local> user.name "&lt;your-name>"</code></p></li><li><p><code>git config --&lt;global | local> user.name "&lt;your-email>"</code></p></li></ul></div><div class=paragraph><p>starting from here, your future commits will have both <strong>author email</strong> and <strong>commit
-email</strong> the same.</p></div></div><div class=sect2><h3 id=_check_commits_author_and_committer>check commit’s author and committer</h3><div class=paragraph><p>already having commits in your repo, you can check who is the author and the
-committer w/:</p></div><div class=paragraph><p><code>git cat-file -p &lt;commit></code></p></div><div class=paragraph><p>again, for github to treat the commit as yours, <strong>author email</strong> has to match w/
-<strong>github account email</strong>.</p></div></div><div class=sect2><h3 id=_changing_author_email>changing <strong>author email</strong></h3><div class=paragraph><p>in my case, i wanted to change commits' author name. some googling, and i’ve
-done this w/ the following:</p></div><div class=listingblock><div class=content><pre class=highlight><code>git rebase -r --root --exec \
-&#39;git commit --amend --no-edit --author=&#34;your-name &lt;your-email&gt;&#34;</code></pre></div></div><div class=paragraph><p>this introduces completely new commits w/ new sha-hashes. in fact, only your
+cause this will get you rid of many troubles hereafter. do this w/ the following:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>git config --&lt;global | local&gt; user.name &#34;&lt;your-name&gt;&#34;</code></p>
+</li>
+<li>
+<p><code>git config --&lt;global | local&gt; user.name &#34;&lt;your-email&gt;&#34;</code></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>starting from here, your future commits will have both <strong>author email</strong> and <strong>commit
+email</strong> the same.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_check_commits_author_and_committer">check commit’s author and committer</h3>
+<div class="paragraph">
+<p>already having commits in your repo, you can check who is the author and the
+committer w/:</p>
+</div>
+<div class="paragraph">
+<p><code>git cat-file -p &lt;commit&gt;</code></p>
+</div>
+<div class="paragraph">
+<p>again, for github to treat the commit as yours, <strong>author email</strong> has to match w/
+<strong>github account email</strong>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_changing_author_email">changing <strong>author email</strong></h3>
+<div class="paragraph">
+<p>in my case, i wanted to change commits&#39; author name. some googling, and i’ve
+done this w/ the following:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>git rebase -r --root --exec \
+&#39;git commit --amend --no-edit --author=&#34;your-name &lt;your-email&gt;&#34;</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>this introduces completely new commits w/ new sha-hashes. in fact, only your
 <strong>account email</strong> will be changed. in order for <strong>commit email</strong> to be changed, you
-have to make sure that you’ve configured <code>--&lt;global | local></code> name and
-email address before executing this command.</p></div><hr><div class=paragraph><p>recommended book: <strong>git - oreilly</strong></p></div><div class=paragraph><p><a href=https://www.oreilly.com/library/view/version-control-with/9781492091189/ class=bare>https://www.oreilly.com/library/view/version-control-with/9781492091189/</a></p></div></div></div></div></main><footer dir=ltr><hr><p><a href=mailto:rst.jafar@gmail.com target=_blank>rst.jafar@gmail.com</a></footer></body></html>
+have to make sure that you’ve configured <code>--&lt;global | local&gt;</code> name and
+email address before executing this command.</p>
+</div>
+<hr/>
+<div class="paragraph">
+<p>recommended book: <strong>git - oreilly</strong></p>
+</div>
+<div class="paragraph">
+<p><a href="https://www.oreilly.com/library/view/version-control-with/9781492091189/" class="bare">https://www.oreilly.com/library/view/version-control-with/9781492091189/</a></p>
+</div>
+</div>
+</div>
+</div>
+
+
+                </main>
+                <footer dir="ltr">
+                
+                <hr/>
+                <p><a href="mailto:rst.jafar@gmail.com" target="_blank">
+                rst.jafar@gmail.com</a>
+                
+                </footer>
+        </body>
+</html>

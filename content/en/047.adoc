@@ -4,7 +4,7 @@ id: 20240719233758
 = reddit: pros
 :showtitle:
 
-ask reddit community first
+> ask the reddit community first
 
-you can also find reddit page of the interested field and check for some useful
-links on the front page
+you can also find the reddit page of the field you are interested in
+and check for some useful links on its front page

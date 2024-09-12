@@ -1,0 +1,10 @@
+---
+id: 20240912200914
+---
+= libretexts
+:showtitle:
+
+i recommend that you check out the library section of the web site below.
+generally, this is all about science.
+
+https://libretexts.org/

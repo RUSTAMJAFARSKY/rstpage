@@ -4,6 +4,6 @@ id: 20240911004713
 = clothes: standards
 :showtitle:
 
-well-documented standards for men's apparel
+clearly explainded standards for men's apparel
 
 https://propercloth.com/reference/category/fit-advice/

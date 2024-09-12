@@ -1,10 +1,10 @@
 ---
 id: 20240413201329
 ---
-# enterpreneurship: skills
+# entrepreneurship: skills
 :showtitle:
 
-self-improvement is important in enterpreneurship. and it is well known that
+self-improvement is important in entrepreneurship. and it is well known that
 two types of skills should be improved. these are soft and hard skills. below
 are my own thoughts on which resources should be used.
 
