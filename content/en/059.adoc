@@ -1,0 +1,11 @@
+---
+id: 20240913160839
+---
+= latex: manage packages
+:showtitle:
+
+`tlmgr`
+
+`kpsewhich`
+
+TODO: finish up writing this note

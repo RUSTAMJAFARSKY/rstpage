@@ -24,15 +24,29 @@ table of contents of the original spe handbooks
 . mathematics of vibrating systems
 . mathematics of fluid flow
 . mathematics of transient analysis
++
+https://petrowiki.spe.org/PEH:Mathematics_of_Transient_Analysis
 . fluid sampling
 . gas properties
++
+https://petrowiki.spe.org/PEH:Gas_Properties
 . oil system correlations
++
+https://petrowiki.spe.org/PEH:Oil_System_Correlations
 . thermodynamics and phase behavior
++
+https://petrowiki.spe.org/PEH:Thermodynamics_and_Phase_Behavior
 . phase diagrams
 . asphaltenes and waxes
 . properties of produced water
++
+https://petrowiki.spe.org/PEH:Properties_of_Produced_Water
 . phase behavior of h~2~o + hydrocarbon systems
++
+https://petrowiki.spe.org/PEH:Phase_Behavior_of_H2O_Hydrocarbon_Systems
 . crude oil emulsions
++
+https://petrowiki.spe.org/PEH:Crude_Oil_Emulsions
 . rock properties
 . single-phase permeability
 . relative permeability and capillary pressure

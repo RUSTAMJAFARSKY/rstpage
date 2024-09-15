@@ -1,0 +1,15 @@
+---
+id: 20240915121452
+---
+= windows: multilang keyboard
+:showtitle:
+
+on windows os having multiple input languages, you can select previous
+input method w/:
+
+`ctrl` + `win` + `space`
+
+the above will only work if you use `win` + `space` to change your
+input language and not the default `shift` + `alt`
+
+TODO: explain this later
