@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rustamjafar</title><link>https://rustamjafar.com/en/</link><description>Recent content on rustamjafar</description><generator>Hugo</generator><language>en-US</language><atom:link href="https://rustamjafar.com/en/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://rustamjafar.com/en/001/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/en/001/</guid><description>prophet (pbuh): deeds are only by intentions you’re not w/out talent, you’re w/out direction
-i think, this is the first thing you have to consider when starting something new. this doesn’t matter your color, your ethnic background, your social status or your education. this will definitely help you to set the direction of your journey through life.
-below are some questions, i think, everyone should ask themselves:
+i think, that’s the first thing you have to consider when starting something new. this doesn’t matter your color, your ethnic background, your social status or your education. this will definitely help you to set the direction of your journey through life.
+the following are a few questions that i think, everyone should ask themselves:
 why do i start doing what i start to do?</description></item><item><title/><link>https://rustamjafar.com/en/002/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/en/002/</guid><description>ssh: server and dynamic port forwarding running sshd keep in mind that running sshd on ubuntu, starts server in current user scope, and won’t start it system-wide. thus, when running these commands:
 /usr/sbin/sshd and then
 systemctl start sshd
@@ -186,4 +186,9 @@ kpsewhich
 TODO: finish up writing this note</description></item><item><title/><link>https://rustamjafar.com/en/060/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/en/060/</guid><description>windows: multilang keyboard on windows os having multiple input languages, you can select previous input method w/:
 ctrl + win + space
 the above will only work if you use win + space to change your input language and not the default shift + alt
-TODO: explain this later</description></item></channel></rss>
+TODO: explain this later</description></item><item><title/><link>https://rustamjafar.com/en/061/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rustamjafar.com/en/061/</guid><description>linux: manage fonts fontconfig check installed fonts download font file manually install font delete font in this note, i’ll try to show how i manage fonts on my linux machine.
+fontconfig fontconfig is the system that controls fonts in linux machines. it includes the following programs:
+fc-cache to maintain the fontconfig cache
+fc-list to list installed fonts
+fc-match to test the matching rules
+fc-cat to dump the binary cache files in string form</description></item></channel></rss>

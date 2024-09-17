@@ -25,4 +25,4 @@ earnings** makes the situation even.
 
 - - -
 
-*TODO: use `katex` or `mathjax` for math*
+TODO: use `katex` or `mathjax` for math

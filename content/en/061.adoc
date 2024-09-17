@@ -1,0 +1,60 @@
+---
+id: 20240917183408
+---
+= linux: manage fonts
+:showtitle:
+:toc:
+:toc-title:
+
+in this note, i'll try to show how i manage fonts on my linux machine.
+
+== fontconfig
+
+_fontconfig_ is the system that controls fonts in linux machines. it includes
+the following programs:
+
+* _fc-cache_ to maintain the fontconfig cache
+* _fc-list_ to list installed fonts
+* _fc-match_ to test the matching rules 
+* _fc-cat_ to dump the binary cache files in string form
+
+== check installed fonts
+
+to check which _font families_ installed on your machine run:
+
+`fc-list : family | sort | unique`
+
+== download font file
+
+to install the font on your linux system, you must first download either
+_.otf_ or _.ttf_ file. if you have a choice, try to download _otf_ instead of
+_ttf_ as described here
+https://stackoverflow.com/questions/34011389/whats-the-difference-between-ttf-otf-font-files
+
+== manually install font
+
+read the link given below
+
+https://wiki.archlinux.org/title/Fonts#Manual_installation
+
+follwing is summary of above article.
+
+for a _single user_ installation, place your font file into:
+
+`~/.local/share/fonts/`
+
+if installing _system-wide_, place your font file into:
+
+`/usr/local/share/fonts/`
+
+the result could be as follows:
+
+`/usr/local/share/fonts/<otf|ttf>/<font-family>/<font-style.<otf|ttf>`
+
+finally update fontconfig _cache_ w/:
+
+`fc-cache`
+
+== delete font
+
+TODO: finish the note later
