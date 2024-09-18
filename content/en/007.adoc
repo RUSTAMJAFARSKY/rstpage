@@ -30,41 +30,31 @@ document's preamble**
 
 ## font styles
 
-styles in latex are bold, italics, underlined, etc.
+styles in latex are _bold_, _italics_, _underlined_, etc.
 
-check out ref guide <https://en.wikibooks.org/wiki/LaTeX/Fonts#Font_styles> for a
-complete list
+check out ref guide <https://en.wikibooks.org/wiki/LaTeX/Fonts#Font_styles>
+for a complete list
 
 ## font families
 
-in latex font family is the first setting configured after selecting typeface. so, for
-example, you have one big typeface which itself can contain one or several different
-families. different typefaces have a different amount of families you can choose.
-thus you've to check which font families are available in the font typeface,
-before using it [typeface] in your document.
+a font family, or typeface, is a collection of characters that belong to one of
+the following groups:
 
-generally, families in latex are:
+* serif
+* sans-serif
+* monospaced
 
-* `rmdefault` - roman (serif)
-* `sfdefault` - sans
-* `ttdefault` - typewriter
+for example, (1) times new roman is considered a serif font,
+(2) arial - sans-serif, and (3) courier - monospaced.
 
 check out ref guide
 https://en.wikibooks.org/wiki/LaTeX/Fonts#Font_families for a complete list
 
-## font typefaces
-
-these are what you're used to select when choosing font in standard *ms word*
-editor. include:
-
-* times new roman
-* arial
-* courier
-* you name it.
-
 ## workflow
 
-so, to stay consistent in configuring your font settings i prefer the following
+to stay consistent in configuring font settings i prefer the following
 workflow order:
 
-typeface -> family -> style -> size
+family -> style -> size
+
+i'll explain what tex commands i use in another note later. see note #62.

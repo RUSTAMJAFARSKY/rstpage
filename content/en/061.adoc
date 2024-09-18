@@ -28,16 +28,14 @@ to check which _font families_ installed on your machine run:
 
 to install the font on your linux system, you must first download either
 _.otf_ or _.ttf_ file. if you have a choice, try to download _otf_ instead of
-_ttf_ as described here
-https://stackoverflow.com/questions/34011389/whats-the-difference-between-ttf-otf-font-files
+_ttf_.footnote:stack[https://stackoverflow.com/questions/34011389/whats-the-difference-between-ttf-otf-font-files]
 
 == manually install font
 
-read the link given below
+read the arch page first{empty}footnote:arch[
+https://wiki.archlinux.org/title/Fonts#Manual_installation]
 
-https://wiki.archlinux.org/title/Fonts#Manual_installation
-
-follwing is summary of above article.
+the following is a summary of above article.
 
 for a _single user_ installation, place your font file into:
 
