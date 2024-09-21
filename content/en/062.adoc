@@ -1,60 +1,9 @@
 ---
-id: 20240918115924
+id: 20240918104729
 ---
-= latex: manage fonts
+= typeface: arabic monospaced
 :showtitle:
-:toc:
-:toc-title:
 
-i will show which tex commands i use for selecting different fonts when
-creating tex document. all the info below is just a summary of the following
-articles.
-
-== compiling
-
-for compiling tex document i recommend that you use xelatex instead of
-pdflatex engine because of its native support of utf-8.footnote:overleaf[
-overleaf
-https://www.overleaf.com/learn/latex/XeLaTeX#The_basics:_Times_New_Roman]
-
-== fonts
-
-make sure _otf_ or _ttf_ fonts are installed on your machine.
-
-== fontspec package
-
-for you to be able to configure fonts make sure you use the _fontspec_
-package in the preamble of your tex document.
-
-`\usepackage{fontspec}`
-
-== set default font family
-
-> The bodies of LaTeX documents are set in Roman (serif) type by default,
-> but this can be changed by setting the family default:
->
-> `\renewcommand{\familydefault}{<family>}`
->
-> where `<family>` is any of the following:
->
-> * `\rmdefault`
-> * `\sfdefault`
-> * `\ttdefault`
->
-> -- from wikibooks{empty}footnote:wikibooks[wikibooks
-> https://en.wikibooks.org/wiki/LaTeX/Fonts#Font_families]
-
-== selecting font
-
-> By default, LaTeX uses Computer Modern, a family of typefaces designed
-> by Donald Knuth for use with TeX. It contains serif, sans serif, and
-> monospaced fonts, each available in several weights and optical sizes
-> footnote:wikibooks[].
-
-to change fonts used w/ different families use the following commands:
-
-* `\setmainfont{<font-family>}`
-* `\setromanfont{<font-family>}`{empty}footnote:stack[stack
-https://tex.stackexchange.com/questions/211394/fontspec-sans-serif-as-main-font]
-* `\setsansfont{<font-family>}`
-* `\setmonofont{<font-family>}`
+there're not that many monospace arabic fonts out there, but an interesting
+attempt has been made by user eliheuer and published on github at
+https://github.com/eliheuer/hasubi-mono

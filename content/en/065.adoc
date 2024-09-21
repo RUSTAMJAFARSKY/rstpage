@@ -1,0 +1,7 @@
+---
+id: 20240919220725
+---
+= admiral mcraven
+:showtitle:
+
+TODO: here be mcravens 10 advice

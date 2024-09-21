@@ -1,0 +1,8 @@
+---
+id: 20240920081144
+---
+= notes: structure
+:showtitle:
+
+TODO: here i will describe the folder structure i use when taking
+notes on a pc
