@@ -1,0 +1,9 @@
+---
+id: 20240922202513
+---
+= latex: multilang
+:showtitle:
+
+babel vs polyglossia
+
+TODO: i will try both and then write up my thoughts later.

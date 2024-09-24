@@ -1,0 +1,11 @@
+---
+id: 20240922084730
+---
+= mba: curriculum
+:showtitle:
+
+becoming a manager, definitely recommend taking some mba courses.
+
+https://www.gsb.stanford.edu/programs/mba/academic-experience/curriculum/first-year
+
+TODO: elaborate on this

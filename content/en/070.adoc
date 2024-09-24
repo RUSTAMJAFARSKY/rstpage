@@ -1,0 +1,10 @@
+---
+id: 20240922084538
+---
+= time management
+:showtitle:
+
+always time your sessions, no matter what the session is, no matter
+where it takes place.
+
+TODO: go into this in more detail later

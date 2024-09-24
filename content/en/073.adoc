@@ -1,0 +1,7 @@
+---
+id: 20240922202506
+---
+= system dynamics
+:showtitle:
+
+TODO: research this

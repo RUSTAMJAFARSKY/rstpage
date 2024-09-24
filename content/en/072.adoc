@@ -1,0 +1,9 @@
+---
+id: 20240922202431
+---
+= vocabulary: multilang
+:showtitle:
+
+nowadays, english is the language of science. so if you are studying
+science outside english-speaking countries, make sure you use the right
+translation, so that the locals can understand you.

@@ -1,0 +1,8 @@
+---
+id: 20240920104528
+---
+= vocabulary: context
+:showtitle:
+
+learn new vocabulary in context, always use sentences, whatever they are.
+never ever learn just words on their own.

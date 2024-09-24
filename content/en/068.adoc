@@ -1,0 +1,8 @@
+---
+id: 20240921150644
+---
+= encryption: gpg and sha
+:showtitle:
+
+use gpg for email encryption and sha to make sure that you've got the original
+that hasn't been corrupted

@@ -101,3 +101,16 @@ blockquote {
                 margin-right: auto;
         }
 }
+
+@media screen and (max-width: 500px) {
+        blockquote {
+                margin-right: 0;
+                margin-left: 20px;
+                padding-right: 5px;
+                padding-left: 10px;
+
+        }
+                ul, ol {
+                padding-left: 20px;
+        }
+}
