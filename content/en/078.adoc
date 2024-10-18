@@ -1,0 +1,9 @@
+---
+id: 20240929045031
+---
+= kardashev scale
+:showtitle:
+
+an interesting mention from elon musk's x page
+
+TODO: explore this topic

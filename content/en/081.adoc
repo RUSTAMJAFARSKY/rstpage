@@ -1,0 +1,14 @@
+---
+id: 20241003132616
+---
+= lesswrong
+:showtitle:
+
+> While _truthfulness_ is a property of beliefs, _rationality_ is a property of
+> reasoning processes
+>
+> -- LessWrong
+
+https://www.lesswrong.com
+
+it is my recommendation that you read their user guide first

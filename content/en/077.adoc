@@ -1,0 +1,7 @@
+---
+id: 20240925175554
+---
+= bash: shellcheck
+:showtitle:
+
+when coding bash, you can check your scripts with https://www.shellcheck.net/

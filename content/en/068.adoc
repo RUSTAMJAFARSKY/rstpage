@@ -6,3 +6,6 @@ id: 20240921150644
 
 use gpg for email encryption and sha to make sure that you've got the original
 that hasn't been corrupted
+
+you can use _have i been pwned_ to check whether your email has been
+compromised at https://haveibeenpwned.com/

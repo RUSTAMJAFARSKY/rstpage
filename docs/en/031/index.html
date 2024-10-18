@@ -1,2 +1,76 @@
-<!doctype html><html lang=en><head><meta charset=UTF-8><meta name=robots content="noindex,nofollow"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=stylesheet type=text/css href=/styles.css><title>rustamjafar</title></head><body><header><p>in the name of god, the most beneficent, the most merciful</p><hr></header><main dir=ltr><h1>bash: subshell</h1><div id=preamble><div class=sectionbody><div class=paragraph><p>small reminder for myself about running shell scripts</p></div></div></div><div class=sect1><h2 id=_current_shell>current shell</h2><div class=sectionbody><div class=paragraph><p><code>. &lt;script></code></p></div><div class=paragraph><p>this one above runs script in current shell, thus:</p></div><div class=ulist><ul><li><p>all the local variables of current shell are available to <code>&lt;script></code>.
-the <code>.</code> is interchangable w/ <code>source</code>.</p></li><li><p>exported variables from <code>&lt;script></code> are also available to current shell.</p></li></ul></div></div></div><div class=sect1><h2 id=_subshell>subshell</h2><div class=sectionbody><div class=paragraph><p><code>./&lt;script></code></p></div><div class=paragraph><p>this one creates subshell for <code>&lt;script></code> and then executes it in there.</p></div></div></div></main><footer dir=ltr><hr><p><a href=mailto:rst.jafar@gmail.com target=_blank>rst.jafar@gmail.com</a></footer></body></html>
+
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+        <meta charset="UTF-8">
+        <meta name="robots" content="noindex,nofollow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                
+                <link   rel="stylesheet"
+                        type="text/css"
+                        href="/styles.css">
+                
+        <title>rustamjafar</title>
+        </head>
+        <body>
+                
+                <header>
+                <p>in the name of god, the most beneficent, the most merciful</p>
+                <hr/>
+                </header>
+                
+                <main dir="ltr">
+                
+<h1>bash: subshell</h1>
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>small reminder for myself about running shell scripts</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_current_shell">current shell</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><code>. &lt;script&gt;</code></p>
+</div>
+<div class="paragraph">
+<p>this one above runs script in current shell, thus:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>all the local variables of current shell are available to <code>&lt;script&gt;</code>.
+the <code>.</code> is interchangable w/ <code>source</code>.</p>
+</li>
+<li>
+<p>exported variables from <code>&lt;script&gt;</code> are also available to current shell.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_subshell">subshell</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><code>./&lt;script&gt;</code></p>
+</div>
+<div class="paragraph">
+<p>this one creates subshell for <code>&lt;script&gt;</code> and then executes it in there.</p>
+</div>
+</div>
+</div>
+
+
+                </main>
+                <footer dir="ltr">
+                
+                <hr/>
+                <p><a href="mailto:rst.jafar@gmail.com" target="_blank">
+                rst.jafar@gmail.com</a>
+                
+                </footer>
+        </body>
+</html>

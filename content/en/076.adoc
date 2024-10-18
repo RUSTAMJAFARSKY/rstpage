@@ -1,0 +1,13 @@
+---
+id: 20240925160650
+---
+= cs: suckless philosophy
+:showtitle:
+
+i recommend that you read _suckless.org_ philosophy to sharpen your programming
+skills at https://suckless.org/.
+
+and of rwxrob's recommendations in one of his beginner's boost is to
+read the style and coding guidelines for each specific language, as it will
+make your code consistent throughout the document. that is, if you're
+coding in c, just google "c coding guidlines" and you'll get the results.

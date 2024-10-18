@@ -1,1 +1,99 @@
-<!doctype html><html lang=en><head><meta charset=UTF-8><meta name=robots content="noindex,nofollow"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=stylesheet type=text/css href=/styles.css><title>rustamjafar</title></head><body><header><p>in the name of god, the most beneficent, the most merciful</p><hr></header><main dir=ltr><h1>color minimalism</h1><div class=paragraph><p>here i am about to explain how i use colors in vim</p></div><div class=paragraph><p>how i am able to maintain my own colorscheme</p></div><div class=paragraph><p>generally about colors in my life</p></div><div class=paragraph><p><a href=https://johndecember.com/html/spec/color16codes.html class=bare>https://johndecember.com/html/spec/color16codes.html</a></p></div><div class=paragraph><p><a href=https://stackoverflow.com/questions/7103173/vim-how-to-change-the-highlight-color-for-search-hits-and-quickfix-selection class=bare>https://stackoverflow.com/questions/7103173/vim-how-to-change-the-highlight-color-for-search-hits-and-quickfix-selection</a></p></div><div class=paragraph><p><a href=https://vim.fandom.com/wiki/Xterm256_color_names_for_console_Vim class=bare>https://vim.fandom.com/wiki/Xterm256_color_names_for_console_Vim</a></p></div><div class=paragraph><p><a href=https://www.hashemian.com/tools/html-css-color-test.htm class=bare>https://www.hashemian.com/tools/html-css-color-test.htm</a></p></div></main><footer dir=ltr><hr><p><a href=mailto:rst.jafar@gmail.com target=_blank>rst.jafar@gmail.com</a></footer></body></html>
+
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+        <meta charset="UTF-8">
+        <meta name="robots" content="noindex,nofollow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                
+                <link   rel="stylesheet"
+                        type="text/css"
+                        href="/styles.css">
+                
+        <title>rustamjafar</title>
+        </head>
+        <body>
+                
+                <header>
+                <p>in the name of god, the most beneficent, the most merciful</p>
+                <hr/>
+                </header>
+                
+                <main dir="ltr">
+                
+<h1>color minimalism</h1>
+<div id="toc" class="toc">
+<div id="toctitle"></div>
+<ul class="sectlevel1">
+<li><a href="#_custom_colorscheme">custom colorscheme</a></li>
+<li><a href="#_colors_in_my_life">colors in my life</a></li>
+</ul>
+</div>
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>here i explain how i use colours in vim</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_custom_colorscheme">custom colorscheme</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>to maintain my own colorscheme in vim i use <em>lifepillar/vim-colortemplate</em>,
+<a href="https://github.com/lifepillar/vim-colortemplate" class="bare">https://github.com/lifepillar/vim-colortemplate</a>.</p>
+</div>
+<div class="paragraph">
+<p>show current buffer highlight groups:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>:hi[ghlight]</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>show color group under cursor in vim w/:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>:execute &#39;hi&#39; synIDattr(synID(line(&#34;.&#34;), col(&#34;.&#34;), 1), &#34;name&#34;)</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>when setting colors for specific color group, specify it for both light and
+dark variants of the colorscheme. TODO: elaborate on this.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_colors_in_my_life">colors in my life</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>in general, i try to use as few colours as possible. so i try to stick
+to the basic 16 colours in my vim colorscheme.</p>
+</div>
+<div class="paragraph">
+<p>there’s a good website,
+<a href="https://www.hashemian.com/tools/html-css-color-test.htm" class="bare">https://www.hashemian.com/tools/html-css-color-test.htm</a>, that will help you
+to quickly check how the colours you choose will look in an html page.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://johndecember.com/html/spec/color16codes.html" class="bare">https://johndecember.com/html/spec/color16codes.html</a></p>
+</div>
+<div class="paragraph">
+<p><a href="https://vim.fandom.com/wiki/Xterm256_color_names_for_console_Vim" class="bare">https://vim.fandom.com/wiki/Xterm256_color_names_for_console_Vim</a></p>
+</div>
+</div>
+</div>
+
+
+                </main>
+                <footer dir="ltr">
+                
+                <hr/>
+                <p><a href="mailto:rst.jafar@gmail.com" target="_blank">
+                rst.jafar@gmail.com</a>
+                
+                </footer>
+        </body>
+</html>

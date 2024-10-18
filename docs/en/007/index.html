@@ -1,9 +1,155 @@
-<!doctype html><html lang=en><head><meta charset=UTF-8><meta name=robots content="noindex,nofollow"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=stylesheet type=text/css href=/styles.css><title>rustamjafar</title></head><body><header><p>in the name of god, the most beneficent, the most merciful</p><hr></header><main dir=ltr><h1>latex: fonts terminology</h1><div id=toc class=toc><div id=toctitle></div><ul class=sectlevel1><li><a href=#_font_sizes>font sizes</a></li><li><a href=#_font_styles>font styles</a></li><li><a href=#_font_families>font families</a></li><li><a href=#_workflow>workflow</a></li></ul></div><div id=preamble><div class=sectionbody><div class=paragraph><p>here i will try to describe some confusing terms i’ve used while setting up my
-latex document:</p></div><div class=ulist><ul><li><p>font sizes</p></li><li><p>font styles</p></li><li><p>font families</p></li><li><p>font typefaces</p></li></ul></div></div></div><div class=sect1><h2 id=_font_sizes>font sizes</h2><div class=sectionbody><div class=paragraph><p>in latex font size is declared by using special commands:</p></div><div class=ulist><ul><li><p><code>\small</code></p></li><li><p><code>\large</code></p></li><li><p>etc.</p></li></ul></div><div class=paragraph><p>check out ref guide <a href=https://en.wikibooks.org/wiki/LaTeX/Fonts#Sizing_text class=bare>https://en.wikibooks.org/wiki/LaTeX/Fonts#Sizing_text</a> for a
-complete list</p></div><div class=paragraph><p>i also want to note that these commands are <strong>relative to the size set in
-document’s preamble</strong></p></div></div></div><div class=sect1><h2 id=_font_styles>font styles</h2><div class=sectionbody><div class=paragraph><p>styles in latex are <em>bold</em>, <em>italics</em>, <em>underlined</em>, etc.</p></div><div class=paragraph><p>check out ref guide <a href=https://en.wikibooks.org/wiki/LaTeX/Fonts#Font_styles class=bare>https://en.wikibooks.org/wiki/LaTeX/Fonts#Font_styles</a>
-for a complete list</p></div></div></div><div class=sect1><h2 id=_font_families>font families</h2><div class=sectionbody><div class=paragraph><p>a font family, or typeface, is a collection of characters that belong to one of
-the following groups:</p></div><div class=ulist><ul><li><p>serif</p></li><li><p>sans-serif</p></li><li><p>monospaced</p></li></ul></div><div class=paragraph><p>for example, (1) times new roman is considered a serif font,
-(2) arial - sans-serif, and (3) courier - monospaced.</p></div><div class=paragraph><p>check out ref guide
-<a href=https://en.wikibooks.org/wiki/LaTeX/Fonts#Font_families class=bare>https://en.wikibooks.org/wiki/LaTeX/Fonts#Font_families</a> for a complete list</p></div></div></div><div class=sect1><h2 id=_workflow>workflow</h2><div class=sectionbody><div class=paragraph><p>to stay consistent in configuring font settings i prefer the following
-workflow order:</p></div><div class=paragraph><p>family → style → size</p></div><div class=paragraph><p>i’ll explain what tex commands i use in another note later. see note #62.</p></div></div></div></main><footer dir=ltr><hr><p><a href=mailto:rst.jafar@gmail.com target=_blank>rst.jafar@gmail.com</a></footer></body></html>
+
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+        <meta charset="UTF-8">
+        <meta name="robots" content="noindex,nofollow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                
+                <link   rel="stylesheet"
+                        type="text/css"
+                        href="/styles.css">
+                
+        <title>rustamjafar</title>
+        </head>
+        <body>
+                
+                <header>
+                <p>in the name of god, the most beneficent, the most merciful</p>
+                <hr/>
+                </header>
+                
+                <main dir="ltr">
+                
+<h1>latex: fonts terminology</h1>
+<div id="toc" class="toc">
+<div id="toctitle"></div>
+<ul class="sectlevel1">
+<li><a href="#_font_sizes">font sizes</a></li>
+<li><a href="#_font_styles">font styles</a></li>
+<li><a href="#_font_families">font families</a></li>
+<li><a href="#_workflow">workflow</a></li>
+</ul>
+</div>
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>here i will try to describe some confusing terms i’ve used while setting up my
+latex document:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>font sizes</p>
+</li>
+<li>
+<p>font styles</p>
+</li>
+<li>
+<p>font families</p>
+</li>
+<li>
+<p>font typefaces</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_font_sizes">font sizes</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>in latex font size is declared by using special commands:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>\small</code></p>
+</li>
+<li>
+<p><code>\large</code></p>
+</li>
+<li>
+<p>etc.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>check out ref guide <a href="https://en.wikibooks.org/wiki/LaTeX/Fonts#Sizing_text" class="bare">https://en.wikibooks.org/wiki/LaTeX/Fonts#Sizing_text</a> for a
+complete list</p>
+</div>
+<div class="paragraph">
+<p>i also want to note that these commands are <strong>relative to the size set in
+document’s preamble</strong></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_font_styles">font styles</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>styles in latex are <em>bold</em>, <em>italics</em>, <em>underlined</em>, etc.</p>
+</div>
+<div class="paragraph">
+<p>check out ref guide <a href="https://en.wikibooks.org/wiki/LaTeX/Fonts#Font_styles" class="bare">https://en.wikibooks.org/wiki/LaTeX/Fonts#Font_styles</a>
+for a complete list</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_font_families">font families</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>a font family, or typeface, is a collection of characters that belong to one of
+the following groups:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>serif</p>
+</li>
+<li>
+<p>sans-serif</p>
+</li>
+<li>
+<p>monospaced</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>for example, (1) times new roman is considered a serif font,
+(2) arial - sans-serif, and (3) courier - monospaced.</p>
+</div>
+<div class="paragraph">
+<p>check out ref guide
+<a href="https://en.wikibooks.org/wiki/LaTeX/Fonts#Font_families" class="bare">https://en.wikibooks.org/wiki/LaTeX/Fonts#Font_families</a> for a complete list</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_workflow">workflow</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>to stay consistent in configuring font settings i prefer the following
+workflow order:</p>
+</div>
+<div class="paragraph">
+<p>family → style → size</p>
+</div>
+<div class="paragraph">
+<p>i’ll explain what tex commands i use in another note later. see note #62.</p>
+</div>
+</div>
+</div>
+
+
+                </main>
+                <footer dir="ltr">
+                
+                <hr/>
+                <p><a href="mailto:rst.jafar@gmail.com" target="_blank">
+                rst.jafar@gmail.com</a>
+                
+                </footer>
+        </body>
+</html>

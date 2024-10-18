@@ -6,4 +6,6 @@ id: 20240922202513
 
 babel vs polyglossia
 
+installing hypenation for each language
+
 TODO: i will try both and then write up my thoughts later.

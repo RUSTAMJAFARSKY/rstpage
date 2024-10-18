@@ -3,18 +3,43 @@ id: 20240721100918
 ---
 = color minimalism
 :showtitle:
-:showtitle:
+:toc:
+:toc-title:
 
-here i am about to explain how i use colors in vim
+here i explain how i use colours in vim
 
-how i am able to maintain my own colorscheme
+## custom colorscheme
 
-generally about colors in my life
+to maintain my own colorscheme in vim i use _lifepillar/vim-colortemplate_,
+https://github.com/lifepillar/vim-colortemplate.
+
+show current buffer highlight groups:
+
+[source,]
+----
+:hi[ghlight]
+----
+
+show color group under cursor in vim w/:
+
+[source,]
+----
+:execute 'hi' synIDattr(synID(line("."), col("."), 1), "name")
+----
+
+when setting colors for specific color group, specify it for both light and
+dark variants of the colorscheme. TODO: elaborate on this.
+
+## colors in my life
+
+in general, i try to use as few colours as possible. so i try to stick
+to the basic 16 colours in my vim colorscheme.
+
+there's a good website,
+https://www.hashemian.com/tools/html-css-color-test.htm, that will help you
+to quickly check how the colours you choose will look in an html page.
 
 https://johndecember.com/html/spec/color16codes.html
 
-https://stackoverflow.com/questions/7103173/vim-how-to-change-the-highlight-color-for-search-hits-and-quickfix-selection
-
 https://vim.fandom.com/wiki/Xterm256_color_names_for_console_Vim
 
-https://www.hashemian.com/tools/html-css-color-test.htm

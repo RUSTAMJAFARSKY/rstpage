@@ -1,11 +1,11 @@
 ---
 id: 20240923191745
 ---
-= executives
+= mba: executives
 :showtitle:
 
 in my opinion, there're 3 types of managers you can learn from, and they
-are american, german and japanaese managers. they all use different
+are american, german and japanese managers. they all use different
 strategies for execution.
 
 TODO: elaborate on this

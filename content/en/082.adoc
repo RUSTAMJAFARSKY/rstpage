@@ -1,0 +1,8 @@
+---
+id: 20241009133638
+---
+= klin: data viz
+:showtitle:
+
+some pretty good data visualization projects from these gentlemen at
+https://www.kiln.digital/

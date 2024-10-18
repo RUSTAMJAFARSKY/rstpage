@@ -1,0 +1,9 @@
+---
+id: 20241001092551
+---
+= math: desmos
+:showtitle:
+
+check out some of the desmos tutorials. there's hidden power underneath.
+
+TODO: check out geogebra

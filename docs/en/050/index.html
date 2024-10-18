@@ -1,4 +1,95 @@
-<!doctype html><html lang=en><head><meta charset=UTF-8><meta name=robots content="noindex,nofollow"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=stylesheet type=text/css href=/styles.css><title>rustamjafar</title></head><body><header><p>in the name of god, the most beneficent, the most merciful</p><hr></header><main dir=ltr><h1>git: reset</h1><div id=preamble><div class=sectionbody><div class=paragraph><p>a few notes for myself in regards to what is said in the title</p></div><div class=ulist><ul><li><p>head</p></li><li><p>index</p></li><li><p>working tree</p></li></ul></div></div></div><div class=sect1><h2 id=_soft_reset>soft reset</h2><div class=sectionbody><div class=paragraph><p><code><strong>git reset --soft &lt;commit-name></strong></code></p></div><div class=paragraph><p>simply moves <em>head</em> to <code>&lt;commit-name></code>, <em>index</em> and <em>working tree</em> are intact.
-this one is same as:</p></div><div class=paragraph><p><code>git commit --ammend</code></p></div></div></div><div class=sect1><h2 id=_mixed_reset>mixed reset</h2><div class=sectionbody><div class=paragraph><p><code><strong>git reset --mixed &lt;commit-name></strong></code></p></div><div class=paragraph><p>updates <em>index</em> with whatever <code>&lt;commit-name></code> <em>head</em> points to, <em>working tree</em>
-is intact.</p></div></div></div><div class=sect1><h2 id=_hard_reset>hard reset</h2><div class=sectionbody><div class=paragraph><p><code><strong>git reset --hard &lt;commit-name></strong></code></p></div><div class=paragraph><p>updates <em>head</em>, <em>index</em> and <em>working tree</em> w/ whatever <code>&lt;commit-name></code> <em>head</em>
-points to.</p></div></div></div></main><footer dir=ltr><hr><p><a href=mailto:rst.jafar@gmail.com target=_blank>rst.jafar@gmail.com</a></footer></body></html>
+
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+        <meta charset="UTF-8">
+        <meta name="robots" content="noindex,nofollow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                
+                <link   rel="stylesheet"
+                        type="text/css"
+                        href="/styles.css">
+                
+        <title>rustamjafar</title>
+        </head>
+        <body>
+                
+                <header>
+                <p>in the name of god, the most beneficent, the most merciful</p>
+                <hr/>
+                </header>
+                
+                <main dir="ltr">
+                
+<h1>git: reset</h1>
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>a few notes for myself in regards to what is said in the title</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>head</p>
+</li>
+<li>
+<p>index</p>
+</li>
+<li>
+<p>working tree</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_soft_reset">soft reset</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><code><strong>git reset --soft &lt;commit-name&gt;</strong></code></p>
+</div>
+<div class="paragraph">
+<p>simply moves <em>head</em> to <code>&lt;commit-name&gt;</code>, <em>index</em> and <em>working tree</em> are intact.
+this one is same as:</p>
+</div>
+<div class="paragraph">
+<p><code>git commit --ammend</code></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_mixed_reset">mixed reset</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><code><strong>git reset --mixed &lt;commit-name&gt;</strong></code></p>
+</div>
+<div class="paragraph">
+<p>updates <em>index</em> with whatever <code>&lt;commit-name&gt;</code> <em>head</em> points to, <em>working tree</em>
+is intact.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_hard_reset">hard reset</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><code><strong>git reset --hard &lt;commit-name&gt;</strong></code></p>
+</div>
+<div class="paragraph">
+<p>updates <em>head</em>, <em>index</em> and <em>working tree</em> w/ whatever <code>&lt;commit-name&gt;</code> <em>head</em>
+points to.</p>
+</div>
+</div>
+</div>
+
+
+                </main>
+                <footer dir="ltr">
+                
+                <hr/>
+                <p><a href="mailto:rst.jafar@gmail.com" target="_blank">
+                rst.jafar@gmail.com</a>
+                
+                </footer>
+        </body>
+</html>

@@ -1,0 +1,9 @@
+---
+id: 20241013145815
+---
+= forensics
+:showtitle:
+
+i don't know, but i think forensics can be a great help in life, because of the
+breadth of topics it covers. you can start at
+https://www.forensicsciencesimplified.org/

@@ -3,9 +3,8 @@ id: 20240317085954
 ---
 = ssh: keep alive the session
 :showtitle:
-
-* [server keep alive](#server-keep-alive)
-* [client keep alive](#client-keep-alive)
+:toc:
+:toc-title:
 
 ## server keep alive
 

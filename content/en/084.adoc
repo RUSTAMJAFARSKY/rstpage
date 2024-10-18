@@ -1,0 +1,10 @@
+---
+id: 20241014182140
+---
+= anki: workflow
+:showtitle:
+
+creating decks, notes, note types, note styles, cards, and tags in anki, don't
+overcomplicate them and try to keep them as simple as possible.
+
+TODO: explain workflow i use when learning languages

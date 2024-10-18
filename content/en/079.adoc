@@ -1,0 +1,10 @@
+---
+id: 20240929210324
+---
+= windows: terminal
+:showtitle:
+
+configuring github bash in windows terminal app is described at
+https://neutrondev.com/add-git-bash-windows-terminal/
+
+TODO: another note explaning my linux workflow on windows machines

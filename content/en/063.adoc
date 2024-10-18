@@ -13,11 +13,8 @@ articles.
 == compiling
 
 for compiling tex document i recommend that you use xelatex instead of
-pdflatex engine because of its native support of utf-8.footnote:overleaf[
-overleaf
-https://www.overleaf.com/learn/latex/XeLaTeX#The_basics:_Times_New_Roman],
-footnote:overleaf_2[overleaf 2
-https://www.overleaf.com/learn/latex/Articles/Unicode%2C_UTF-8_and_multilingual_text%3A_An_introduction]
+pdflatex engine because of its native support of utf-8,
+https://www.overleaf.com/learn/latex/Articles/Unicode%2C_UTF-8_and_multilingual_text%3A_An_introduction.
 
 == fonts
 
@@ -43,20 +40,19 @@ package in the preamble of your tex document.
 > * `\sfdefault`
 > * `\ttdefault`
 >
-> -- from wikibooks{empty}footnote:wikibooks[wikibooks
-> https://en.wikibooks.org/wiki/LaTeX/Fonts#Font_families]
+> -- wikibooks, https://en.wikibooks.org/wiki/LaTeX/Fonts#Font_families.
 
 == selecting font
 
 > By default, LaTeX uses Computer Modern, a family of typefaces designed
 > by Donald Knuth for use with TeX. It contains serif, sans serif, and
-> monospaced fonts, each available in several weights and optical sizes
-> footnote:wikibooks[].
+> monospaced fonts, each available in several weights and optical sizes.
+> -- wikibooks, https://en.wikibooks.org/wiki/LaTeX/Fonts#Font_families.
 
 to change fonts used w/ different families use the following commands:
 
 * `\setmainfont{<font-family>}`
-* `\setromanfont{<font-family>}`{empty}footnote:stack[stack
-https://tex.stackexchange.com/questions/211394/fontspec-sans-serif-as-main-font]
+* `\setromanfont{<font-family>}`,
+https://tex.stackexchange.com/questions/211394/fontspec-sans-serif-as-main-font
 * `\setsansfont{<font-family>}`
 * `\setmonofont{<font-family>}`

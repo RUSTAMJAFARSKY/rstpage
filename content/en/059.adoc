@@ -6,6 +6,16 @@ id: 20240913160839
 
 `tlmgr`
 
+[source,]
+----
+$ tlmgr usertree
+----
+
+[source,]
+----
+$ sudo `which tlmgr` <options> <package-name>
+----
+
 `kpsewhich`
 
 TODO: finish up writing this note
