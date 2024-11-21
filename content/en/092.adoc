@@ -1,0 +1,11 @@
+---
+id: 20241104195722
+---
+= aard: vocabulary
+:showtitle:
+
+https://aarddict.org/
+
+i recommend that you use aard dictionary for it is based on wiktionary.
+
+TODO: expand on this and on wiktionary

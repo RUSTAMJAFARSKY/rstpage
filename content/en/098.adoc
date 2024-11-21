@@ -1,0 +1,11 @@
+---
+id: 20241121080453
+---
+= mba: it's up to us!
+:showtitle:
+
+> No one is coming, it's up to us!
+
+this is from the back cover of brendan bechtel's ipad.
+
+image::../098_image_01.jpg[brendan-bechtel]

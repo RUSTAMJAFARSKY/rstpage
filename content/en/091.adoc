@@ -1,0 +1,7 @@
+---
+id: 20241028163642
+---
+= nginx: proxy
+:showtitle:
+
+TODO: describe this

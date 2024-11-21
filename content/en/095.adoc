@@ -1,0 +1,9 @@
+---
+id: 20241109153235
+---
+= calendar
+:showtitle:
+
+i recommend that you learn how to use calendar effectively.
+
+TODO: elaborate on this

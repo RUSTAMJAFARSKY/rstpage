@@ -1,0 +1,11 @@
+---
+id: 20241026125828
+---
+= mba: billions
+:showtitle:
+
+in one of the episodes of the "billions" series, the protagonist, taylor mason,
+says:
+
+> Even when you try to keep things mathematical, the satisfying solution is
+> not always available.

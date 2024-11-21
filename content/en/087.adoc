@@ -1,0 +1,18 @@
+---
+id: 20241022090315
+---
+= khan academy: player
+:showtitle:
+
+by default, khan academy uses youtube player to play its videos, but
+you can disable this behaviuor by doing the following:
+
+> At the end of a video's link right after `?modal=1—`, add this string:
+> `&disable_youtube=1`. By doing this, YouTube will be blocked and the
+> fallback player will be triggered. In case the video's link ends in anything
+> that's not `?modal=1`, add `?modal=1&disable_youtube=1` instead.
+>
+> -- u/Andrew
+
+you can find the original post here
+https://support.khanacademy.org/hc/en-us/community/posts/19692710485901-Switch-back-to-default-video-player

@@ -1,0 +1,11 @@
+---
+id: 20241114182558
+---
+= search-centered
+:showtitle:
+
+personally, i struggle to maintain the content structure of my files on the pc,
+so when i heard _rwxrob_'s about being search-centeric, it made my
+life a lot easier.
+
+TODO: elaborate on this

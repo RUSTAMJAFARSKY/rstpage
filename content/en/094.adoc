@@ -1,0 +1,11 @@
+---
+id: 20241109123000
+---
+= golden ratio: logos
+:showtitle:
+
+when creating smth try to use the golden section, for nature is based on it.
+
+it is approx 1.618
+
+TODO: elaborate on this

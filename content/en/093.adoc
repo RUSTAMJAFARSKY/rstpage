@@ -1,0 +1,11 @@
+---
+id: 20241105185642
+---
+= cs: lynx
+:showtitle:
+
+lynx is the _text_ web browser
+
+https://lynx.invisible-island.net/
+
+TODO: expand on this
