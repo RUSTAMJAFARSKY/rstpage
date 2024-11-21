@@ -7,7 +7,7 @@ id: 20241026095852
 some recommendations from me when creating a nickname that will be used in the
 english-speaking community:
 
-. take latin examples from ancient rome, e.g., averroes
+. take latin examples from ancient rome, e.g., ...
 . from above you can omit parts, e.g., navi
 
 TODO: tbc ...
