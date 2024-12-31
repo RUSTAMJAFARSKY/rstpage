@@ -1,0 +1,17 @@
+---
+id: 20241231194202
+---
+
+
+# WEBSITE: WORKFLOW
+:showtitle:
+
+AS OF 20240518114611, I'VE MOVED MY ENTIRE WEBSITE TO HUGO.
+I'VE SET IT UP, CREATED TEMPLATES AND STYLES TO BE USED W/ THEM.
+AND IN GENERAL, I LOVE HUGO. IT IS A REALLY COOL TOOL TO USE IF YOU
+BUILD WEBSITES ON A REGULAR BASIS.
+
+BUT THE THING IS, I'M PURSUING MASTER'S IN ENGINEERING, not in cs. i study
+engineering a lot, and everything associated w/ it. still i try to
+manage my notes, i use every tool possible to jot them down whenever and
+wherever i am. 

@@ -740,7 +740,14 @@
       <link>http://localhost:1313/en/107/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/107/</guid>
-      <description>VIM: CAPS LOCK SHORTCUTS some usefull shortcuts to turn your text upper and lower case&#xA;https://stackoverflow.com/questions/2946051/changing-case-in-vim (fallback link:107_saved.html)</description>
+      <description>VIM: CAPS LOCK SHORTCUTS SOME USEFULL SHORTCUTS TO TURN YOUR TEXT INTO UPPER OR LOWER CASE LETTERS&#xA;https://stackoverflow.com/questions/2946051/changing-case-in-vim, fallback /107_saved.html&#xA;TODO: CONCISELY REWRITE THE ARTICLE</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/en/108/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/108/</guid>
+      <description>WEBSITE: WORKFLOW AS OF 20240518114611, I’VE MOVED MY ENTIRE WEBSITE TO HUGO. I’VE SET IT UP, CREATED TEMPLATES AND STYLES TO BE USED W/ THEM. AND IN GENERAL, I LOVE HUGO. IT IS A REALLY COOL TOOL TO USE IF YOU BUILD WEBSITES ON A REGULAR BASIS.&#xA;BUT THE THING IS, I’M PURSUING MASTER’S IN ENGINEERING, not in cs. i study engineering a lot, and everything associated w/ it. still i try to manage my notes, i use every tool possible to jot them down whenever and wherever i am.</description>
     </item>
   </channel>
 </rss>
