@@ -2,22 +2,22 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <sitemap>
-    <loc>https://rustamjafar.com/multilang/sitemap.xml</loc>
+    <loc>http://localhost:1313/multilang/sitemap.xml</loc>
     
   </sitemap>
   
   <sitemap>
-    <loc>https://rustamjafar.com/en/sitemap.xml</loc>
+    <loc>http://localhost:1313/en/sitemap.xml</loc>
     
   </sitemap>
   
   <sitemap>
-    <loc>https://rustamjafar.com/ar/sitemap.xml</loc>
+    <loc>http://localhost:1313/ar/sitemap.xml</loc>
     
   </sitemap>
   
   <sitemap>
-    <loc>https://rustamjafar.com/ru/sitemap.xml</loc>
+    <loc>http://localhost:1313/ru/sitemap.xml</loc>
     
   </sitemap>
   

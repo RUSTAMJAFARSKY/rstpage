@@ -1,0 +1,13 @@
+---
+id: 20241231182145
+---
+
+# VIM: CAPS LOCK SHORTCUTS
+:showtitle:
+
+SOME USEFULL SHORTCUTS TO TURN YOUR TEXT INTO UPPER OR LOWER CASE LETTERS
+
+https://stackoverflow.com/questions/2946051/changing-case-in-vim,
+fallback link:/107_saved.html[]
+
+TODO: CONCISELY REWRITE THE ARTICLE

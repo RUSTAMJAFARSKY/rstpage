@@ -2,72 +2,72 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>rustamjafar</title>
-    <link>https://rustamjafar.com/ru/</link>
+    <link>http://localhost:1313/ru/</link>
     <description>Recent content on rustamjafar</description>
     <generator>Hugo</generator>
     <language>ru-RU</language>
-    <atom:link href="https://rustamjafar.com/ru/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/ru/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://rustamjafar.com/ru/01/</link>
+      <link>http://localhost:1313/ru/01/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://rustamjafar.com/ru/01/</guid>
+      <guid>http://localhost:1313/ru/01/</guid>
       <description>пророк (мир ему): дела по намерениям вам необходимо обратить внимание на ваши намерения, которые побуждают вас на начало чего-либо, и цели, которые вы собиратесь достичь, когда начинаете что-либо.</description>
     </item>
     <item>
       <title></title>
-      <link>https://rustamjafar.com/ru/02/</link>
+      <link>http://localhost:1313/ru/02/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://rustamjafar.com/ru/02/</guid>
+      <guid>http://localhost:1313/ru/02/</guid>
       <description>mail.ru: домен bk очень интересна история с названием домена bk.ru от mail.ru.</description>
     </item>
     <item>
       <title></title>
-      <link>https://rustamjafar.com/ru/03/</link>
+      <link>http://localhost:1313/ru/03/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://rustamjafar.com/ru/03/</guid>
+      <guid>http://localhost:1313/ru/03/</guid>
       <description>русский язык: вступительные испытания для подготовки к вступительным испытаниям (вступисп) по русскому языку (русяз) я советую посмотреть видео ниже:&#xA;https://youtu.be/VE6HY5hGlYA?si=x5x2IZfdvQjGoKoT&#xA;краткая выдержка из него:&#xA;теория: егэ, русский язык: драбкина, субботин&#xA;практика: цыбулько: 36 тренировочных вариантов&#xA;практика: сайт решу егэ https://ege.sdamgia.ru/&#xA;ударения: флэш-карточки&#xA;сочинение: сайт могу писать https://mogu-pisat.ru/&#xA;в целом мне нравится методика, которую предлагает пользователь выше, поэотому буду придерживаться её. свои комментарии оставлю позже.&#xA;спасибо, александр цветков</description>
     </item>
     <item>
       <title></title>
-      <link>https://rustamjafar.com/ru/04/</link>
+      <link>http://localhost:1313/ru/04/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://rustamjafar.com/ru/04/</guid>
+      <guid>http://localhost:1313/ru/04/</guid>
       <description>тимур гази: теория проектов как работает этот мир?&#xA;ютуб канал https://www.youtube.com/channel/UCEtwLO9nxb77cWzRKtWevWw&#xA;также рекомендую читать его статьи на электронном минбаре https://e-minbar.com/vobektive. автор - тимур шангереев.</description>
     </item>
     <item>
       <title></title>
-      <link>https://rustamjafar.com/ru/05/</link>
+      <link>http://localhost:1313/ru/05/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://rustamjafar.com/ru/05/</guid>
+      <guid>http://localhost:1313/ru/05/</guid>
       <description>летопись видеоигр: постмодерн начало на 20:46. очень хорошее описание эпохи, в которую мы живем. я постараюсь написать транскрипт данного отрывака видео https://www.youtube.com/watch?v=Bf0_Fd97lUg&#xA;ютуб-канал: https://www.youtube.com/@Game_Chronicls</description>
     </item>
     <item>
       <title></title>
-      <link>https://rustamjafar.com/ru/06/</link>
+      <link>http://localhost:1313/ru/06/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://rustamjafar.com/ru/06/</guid>
+      <guid>http://localhost:1313/ru/06/</guid>
       <description>горький: алексей м. пешков это максим горький.&#xA;один из моих писателей, которыми я интересуюсь. несколько слов о нём позже.</description>
     </item>
     <item>
       <title></title>
-      <link>https://rustamjafar.com/ru/07/</link>
+      <link>http://localhost:1313/ru/07/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://rustamjafar.com/ru/07/</guid>
+      <guid>http://localhost:1313/ru/07/</guid>
       <description>архипов: актуальность из слов моего преподавателя, архипова а. и., проблема тогда становится актуальной, когда за неё готовы платить деньги. к примеру, если у вас умеренно болит зуб, и вы можете перетерпеть эту боль, то проблема есть, но для вас сейчас не актуальна. но если у вас болит зуб настолько сильно, что нарушается ваша повседневная деятельность, и вы уже готовы пойти к стоматологу и заплатить за лечение, в таком случае проблема существует и актуальна.</description>
     </item>
     <item>
       <title></title>
-      <link>https://rustamjafar.com/ru/08/</link>
+      <link>http://localhost:1313/ru/08/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://rustamjafar.com/ru/08/</guid>
+      <guid>http://localhost:1313/ru/08/</guid>
       <description>роботизация вам следует задуматься над тем, может ли ваша работа быть роботизирована.</description>
     </item>
     <item>
       <title></title>
-      <link>https://rustamjafar.com/ru/09/</link>
+      <link>http://localhost:1313/ru/09/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://rustamjafar.com/ru/09/</guid>
+      <guid>http://localhost:1313/ru/09/</guid>
       <description>гост: кириллица при транслитерации кириллицы в латиницу я использую стандарты российского министерства иностранных дел. это приказ мид #2113.</description>
     </item>
   </channel>
