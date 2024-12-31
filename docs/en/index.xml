@@ -2,751 +2,751 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>rustamjafar</title>
-    <link>http://localhost:1313/en/</link>
+    <link>https://rustamjafar.com/en/</link>
     <description>Recent content on rustamjafar</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://rustamjafar.com/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:1313/en/001/</link>
+      <link>https://rustamjafar.com/en/001/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/001/</guid>
+      <guid>https://rustamjafar.com/en/001/</guid>
       <description>prophet (pbuh): deeds are only by intentions you’re not w/out talent, you’re w/out direction&#xA;i think, that’s the first thing you have to consider when starting something new. this doesn’t matter your color, your ethnic background, your social status or your education. this will definitely help you to set the direction of your journey through life.&#xA;the following are a few questions that i think, everyone should ask themselves:&#xA;why do i start doing what i start to do?</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/002/</link>
+      <link>https://rustamjafar.com/en/002/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/002/</guid>
+      <guid>https://rustamjafar.com/en/002/</guid>
       <description>ssh: server and dynamic port forwarding running sshd keep in mind that running sshd on ubuntu, starts server in current user scope, and won’t start it system-wide. thus, when running these commands:&#xA;/usr/sbin/sshd and then&#xA;systemctl start sshd&#xA;you get inactive as the response. so, to start server system-wide just run the following command:&#xA;systemctl start &amp;lt;sshd | ssh&amp;gt; now, after running system status sshd command, you’ll find its status changed to active.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/003/</link>
+      <link>https://rustamjafar.com/en/003/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/003/</guid>
+      <guid>https://rustamjafar.com/en/003/</guid>
       <description>sample dbs following is the list of sample databases to use to improve your excel, sql, etc., skills.&#xA;mysql sakila&#xA;&amp;lt;https://dev.mysql.com/doc/sakila/en/&amp;gt; world&#xA;&amp;lt;https://dev.mysql.com/doc/world-setup/en/&amp;gt; employee&#xA;&amp;lt;https://dev.mysql.com/doc/employee/en/&amp;gt; microsoft wide world importers&#xA;&amp;lt;https://github.com/microsoft/sql-server-samples/tree/master/samples/databases/wide-world-importers&amp;gt; this list will be updated later w/ more data</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/004/</link>
+      <link>https://rustamjafar.com/en/004/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/004/</guid>
+      <guid>https://rustamjafar.com/en/004/</guid>
       <description>data analysis data analysis is just a tool that assists you in what you actually like&#xA;during my job search, w/ my little knowledge of excel, sql and python, i was looking for any position as a junior data analyst or anything alike.&#xA;one day, i’d tried it into an electrical construction company (they needed someone who just knows excel good), they’d agreed to give me a job position, but i’d refused back then due to the salary was very low, even though, the construction is what i like the most.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/005/</link>
+      <link>https://rustamjafar.com/en/005/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/005/</guid>
+      <guid>https://rustamjafar.com/en/005/</guid>
       <description>penmanship TODO: this note is about to be translated into arabic&#xA;it is all about being an individual&#xA;one day, i started to repeat my english grammar. going through exercises, i found that i need to complete some exercises by taking a physical pen and writing them down. after i took a pen and began to write, i noticed that my handwriting worsened to a great extent. during my time in university, i thought, i had a good penmanship, (it was not great, though).</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/006/</link>
+      <link>https://rustamjafar.com/en/006/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/006/</guid>
+      <guid>https://rustamjafar.com/en/006/</guid>
       <description>bash: `entr` utility using entr when writing bash scripts is precious. this little utility listens for the file you give it to be modified and executes whatever it is set to execute. you can even execute the same file that entr is listening to.&#xA;so in my case, as i am not a pro bash script writer, the usage is:&#xA;$ entr -sc &amp;#34;source &amp;lt;file_to_execute&amp;gt;&amp;#34; &amp;lt;&amp;lt;&amp;lt; $( echo &amp;lt;file_to_listen&amp;gt; ) i would also like to point out that there can be completely different file_to_execute and file_to_listen.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/007/</link>
+      <link>https://rustamjafar.com/en/007/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/007/</guid>
+      <guid>https://rustamjafar.com/en/007/</guid>
       <description>latex: fonts terminology font sizes font styles font families workflow here i will try to describe some confusing terms i’ve used while setting up my latex document:&#xA;font sizes&#xA;font styles&#xA;font families&#xA;font typefaces&#xA;font sizes in latex font size is declared by using special commands:&#xA;\small&#xA;\large&#xA;etc.&#xA;check out ref guide https://en.wikibooks.org/wiki/LaTeX/Fonts#Sizing_text for a complete list&#xA;i also want to note that these commands are relative to the size set in document’s preamble</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/008/</link>
+      <link>https://rustamjafar.com/en/008/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/008/</guid>
+      <guid>https://rustamjafar.com/en/008/</guid>
       <description>git: commit identity issue usually, i don’t use graphical user interface when working w/ git repos, and all of my work is happening in terminal. the same w/ github web page, i rarely visit it. one day, i decided to do so, to see how things are going there, and discovered that on my github landing page there was no any single commit that i had been doing through time. actually, when going into the repos, all of the commits were listed, but…​</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/009/</link>
+      <link>https://rustamjafar.com/en/009/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/009/</guid>
+      <guid>https://rustamjafar.com/en/009/</guid>
       <description>handling charity TODO: this note is about to be translated into arabic&#xA;in today’s world there’re plenty of donating strategies to use. for now i will consider giving to a charity in terms of how much money to donate, and not who should be the recipient of them.&#xA;so, these strategies include: creating different calendars, including payments frequency, amounts of wealth to be given keeping in my mind different types of social classes, etc.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/010/</link>
+      <link>https://rustamjafar.com/en/010/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/010/</guid>
+      <guid>https://rustamjafar.com/en/010/</guid>
       <description>a beautiful soil know your roots&#xA;being born and raised in dagestan, i think this list is worth remembering&#xA;the district of agul&#xA;the district of akhty&#xA;the district of akhvakh&#xA;the district of akushi&#xA;the district of babayurt&#xA;the district of botlikh&#xA;the district of buynaksk&#xA;the city of buynaksk&#xA;the district of charoda&#xA;the district of dakhada&#xA;the district of derbent&#xA;the city of derbent&#xA;the city of dagestan ogni</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/011/</link>
+      <link>https://rustamjafar.com/en/011/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/011/</guid>
+      <guid>https://rustamjafar.com/en/011/</guid>
       <description>bash: script_dir one liner here’s the small one liner to get the current directory of a script executed&#xA;SCRIPT_DIR=$(cd $(dirname &amp;#34;${BASH_SOURCE[0]}&amp;#34;) &amp;amp;&amp;amp; pwd) thanks to&#xA;https://codefather.tech/blog/bash-get-script-directory/</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/012/</link>
+      <link>https://rustamjafar.com/en/012/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/012/</guid>
+      <guid>https://rustamjafar.com/en/012/</guid>
       <description>rawgit but all things must end&#xA;following is the excrept from ryan groove’s, https://twitter.com/yaypie, creator of rawgit, final letter&#xA;RawGit is now in a sunset phase and will soon shut down. It’s been a fun five years, but all things must end.&#xA;GitHub repositories that served content through RawGit within the last month will continue to be served until at least October of 2019. URLs for other repositories are no longer being served.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/013/</link>
+      <link>https://rustamjafar.com/en/013/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/013/</guid>
+      <guid>https://rustamjafar.com/en/013/</guid>
       <description>touch typing it is all about xxi&#xA;i think being able to type w/out looking at a keyboard and looking for a letter you want to type is very important in the age of computers. that’s why i want to suggest you a website that will help you on your way to blind typing.&#xA;https://www.typingstudy.com/&#xA;no matter what the language is, you choose whatever you work, and start training. hope this helps.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/014/</link>
+      <link>https://rustamjafar.com/en/014/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/014/</guid>
+      <guid>https://rustamjafar.com/en/014/</guid>
       <description>arabic: web safe fonts excerpt from the article below:&#xA;arial (serif)&#xA;tahoma (sans-serif)&#xA;courier new (monotype)&#xA;https://medium.com/@harbbaraa15/the-comprehensive-guide-for-arabic-web-font-8c6e382a7119&#xA;below is an interesting article on wikipedia about simplified arabic font:&#xA;https://en.wikipedia.org/wiki/Simplified_Arabic</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/015/</link>
+      <link>https://rustamjafar.com/en/015/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/015/</guid>
+      <guid>https://rustamjafar.com/en/015/</guid>
       <description>linux: symbolic links a small code reminder to me for creating symbolic links in linux cli:&#xA;ln -s &amp;lt;target-file&amp;gt; &amp;lt;symlink-name&amp;gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/016/</link>
+      <link>https://rustamjafar.com/en/016/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/016/</guid>
+      <guid>https://rustamjafar.com/en/016/</guid>
       <description>math: s&amp;amp;z precalculus here’s a yt playlist w/ solutions to stitz and zeager algebra course&#xA;https://youtube.com/playlist?list=PL953A3729B0E03AAA&amp;amp;feature=shared&#xA;you can find an official book w/ all the latex source code, formula summary sheet and power points for different chapters here&#xA;https://www.stitz-zeager.com/&#xA;finally, in my opinion, it is one of the fundamental books in math community</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/017/</link>
+      <link>https://rustamjafar.com/en/017/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/017/</guid>
+      <guid>https://rustamjafar.com/en/017/</guid>
       <description>nginx: local server static webpage [mime types](#mime-types)&#xA;[403 forbidden](#403-forbidden)&#xA;below are some problems that occured while i was setting up nginx local server for testing my website.&#xA;mime types when browser throws out mime type error, try adding following to nginx config file /etc/nginx/nginx.conf:&#xA;http { include /etc/nginx/mime.types; include /etc/nginx/conf.d/*.conf; } don’t forget reloading w/:&#xA;sudo nginx -s reload&#xA;403 forbidden first, read about this error here:&#xA;https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403&#xA;then, set user in your /etc/nginx/nginx.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/018/</link>
+      <link>https://rustamjafar.com/en/018/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/018/</guid>
+      <guid>https://rustamjafar.com/en/018/</guid>
       <description>ssh: permissions here’s a small list of permissions that ssh wants you to follow&#xA;.ssh directory&#xA;700 (drwx------)&#xA;public key&#xA;644 (rw-r—​r--)&#xA;private key&#xA;600 (rw-------)&#xA;home directory&#xA;755 (drwxr-xr-x)&#xA;thanks to https://superuser.com/questions/215504/permissions-on-private-key-in-ssh-folder</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/019/</link>
+      <link>https://rustamjafar.com/en/019/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/019/</guid>
+      <guid>https://rustamjafar.com/en/019/</guid>
       <description>bryce vandegrift another power user&#xA;https://brycevandegrift.xyz/</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/020/</link>
+      <link>https://rustamjafar.com/en/020/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/020/</guid>
+      <guid>https://rustamjafar.com/en/020/</guid>
       <description>latex: installing tex install tex properly for the long run&#xA;issue the thing w/ installing tex distribution through ubuntu repositories, such as apt, apt-get, etc., is that you won’t be able to manage stand-alone tex packages later as needed.&#xA;https://help.ubuntu.com/community/LaTeX&#xA;so, for you to install single tex package you first have to check in which ubuntu package it is located, through apt-cache search &amp;lt;tex-package-name&amp;gt;, and then install that ubuntu package which in turn contains other unnecessary tex packages that you don’t need right now, thus taking free space on you machine.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/021/</link>
+      <link>https://rustamjafar.com/en/021/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/021/</guid>
+      <guid>https://rustamjafar.com/en/021/</guid>
       <description>physics: beginner’s guide here’s a link for everyone starting learning physics&#xA;i think this is one of the best on the internet&#xA;https://www.susanrigetti.com/physics</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/022/</link>
+      <link>https://rustamjafar.com/en/022/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/022/</guid>
+      <guid>https://rustamjafar.com/en/022/</guid>
       <description>transparency some words on transparency. excerpt from practical autodesk autocad 2023 by pandev &amp;amp; shoukry&#xA;generally, transparency is added to make objects of a similar color distinct, and it is also added when you want to print drawings so that they consume less ink.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/023/</link>
+      <link>https://rustamjafar.com/en/023/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/023/</guid>
+      <guid>https://rustamjafar.com/en/023/</guid>
       <description>bitcoin: paper wallet the most used website to generate bitcoin paper wallet&#xA;https://www.bitaddress.org</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/024/</link>
+      <link>https://rustamjafar.com/en/024/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/024/</guid>
+      <guid>https://rustamjafar.com/en/024/</guid>
       <description>nobel prize 2023 [physics](#physics)&#xA;[chemistry](#chemistry)&#xA;[physiology/medicine](#physiologymedicine)&#xA;[literature](#literature)&#xA;[peace](#peace)&#xA;[economics](#economics)&#xA;below are individuals who and the reason why they recieved this award in 2023&#xA;i write this down as a remainder for myself (only focusing on professional side, not personal)&#xA;physics pierre agostini&#xA;ferenc krausz&#xA;anne l’huillier&#xA;&amp;#34;for experimental methods that generate attosecond pulses of light for the study of electron dynamics in matter&amp;#34;&#xA;chemistry moungi bawendi&#xA;louis brus&#xA;aleksey yekimov</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/025/</link>
+      <link>https://rustamjafar.com/en/025/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/025/</guid>
+      <guid>https://rustamjafar.com/en/025/</guid>
       <description>css: multi-directional layout here’re some notes for those of you who use multi-dir on their websites.&#xA;css-tricks first, i recommend scamming through this article if you can find a solution here.&#xA;https://css-tricks.com/building-multi-directional-layouts&#xA;&amp;lt;div dir=&amp;#34;auto&amp;#34;&amp;gt;{content}&amp;lt;/div&amp;gt;&#xA;you can use any other tag in place of div. just keep in mind the tag is not recursive, meaning its children won’t be affected by this.&#xA;unicode-bidi i’ve also found smth. interesting on stack overflow</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/026/</link>
+      <link>https://rustamjafar.com/en/026/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/026/</guid>
+      <guid>https://rustamjafar.com/en/026/</guid>
       <description>mirror’s edge: the conglomerate i found it interesting the openning speech of protagonist in mirror’s edge video game. below is the partial transcript:&#xA;once, the city used to pulse with energy. dirty and dangerous, but alive and wonderful. now it’s something else. the changes came slowly at first. most did not realize or did not care, and accepted them. they chose a comfortable life. some didn’t. …​ and those who refused to conform were pushed to the sideline…​ criminalized.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/027/</link>
+      <link>https://rustamjafar.com/en/027/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/027/</guid>
+      <guid>https://rustamjafar.com/en/027/</guid>
       <description>argument vs parameter some cs vocabulary&#xA;argument is a coin&#xA;parameter is a coin acceptor</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/028/</link>
+      <link>https://rustamjafar.com/en/028/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/028/</guid>
+      <guid>https://rustamjafar.com/en/028/</guid>
       <description>blockchain: usdt gas fees get data on usdt gas fees here&#xA;https://gasfeesnow.com</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/029/</link>
+      <link>https://rustamjafar.com/en/029/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/029/</guid>
+      <guid>https://rustamjafar.com/en/029/</guid>
       <description>blockchain: coins vs tokens make the difference&#xA;all coins may be considered tokens, but no all tokens are considered coins. so, coins have their own blockchain, while tokens are build on existing blockchains, using technologies of the blockhain they are built upon.&#xA;thanks to https://www.youtube.com/watch?v=aLh8jlYYvZA</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/030/</link>
+      <link>https://rustamjafar.com/en/030/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/030/</guid>
+      <guid>https://rustamjafar.com/en/030/</guid>
       <description>japanese: imabi going to check out the following website for learning japanese&#xA;https://imabi.org/&#xA;will leave comments on this later</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/031/</link>
+      <link>https://rustamjafar.com/en/031/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/031/</guid>
+      <guid>https://rustamjafar.com/en/031/</guid>
       <description>bash: subshell small reminder for myself about running shell scripts&#xA;current shell . &amp;lt;script&amp;gt;&#xA;this one above runs script in current shell, thus:&#xA;all the local variables of current shell are available to &amp;lt;script&amp;gt;. the . is interchangable w/ source.&#xA;exported variables from &amp;lt;script&amp;gt; are also available to current shell.&#xA;subshell ./&amp;lt;script&amp;gt;&#xA;this one creates subshell for &amp;lt;script&amp;gt; and then executes it in there.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/032/</link>
+      <link>https://rustamjafar.com/en/032/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/032/</guid>
+      <guid>https://rustamjafar.com/en/032/</guid>
       <description>cs: cpu architectures x86_64, x86, amd64&#xA;64-bit amd/intel&#xA;AArch64, arm64, ARMv8, ARMv9&#xA;64-bit arm&#xA;i386&#xA;32-bit amd/intel&#xA;AArch32, arm, ARMv1..v7&#xA;32-bit arm&#xA;rv64gc, rv64g&#xA;64-bit risc-v&#xA;ppc64le&#xA;64-bit powerpc&#xA;thanks to https://itsfoss.com/arm-aarch64-x86_64/</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/033/</link>
+      <link>https://rustamjafar.com/en/033/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/033/</guid>
+      <guid>https://rustamjafar.com/en/033/</guid>
       <description>business handwriting: timing double straight lines and ovals (drill 2) single ovals (drill 4) loops (drill 24) 10-stroked capital m (drill 25) alphabet letters capital a capital b (drill 86, 87) TODO: get the note to be completed&#xA;here’re some average times a student has to spend while training handwriting. these drills are taken from the palmer method of business writing.&#xA;double straight lines and ovals (drill 2) 200 downward strokes to a minute</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/034/</link>
+      <link>https://rustamjafar.com/en/034/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/034/</guid>
+      <guid>https://rustamjafar.com/en/034/</guid>
       <description>ssh: keep alive the session server keep alive client keep alive server keep alive the settings shown below has to be put into config file on the server side&#xA;client keep alive the settings shown below has to be put into .ssh/config on the client side&#xA;ServerAliveCountMax &amp;lt;number&amp;gt; means:&#xA;client will send &amp;lt;number&amp;gt; of packets before disconnecting from the sever&#xA;ServerAliveInterval `&amp;lt;seconds&amp;gt; means:&#xA;client will send packets every &amp;lt;seconds&amp;gt; to keep the connection alive</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/035/</link>
+      <link>https://rustamjafar.com/en/035/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/035/</guid>
+      <guid>https://rustamjafar.com/en/035/</guid>
       <description>typing multiple languages in this note i want to share my exprience of typing several languages. i’m going to talk about which encoding and text editor i use&#xA;utf-8 utf-8 is encoding to use.&#xA;TODO: reason to be expalined&#xA;vim vim is note editor of choice.&#xA;TODO: reason to be expalined TODO: separate note on how to configure vim for multilingualism</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/038/</link>
+      <link>https://rustamjafar.com/en/038/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/038/</guid>
+      <guid>https://rustamjafar.com/en/038/</guid>
       <description>books: project gutenberg check out https://gutenberg.org/&#xA;TODO: notes later</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/039/</link>
+      <link>https://rustamjafar.com/en/039/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/039/</guid>
+      <guid>https://rustamjafar.com/en/039/</guid>
       <description>lightweight typesetting considering asciidoc over markdown&#xA;my thoughts seem to align with those of rwxrob&#xA;https://www.youtube.com/watch?v=4StJh_j7MgA&#xA;TODO: i’ll deliver my thoughts on this later</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/040/</link>
+      <link>https://rustamjafar.com/en/040/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/040/</guid>
+      <guid>https://rustamjafar.com/en/040/</guid>
       <description>comptia: cs fundamentals consider going through comptia courses when you wan’t to start smth. new in computer science (cs), they’re not vendor specific, thus will give a general glimpse into the field</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/041/</link>
+      <link>https://rustamjafar.com/en/041/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/041/</guid>
+      <guid>https://rustamjafar.com/en/041/</guid>
       <description>calibre: managing book library i recommend that you use calibre software to manage your book library. when you export it use both methods:&#xA;calibre database hard files like pdfs, epubs, etc.&#xA;TODO: elaborate on these topics</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/042/</link>
+      <link>https://rustamjafar.com/en/042/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/042/</guid>
+      <guid>https://rustamjafar.com/en/042/</guid>
       <description>bitcoin: exchange https://www.bestchange.com/</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/043/</link>
+      <link>https://rustamjafar.com/en/043/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/043/</guid>
+      <guid>https://rustamjafar.com/en/043/</guid>
       <description>entrepreneurship: skills self-improvement is important in entrepreneurship. and it is well known that two types of skills should be improved. these are soft and hard skills. below are my own thoughts on which resources should be used.&#xA;soft skills all the books of robert greene&#xA;some books that go under the title of emily post&#xA;although these both don’t go well with each other&#xA;hard skills for hard skills you can:</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/044/</link>
+      <link>https://rustamjafar.com/en/044/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/044/</guid>
+      <guid>https://rustamjafar.com/en/044/</guid>
       <description>website: new workflow my current workflow of maintaining the website consists of:&#xA;markdown for marking up the document&#xA;pandoc for generating html pages&#xA;bash for some of my small scripts that are used to generate the whole website&#xA;https://github.com/m7tkr/www/tree/main/docs/scripts&#xA;as i said earlier, i’m considering transition from markdown to asciidoc. as it turned out, using asciidoc w/ pandoc and bash is very time-consuming for generating html pages. thus i’ve decided to learn hugo (static website generator written in golang) https://gohugo.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/045/</link>
+      <link>https://rustamjafar.com/en/045/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/045/</guid>
+      <guid>https://rustamjafar.com/en/045/</guid>
       <description>james r hoffa who remembers him?</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/046/</link>
+      <link>https://rustamjafar.com/en/046/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/046/</guid>
+      <guid>https://rustamjafar.com/en/046/</guid>
       <description>poweruser: another one https://stiobhart.net/</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/047/</link>
+      <link>https://rustamjafar.com/en/047/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/047/</guid>
+      <guid>https://rustamjafar.com/en/047/</guid>
       <description>reddit: pros ask the reddit community first&#xA;you can also find the reddit page of the field you are interested in and check for some useful links on its front page</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/048/</link>
+      <link>https://rustamjafar.com/en/048/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/048/</guid>
+      <guid>https://rustamjafar.com/en/048/</guid>
       <description>color minimalism custom colorscheme colors in my life here i explain how i use colours in vim&#xA;custom colorscheme to maintain my own colorscheme in vim i use lifepillar/vim-colortemplate, https://github.com/lifepillar/vim-colortemplate.&#xA;show current buffer highlight groups:&#xA;:hi[ghlight] show color group under cursor in vim w/:&#xA;:execute &amp;#39;hi&amp;#39; synIDattr(synID(line(&amp;#34;.&amp;#34;), col(&amp;#34;.&amp;#34;), 1), &amp;#34;name&amp;#34;) when setting colors for specific color group, specify it for both light and dark variants of the colorscheme. TODO: elaborate on this.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/049/</link>
+      <link>https://rustamjafar.com/en/049/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/049/</guid>
+      <guid>https://rustamjafar.com/en/049/</guid>
       <description>kipling: if — here’s one of the greatest poems in modern history&#xA;If you can keep your head when all about you Are losing theirs and blaming it on you; If you can trust yourself when all men doubt you, But make allowance for their doubting too: If you can wait and not be tired by waiting, Or being lied about, don’t deal in lies, Or being hated don’t give way to hating, And yet don’t look too good, nor talk too wise;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/050/</link>
+      <link>https://rustamjafar.com/en/050/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/050/</guid>
+      <guid>https://rustamjafar.com/en/050/</guid>
       <description>git: reset a few notes for myself in regards to what is said in the title&#xA;head&#xA;index&#xA;working tree&#xA;soft reset git reset --soft &amp;lt;commit-name&amp;gt;&#xA;simply moves head to &amp;lt;commit-name&amp;gt;, index and working tree are intact. this one is same as:&#xA;git commit --ammend&#xA;mixed reset git reset --mixed &amp;lt;commit-name&amp;gt;&#xA;updates index with whatever &amp;lt;commit-name&amp;gt; head points to, working tree is intact.&#xA;hard reset git reset --hard &amp;lt;commit-name&amp;gt;&#xA;updates head, index and working tree w/ whatever &amp;lt;commit-name&amp;gt; head points to.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/051/</link>
+      <link>https://rustamjafar.com/en/051/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/051/</guid>
+      <guid>https://rustamjafar.com/en/051/</guid>
       <description>petro: wiki general engineering drilling engineering faculties and construction engineering production operations engineering reservoir engineering and petrophysics emerging peripheral technologies index and standards w/ my specialist’s degree in medicine, i’ve been admitted to graduate school to get master’s degree in petroleum engineering (more on this background later). so as i have no undergraduate knowledge in this field, i need to catch up my fellow students quickly. thus searching inside the petro industry i think one good resource that extensively covers this field is the spe website https://www.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/052/</link>
+      <link>https://rustamjafar.com/en/052/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/052/</guid>
+      <guid>https://rustamjafar.com/en/052/</guid>
       <description>math: greek alphabet you definitely need this one if you’re a part of math community</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/053/</link>
+      <link>https://rustamjafar.com/en/053/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/053/</guid>
+      <guid>https://rustamjafar.com/en/053/</guid>
       <description>math: calculus there’s a very good explanation on reddit by u/Dr0110111001101111 https://www.reddit.com/user/Dr0110111001101111/ about stewart’s calculus: early transcendentals&#xA;Early Transcendentals is the way to go. This is the book that made James Stewart a very wealthy guy.&#xA;Prior to Stewart writing that book, virtually every calculus book used a sequence that is now known as &amp;#34;late transcendentals&amp;#34;. They didn’t have a term for it back then, because they didn’t need one. It was the only way to go.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/054/</link>
+      <link>https://rustamjafar.com/en/054/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/054/</guid>
+      <guid>https://rustamjafar.com/en/054/</guid>
       <description>linux: time zone all the info is available at https://wiki.archlinux.org/title/System_time. below are the commands i used in my personal case.&#xA;show current time zone for the system:&#xA;timedatectl status&#xA;list availabe time zones w/:&#xA;timedatectl list-timezones&#xA;set time zone w/:&#xA;timedatectl set-timezone &amp;lt;Zone/SubZone&amp;gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/055/</link>
+      <link>https://rustamjafar.com/en/055/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/055/</guid>
+      <guid>https://rustamjafar.com/en/055/</guid>
       <description>math: glossary this both get out of my head all the time, definition vs theorem, and others.&#xA;https://users.math.msu.edu/users/duncan42/AxiomNotes.pdf</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/056/</link>
+      <link>https://rustamjafar.com/en/056/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/056/</guid>
+      <guid>https://rustamjafar.com/en/056/</guid>
       <description>math: trigonometry here’s some visuals of basic circular functions&#xA;thanks to https://simpliengineering.com/t/origin-of-trig-terms-tangent-and-secant/1886&#xA;there’s also a good comment following by the user BAretired:&#xA;I love that diagram of a circle of unit radius. It makes everything so clear and actually gives us a rough idea of approximately what size the various trig functions should be.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/057/</link>
+      <link>https://rustamjafar.com/en/057/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/057/</guid>
+      <guid>https://rustamjafar.com/en/057/</guid>
       <description>clothes: standards clearly explainded standards for men’s apparel&#xA;https://propercloth.com/reference/category/fit-advice/</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/058/</link>
+      <link>https://rustamjafar.com/en/058/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/058/</guid>
+      <guid>https://rustamjafar.com/en/058/</guid>
       <description>libretexts i recommend that you check out the library section of the web site below. generally, this is all about science.&#xA;https://libretexts.org/</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/059/</link>
+      <link>https://rustamjafar.com/en/059/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/059/</guid>
+      <guid>https://rustamjafar.com/en/059/</guid>
       <description>latex: manage packages tlmgr&#xA;$ tlmgr usertree $ sudo `which tlmgr` &amp;lt;options&amp;gt; &amp;lt;package-name&amp;gt; kpsewhich&#xA;TODO: finish up writing this note</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/060/</link>
+      <link>https://rustamjafar.com/en/060/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/060/</guid>
+      <guid>https://rustamjafar.com/en/060/</guid>
       <description>windows: multilang keyboard on windows os having multiple input languages, you can select previous input method w/:&#xA;ctrl + win + space&#xA;the above will only work if you use win + space to change your input language and not the default shift + alt&#xA;TODO: explain this later</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/061/</link>
+      <link>https://rustamjafar.com/en/061/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/061/</guid>
+      <guid>https://rustamjafar.com/en/061/</guid>
       <description>linux: manage fonts fontconfig check installed fonts download font file manually install font delete font in this note, i’ll try to show how i manage fonts on my linux machine.&#xA;fontconfig fontconfig is the system that controls fonts in linux machines. it includes the following programs:&#xA;fc-cache to maintain the fontconfig cache&#xA;fc-list to list installed fonts&#xA;fc-match to test the matching rules&#xA;fc-cat to dump the binary cache files in string form</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/062/</link>
+      <link>https://rustamjafar.com/en/062/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/062/</guid>
+      <guid>https://rustamjafar.com/en/062/</guid>
       <description>typeface: arabic monospaced there’re not that many monospace arabic fonts out there, but an interesting attempt has been made by user eliheuer and published on github at https://github.com/eliheuer/hasubi-mono</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/063/</link>
+      <link>https://rustamjafar.com/en/063/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/063/</guid>
+      <guid>https://rustamjafar.com/en/063/</guid>
       <description>latex: manage fonts compiling fonts fontspec package set default font family selecting font i will show which tex commands i use for selecting different fonts when creating tex document. all the info below is just a summary of the following articles.&#xA;compiling for compiling tex document i recommend that you use xelatex instead of pdflatex engine because of its native support of utf-8, https://www.overleaf.com/learn/latex/Articles/Unicode%2C_UTF-8_and_multilingual_text%3A_An_introduction.&#xA;fonts make sure otf or ttf fonts are installed on your machine.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/064/</link>
+      <link>https://rustamjafar.com/en/064/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/064/</guid>
+      <guid>https://rustamjafar.com/en/064/</guid>
       <description>rwxrob: don’t quit your job in this video, https://youtu.be/hHaH0SChHzw, rwxrob says that you shouldn’t quit while taking his beginner boost course.&#xA;there’s also a good comment i agree with from user @sp123&#xA;Its better to try with obstacles to see if you actually enjoy it. Someone quitting their job then realizing they dont like it caused themselves unnecessary pain&#xA;what i would add is that if you want to start smth new, first try to balance your work and study, maybe work part time or schedule your study time after hours, if neither helps, choose the one that matters most to you.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/065/</link>
+      <link>https://rustamjafar.com/en/065/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/065/</guid>
+      <guid>https://rustamjafar.com/en/065/</guid>
       <description>admiral mcraven TODO: here be mcravens 10 advice</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/066/</link>
+      <link>https://rustamjafar.com/en/066/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/066/</guid>
+      <guid>https://rustamjafar.com/en/066/</guid>
       <description>notes: structure TODO: here i will describe the folder structure i use when taking notes on a pc</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/067/</link>
+      <link>https://rustamjafar.com/en/067/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/067/</guid>
+      <guid>https://rustamjafar.com/en/067/</guid>
       <description>vocabulary: context learn new vocabulary in context, always use sentences, whatever they are. never ever learn just words on their own.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/068/</link>
+      <link>https://rustamjafar.com/en/068/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/068/</guid>
+      <guid>https://rustamjafar.com/en/068/</guid>
       <description>encryption: gpg and sha use gpg for email encryption and sha to make sure that you’ve got the original that hasn’t been corrupted&#xA;you can use have i been pwned to check whether your email has been compromised at https://haveibeenpwned.com/</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/069/</link>
+      <link>https://rustamjafar.com/en/069/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/069/</guid>
+      <guid>https://rustamjafar.com/en/069/</guid>
       <description>speed reading: a word at a time http://onewordreader.com/&#xA;TODO: i’ll try first, then will follow up with my own thoughts on this.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/070/</link>
+      <link>https://rustamjafar.com/en/070/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/070/</guid>
+      <guid>https://rustamjafar.com/en/070/</guid>
       <description>time management always time your sessions, no matter what the session is, no matter where it takes place.&#xA;when timing your session, place your watch where you can always see it in a matter of seconds.&#xA;TODO: go into this in more detail later</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/071/</link>
+      <link>https://rustamjafar.com/en/071/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/071/</guid>
+      <guid>https://rustamjafar.com/en/071/</guid>
       <description>mba: curriculum becoming a manager, definitely recommend taking some mba courses.&#xA;https://www.gsb.stanford.edu/programs/mba/academic-experience/curriculum/first-year&#xA;TODO: elaborate on this</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/072/</link>
+      <link>https://rustamjafar.com/en/072/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/072/</guid>
+      <guid>https://rustamjafar.com/en/072/</guid>
       <description>vocabulary: multilang nowadays, english is the language of science. so if you are studying science outside english-speaking countries, make sure you use the right translation, so that the locals can understand you.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/073/</link>
+      <link>https://rustamjafar.com/en/073/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/073/</guid>
+      <guid>https://rustamjafar.com/en/073/</guid>
       <description>system dynamics TODO: research this</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/074/</link>
+      <link>https://rustamjafar.com/en/074/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/074/</guid>
+      <guid>https://rustamjafar.com/en/074/</guid>
       <description>latex: multilang babel vs polyglossia&#xA;installing hypenation for each language&#xA;TODO: i will try both and then write up my thoughts later.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/075/</link>
+      <link>https://rustamjafar.com/en/075/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/075/</guid>
+      <guid>https://rustamjafar.com/en/075/</guid>
       <description>mba: executives in my opinion, there’re 3 types of managers you can learn from, and they are american, german and japanese managers. they all use different strategies for execution.&#xA;TODO: elaborate on this</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/076/</link>
+      <link>https://rustamjafar.com/en/076/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/076/</guid>
+      <guid>https://rustamjafar.com/en/076/</guid>
       <description>cs: suckless philosophy i recommend that you read suckless.org philosophy to sharpen your programming skills at https://suckless.org/.&#xA;and of rwxrob’s recommendations in one of his beginner’s boost is to read the style and coding guidelines for each specific language, as it will make your code consistent throughout the document. that is, if you’re coding in c, just google &amp;#34;c coding guidlines&amp;#34; and you’ll get the results.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/077/</link>
+      <link>https://rustamjafar.com/en/077/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/077/</guid>
+      <guid>https://rustamjafar.com/en/077/</guid>
       <description>bash: shellcheck when coding bash, you can check your scripts with https://www.shellcheck.net/</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/078/</link>
+      <link>https://rustamjafar.com/en/078/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/078/</guid>
+      <guid>https://rustamjafar.com/en/078/</guid>
       <description>kardashev scale an interesting mention from elon musk’s x page&#xA;TODO: explore this topic</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/079/</link>
+      <link>https://rustamjafar.com/en/079/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/079/</guid>
+      <guid>https://rustamjafar.com/en/079/</guid>
       <description>windows: terminal configuring github bash in windows terminal app is described at https://neutrondev.com/add-git-bash-windows-terminal/&#xA;TODO: another note explaning my linux workflow on windows machines</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/080/</link>
+      <link>https://rustamjafar.com/en/080/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/080/</guid>
+      <guid>https://rustamjafar.com/en/080/</guid>
       <description>math: desmos check out some of the desmos tutorials. there’s hidden power underneath.&#xA;TODO: check out geogebra</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/081/</link>
+      <link>https://rustamjafar.com/en/081/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/081/</guid>
+      <guid>https://rustamjafar.com/en/081/</guid>
       <description>lesswrong While truthfulness is a property of beliefs, rationality is a property of reasoning processes&#xA;— LessWrong https://www.lesswrong.com&#xA;it is my recommendation that you read their user guide first</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/082/</link>
+      <link>https://rustamjafar.com/en/082/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/082/</guid>
+      <guid>https://rustamjafar.com/en/082/</guid>
       <description>klin: data viz some pretty good data visualization projects from these gentlemen at https://www.kiln.digital/</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/083/</link>
+      <link>https://rustamjafar.com/en/083/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/083/</guid>
+      <guid>https://rustamjafar.com/en/083/</guid>
       <description>forensics i don’t know, but i think forensics can be a great help in life, because of the breadth of topics it covers. you can start at https://www.forensicsciencesimplified.org/</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/084/</link>
+      <link>https://rustamjafar.com/en/084/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/084/</guid>
+      <guid>https://rustamjafar.com/en/084/</guid>
       <description>anki: workflow creating decks, notes, note types, note styles, cards, and tags in anki, don’t overcomplicate them and try to keep them as simple as possible.&#xA;TODO: explain workflow i use when learning languages</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/085/</link>
+      <link>https://rustamjafar.com/en/085/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/085/</guid>
+      <guid>https://rustamjafar.com/en/085/</guid>
       <description>petro: slb glossary what a good energy industry glossary slb has&#xA;https://glossary.slb.com/</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/086/</link>
+      <link>https://rustamjafar.com/en/086/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/086/</guid>
+      <guid>https://rustamjafar.com/en/086/</guid>
       <description>american posture league The enterprise was not a commercial success, …​&#xA;— from wikipedia https://en.wikipedia.org/wiki/American_Posture_League </description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/087/</link>
+      <link>https://rustamjafar.com/en/087/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/087/</guid>
+      <guid>https://rustamjafar.com/en/087/</guid>
       <description>khan academy: player by default, khan academy uses youtube player to play its videos, but you can disable this behaviuor by doing the following:&#xA;At the end of a video’s link right after ?modal=1—, add this string: &amp;amp;disable_youtube=1. By doing this, YouTube will be blocked and the fallback player will be triggered. In case the video’s link ends in anything that’s not ?modal=1, add ?modal=1&amp;amp;disable_youtube=1 instead.&#xA;— u/Andrew you can find the original post here https://support.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/088/</link>
+      <link>https://rustamjafar.com/en/088/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/088/</guid>
+      <guid>https://rustamjafar.com/en/088/</guid>
       <description>mafia closing speech here be the closing speech from the video game &amp;#34;mafia: the city of lost haven&amp;#34;.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/089/</link>
+      <link>https://rustamjafar.com/en/089/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/089/</guid>
+      <guid>https://rustamjafar.com/en/089/</guid>
       <description>nick: names some recommendations from me when creating a nickname that will be used in the english-speaking community:&#xA;take latin examples from ancient rome, e.g., …​&#xA;from above you can omit parts, e.g., navi&#xA;TODO: tbc …​</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/090/</link>
+      <link>https://rustamjafar.com/en/090/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/090/</guid>
+      <guid>https://rustamjafar.com/en/090/</guid>
       <description>mba: billions in one of the episodes of the &amp;#34;billions&amp;#34; series, the protagonist, taylor mason, says:&#xA;Even when you try to keep things mathematical, the satisfying solution is not always available.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/091/</link>
+      <link>https://rustamjafar.com/en/091/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/091/</guid>
+      <guid>https://rustamjafar.com/en/091/</guid>
       <description>nginx: proxy TODO: describe this</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/092/</link>
+      <link>https://rustamjafar.com/en/092/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/092/</guid>
+      <guid>https://rustamjafar.com/en/092/</guid>
       <description>aard: vocabulary https://aarddict.org/&#xA;i recommend that you use aard dictionary for it is based on wiktionary.&#xA;TODO: expand on this and on wiktionary</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/093/</link>
+      <link>https://rustamjafar.com/en/093/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/093/</guid>
+      <guid>https://rustamjafar.com/en/093/</guid>
       <description>cs: lynx lynx is the text web browser&#xA;https://lynx.invisible-island.net/&#xA;TODO: expand on this</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/094/</link>
+      <link>https://rustamjafar.com/en/094/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/094/</guid>
+      <guid>https://rustamjafar.com/en/094/</guid>
       <description>golden ratio: logos when creating smth try to use the golden section, for nature is based on it.&#xA;it is approx 1.618&#xA;TODO: elaborate on this</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/095/</link>
+      <link>https://rustamjafar.com/en/095/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/095/</guid>
+      <guid>https://rustamjafar.com/en/095/</guid>
       <description>calendar i recommend that you learn how to use calendar effectively.&#xA;TODO: elaborate on this</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/096/</link>
+      <link>https://rustamjafar.com/en/096/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/096/</guid>
+      <guid>https://rustamjafar.com/en/096/</guid>
       <description>google scholar Stand on the shoulders of giants&#xA;don’t forget about it</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/097/</link>
+      <link>https://rustamjafar.com/en/097/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/097/</guid>
+      <guid>https://rustamjafar.com/en/097/</guid>
       <description>search-centered personally, i struggle to maintain the content structure of my files on the pc, so when i heard rwxrob&amp;#39;s about being search-centeric, it made my life a lot easier.&#xA;TODO: elaborate on this</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/098/</link>
+      <link>https://rustamjafar.com/en/098/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/098/</guid>
+      <guid>https://rustamjafar.com/en/098/</guid>
       <description>mba: it’s up to us! No one is coming, it’s up to us!&#xA;this is from the back cover of brendan bechtel’s ipad.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/099/</link>
+      <link>https://rustamjafar.com/en/099/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/099/</guid>
+      <guid>https://rustamjafar.com/en/099/</guid>
       <description>petro: spe curriculum the spe model petroleum engineering curriculum is linked below&#xA;https://www.spe.org/members/docs/Model-Petroleum-Engineering-Curriculum.pdf</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/100/</link>
+      <link>https://rustamjafar.com/en/100/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/100/</guid>
+      <guid>https://rustamjafar.com/en/100/</guid>
       <description>cs: unix philosophy The Unix philosophy is documented by Doug McIlroy in the Bell System Technical Journal from 1978:&#xA;Make each program do one thing well. To do a new job, build afresh rather than complicate old programs by adding new &amp;#34;features&amp;#34;.&#xA;Expect the output of every program to become the input to another, as yet unknown, program. Don’t clutter output with extraneous information. Avoid stringently columnar or binary input formats.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/101/</link>
+      <link>https://rustamjafar.com/en/101/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/101/</guid>
+      <guid>https://rustamjafar.com/en/101/</guid>
       <description>wayback machine check out way back machine for the copy of web pages that are not available as for today&#xA;https://webcf.waybackmachine.org/</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/102/</link>
+      <link>https://rustamjafar.com/en/102/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/102/</guid>
+      <guid>https://rustamjafar.com/en/102/</guid>
       <description>fixit: battery replacement check out cameron sino branded batteries when choosing a replacement for your device. i’ve already replaced my google pixel’s battery with one of this brand. i’ll try to report on my experience using few months later.&#xA;zhanglida glue. below is the page to help you choose the correct type of adhesive&#xA;https://www.zhanlidaadhesive.com/which-to-buy/?v=920f83e594a1</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/103/</link>
+      <link>https://rustamjafar.com/en/103/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/103/</guid>
+      <guid>https://rustamjafar.com/en/103/</guid>
       <description>TOGGLING CAPS LOCK WHILE WATCHING TRUMP’S NBC INTERVIEW, I DECIDED TO TURN ON SUBTITLES TO LEARN SOME NEW VOCABULARY. I NOTICED THAT THESE SUBTITLES WERE WRITTEN IN CAPS-LOCKED MODE. HONESTLY, I LOVED IT AND WILL BE USING CAPS LOCK LETTERS IN MY DAILY LIFE.&#xA;BELOW IS TRUMP’S INTERVIEW&#xA;https://www.youtube.com/watch?v=b607adhuu2i&amp;amp;t=6s&#xA;TODO: ELABORATE ON THIS (DON’T FORGET LINUX IS CASE-SENSITIVE)</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/104/</link>
+      <link>https://rustamjafar.com/en/104/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/104/</guid>
+      <guid>https://rustamjafar.com/en/104/</guid>
       <description>DO NOT DISCREDIT YOURSELF BELOW I WILL POST EXCERPTS FROM 2020 TRUMP’S 60 MUNIUTE INTERVIEW. I KNOW WHO THE INTERVIEWER WAS, BUT HONESTLY, I JUST DON’T WANT HER NAME TO BE POSTED ON MY SITE. THAT’S WHY I’ILL JUST USE THE WORD &amp;#34;INTERVIEWER&amp;#34; INSTEAD.&#xA;…​&#xA;&amp;lt;INTERVIEWER&amp;gt;: (23:10) Do you think that your tweets and your name calling are turning people off?&#xA;Donald Trump: (23:18) No, I think I wouldn’t be here if I didn’t have social media, because the media is corrupt.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/105/</link>
+      <link>https://rustamjafar.com/en/105/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/105/</guid>
+      <guid>https://rustamjafar.com/en/105/</guid>
       <description>LINUX: FREE VS TIME WHAT IT TAKES TO LEARN LINUX? BASICALLY, WITH ALL PROGRAMS THAT ARE FREE AND OPEN SOURCE, YOU SACRIFICE YOUR FREE TIME.&#xA;TODO: FIND THE COMMENTARY THAT CONCISELY EXPLAINS THE CONCEPT</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/106/</link>
+      <link>https://rustamjafar.com/en/106/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/106/</guid>
+      <guid>https://rustamjafar.com/en/106/</guid>
       <description>DAILY FOCUS: CALCULUS, ENGINEERING, MBA, ROBERTGREENE, EMILYPOST, R, LATEX FOR REPORTS, DECISION THEORY, WRITING WITH LEFT HAND, WORLD FOLKLORE, ABSTRACT EXPRESSIONISM, HISTORY, HANDWRITING, CS, HUGO, REGEX, C, GO, MAKING FONTS, DATA SCIENCE, TABLEAU OR SIMILAR, JAPANESE, ARABIC, SETERRA. PODCASTS: THAMANYA, 99 INVISIBLE, TED BUSINESS, AWESOME ETIQUETTE, PROSTO ISTORIIA. CHANNELS: OBSHCHESTVENNIY INTERES RGVK, TIMOUR GHAZI, USEFUL CHARTS, MKBHD, THE B1M, GEOGUESSR, SSTLNSK, WORLD, CHASE TAG, MURAD LA RIBA, CULTURE MAFIA, IMSA, WRC RALLY, WEC, CALEB CURRY CS, LUKE SMITH, RWXROB, NATGEO.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/107/</link>
+      <link>https://rustamjafar.com/en/107/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/107/</guid>
+      <guid>https://rustamjafar.com/en/107/</guid>
       <description>VIM: CAPS LOCK SHORTCUTS SOME USEFULL SHORTCUTS TO TURN YOUR TEXT INTO UPPER OR LOWER CASE LETTERS&#xA;https://stackoverflow.com/questions/2946051/changing-case-in-vim, fallback /107_saved.html&#xA;TODO: CONCISELY REWRITE THE ARTICLE</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/108/</link>
+      <link>https://rustamjafar.com/en/108/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/108/</guid>
+      <guid>https://rustamjafar.com/en/108/</guid>
       <description>WEBSITE: WORKFLOW AS OF 20240518114611, I’VE MOVED MY ENTIRE WEBSITE TO HUGO. I’VE SET IT UP, CREATED TEMPLATES AND STYLES TO BE USED W/ THEM. AND IN GENERAL, I LOVE HUGO. IT IS A REALLY COOL TOOL TO USE IF YOU BUILD WEBSITES ON A REGULAR BASIS.&#xA;BUT THE THING IS, I’M PURSUING MASTER’S IN ENGINEERING, not in cs. i study engineering a lot, and everything associated w/ it. still i try to manage my notes, i use every tool possible to jot them down whenever and wherever i am.</description>
     </item>
   </channel>
