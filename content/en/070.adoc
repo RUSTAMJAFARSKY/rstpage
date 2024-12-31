@@ -7,4 +7,6 @@ id: 20240922084538
 always time your sessions, no matter what the session is, no matter
 where it takes place.
 
+when timing your session, place your watch where you can always see it in a matter of seconds.
+
 TODO: go into this in more detail later

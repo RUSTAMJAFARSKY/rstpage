@@ -1,0 +1,10 @@
+---
+id: 20241130062617
+---
+# wayback machine
+:showtitle:
+
+check out way back machine for the copy of web pages that are not available
+as for today
+
+https://webcf.waybackmachine.org/

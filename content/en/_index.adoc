@@ -1,5 +1,5 @@
 ---
 layout: list
 ---
-_all notes are subject to change as i gain knowledge and experience
-through life_
+ALL NOTES ARE SUBJECT TO CHANGE AS I GAIN KNOWLEDGE AND EXPERIENCE
+THROUGH LIFE

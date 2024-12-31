@@ -1,0 +1,9 @@
+---
+id: 20241123044946
+---
+= petro: spe curriculum
+:showtitle:
+
+the spe model petroleum engineering curriculum is linked below
+
+https://www.spe.org/members/docs/Model-Petroleum-Engineering-Curriculum.pdf

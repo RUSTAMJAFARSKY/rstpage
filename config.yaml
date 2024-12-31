@@ -33,9 +33,9 @@ languages:
     weight: 20
     params:
       intention: >-
-        in the name of god, the most beneficent, the most merciful
+        IN THE NAME OF GOD, THE MOST BENEFICENT, THE MOST MERCIFUL
       contact: >-
-        rst.jafar@gmail.com
+        RST.JAFAR@GMAIL.COM
   ru:
     disabled: false
     contentDir: content/ru
@@ -45,9 +45,9 @@ languages:
     weight: 40
     params:
       intention: >-
-        во имя бога, милостивого, милующего
+        ВО ИМЯ БОГА, МИЛОСТИВОГО, МИЛУЮЩЕГО
       contact: >-
-        свяжитесь со мной
+        СВЯЖИТЕСЬ СО МНОЙ
 # remove hugo version mention in generated html
 disableHugoGeneratorInject: true
 
