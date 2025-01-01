@@ -11,14 +11,24 @@
 </header>
 {{ end }}
 {{ define "body" }}
-{{ .Content }}
+<div>
+<p dir="rtl" >
+أستخدم توقيت غرينتش.
+</p>
+<p>
+ALL DATES AND TIMES ARE GIVEN IN ETC/UTC.
+</p>
+<p>
+УКАЗАНО СРЕДНЕЕ ВРЕМЯ ПО ГРИНВИЧУ
+</p>
+</div>
 {{ if .IsTranslated }}
-{{ range .Translations }}
-  <p>
-  <a href="{{ .RelPermalink }}">RUSTAMJAFAR.COM{{ .RelPermalink }}{{ end }}
-  </a>
-  <p>
-  {{ end }}
+{{ range sort .Translations "RelPermalink" "asc"}}
+<p>
+<a href="{{ .RelPermalink }}">RUSTAMJAFAR.COM{{ .RelPermalink | upper }}</a>
+<p>
+{{ end }}
+{{ end }}
 {{ end }}
 {{ define "footer" }}
 <hr/>

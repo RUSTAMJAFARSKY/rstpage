@@ -310,13 +310,6 @@
     </item>
     <item>
       <title></title>
-      <link>https://rustamjafar.com/en/046/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://rustamjafar.com/en/046/</guid>
-      <description>poweruser: another one https://stiobhart.net/</description>
-    </item>
-    <item>
-      <title></title>
       <link>https://rustamjafar.com/en/047/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://rustamjafar.com/en/047/</guid>
@@ -747,7 +740,7 @@
       <link>https://rustamjafar.com/en/108/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://rustamjafar.com/en/108/</guid>
-      <description>WEBSITE: WORKFLOW AS OF 20240518114611, I’VE MOVED MY ENTIRE WEBSITE TO HUGO. I’VE SET IT UP, CREATED TEMPLATES AND STYLES TO BE USED W/ THEM. AND IN GENERAL, I LOVE HUGO. IT IS A REALLY COOL TOOL TO USE IF YOU BUILD WEBSITES ON A REGULAR BASIS.&#xA;BUT THE THING IS, I’M PURSUING MASTER’S IN ENGINEERING, not in cs. i study engineering a lot, and everything associated w/ it. still i try to manage my notes, i use every tool possible to jot them down whenever and wherever i am.</description>
+      <description>WEBSITE: WORKFLOW AS OF 20240518114611, I’VE SET HUGO UP AND I’VE MOVED MY ENTIRE WEBSITE THERE. YOU CAN READ ABOUT MY PREVIOUS WORKFLOW IN THE NOTE BY REFERENCING MENTIONED ID. IN GENERAL, I LOVE HUGO. IT IS A REALLY COOL TOOL TO USE IF YOU BUILD WEBSITES ON A REGULAR BASIS.&#xA;BUT THE THING IS, I DON’T USE IT IN THE WAY DESCRIBED ABOVE. I’M PURSUING MASTER’S IN ENGINEERING, NOT IN CS.</description>
     </item>
   </channel>
 </rss>

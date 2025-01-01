@@ -1,4 +1,3 @@
 ---
 layout: index
 ---
-ALL DATES AND TIMES ARE GIVEN IN ETC/UTC.
