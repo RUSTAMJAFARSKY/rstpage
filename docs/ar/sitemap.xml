@@ -2,118 +2,118 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/ar/01/</loc>
+    <loc>https://rustamjafar.com/ar/01/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru-RU"
-                href="http://localhost:1313/ru/01/"
+                href="https://rustamjafar.com/ru/01/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/01/"
+                href="https://rustamjafar.com/ar/01/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ar/02/</loc>
+    <loc>https://rustamjafar.com/ar/02/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru-RU"
-                href="http://localhost:1313/ru/02/"
+                href="https://rustamjafar.com/ru/02/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/02/"
+                href="https://rustamjafar.com/ar/02/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ar/03/</loc>
+    <loc>https://rustamjafar.com/ar/03/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru-RU"
-                href="http://localhost:1313/ru/03/"
+                href="https://rustamjafar.com/ru/03/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/03/"
+                href="https://rustamjafar.com/ar/03/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ar/05/</loc>
+    <loc>https://rustamjafar.com/ar/05/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru-RU"
-                href="http://localhost:1313/ru/05/"
+                href="https://rustamjafar.com/ru/05/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/05/"
+                href="https://rustamjafar.com/ar/05/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ar/</loc>
+    <loc>https://rustamjafar.com/ar/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="multilang"
-                href="http://localhost:1313/multilang/"
+                href="https://rustamjafar.com/multilang/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/"
+                href="https://rustamjafar.com/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru-RU"
-                href="http://localhost:1313/ru/"
+                href="https://rustamjafar.com/ru/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/"
+                href="https://rustamjafar.com/ar/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ar/categories/</loc>
+    <loc>https://rustamjafar.com/ar/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="multilang"
-                href="http://localhost:1313/multilang/categories/"
+                href="https://rustamjafar.com/multilang/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/categories/"
+                href="https://rustamjafar.com/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru-RU"
-                href="http://localhost:1313/ru/categories/"
+                href="https://rustamjafar.com/ru/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/categories/"
+                href="https://rustamjafar.com/ar/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ar/tags/</loc>
+    <loc>https://rustamjafar.com/ar/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="multilang"
-                href="http://localhost:1313/multilang/tags/"
+                href="https://rustamjafar.com/multilang/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/tags/"
+                href="https://rustamjafar.com/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru-RU"
-                href="http://localhost:1313/ru/tags/"
+                href="https://rustamjafar.com/ru/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/tags/"
+                href="https://rustamjafar.com/ar/tags/"
                 />
   </url>
 </urlset>
