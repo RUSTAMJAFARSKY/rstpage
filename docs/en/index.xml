@@ -2,1003 +2,1003 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>rustamjafar</title>
-    <link>http://localhost:1313/en/</link>
+    <link>https://rustamjafar.com/en/</link>
     <description>Recent content on rustamjafar</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://rustamjafar.com/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:1313/en/001/</link>
+      <link>https://rustamjafar.com/en/001/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/001/</guid>
+      <guid>https://rustamjafar.com/en/001/</guid>
       <description>&lt;h1&gt;prophet (pbuh): deeds are only by intentions&lt;/h1&gt;&#xA;&lt;div class=&#34;quoteblock&#34;&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;you’re not w/out talent, you’re w/out direction&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;i think, that’s the first thing you have to consider when starting something&#xA;new. this doesn’t matter your color, your ethnic background, your social&#xA;status or your education. this will definitely help you to set the direction&#xA;of your journey through life.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;the following are a few questions that i think, everyone should ask themselves:&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;ulist&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;why do i start doing what i start to do?&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;who will benefit from what i start to do?&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;what will the future look like?&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/002/</link>
+      <link>https://rustamjafar.com/en/002/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/002/</guid>
+      <guid>https://rustamjafar.com/en/002/</guid>
       <description>&lt;h1&gt;ssh: server and dynamic port forwarding&lt;/h1&gt;&#xA;&lt;div class=&#34;sect1&#34;&gt;&#xA;&lt;h2 id=&#34;_running_sshd&#34;&gt;running &lt;code&gt;sshd&lt;/code&gt;&lt;/h2&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;keep in mind that running &lt;code&gt;sshd&lt;/code&gt; on &lt;strong&gt;ubuntu&lt;/strong&gt;, starts server in current&#xA;user scope, and won’t start it system-wide. thus, when running these commands:&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;olist arabic&#34;&gt;&#xA;&lt;ol class=&#34;arabic&#34;&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;code&gt;/usr/sbin/sshd&lt;/code&gt; and then&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;code&gt;systemctl start sshd&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;you get &lt;code&gt;inactive&lt;/code&gt; as the response. so, to start server system-wide just run&#xA;the following command:&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;listingblock&#34;&gt;&#xA;&lt;div class=&#34;content&#34;&gt;&#xA;&lt;pre class=&#34;highlight&#34;&gt;&lt;code&gt;systemctl start &amp;lt;sshd | ssh&amp;gt;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;now, after running &lt;code&gt;system status sshd&lt;/code&gt; command, you’ll find its status changed&#xA;to &lt;code&gt;active&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/003/</link>
+      <link>https://rustamjafar.com/en/003/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/003/</guid>
+      <guid>https://rustamjafar.com/en/003/</guid>
       <description>&lt;h1&gt;sample dbs&lt;/h1&gt;&#xA;&lt;div id=&#34;preamble&#34;&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;following is the list of sample databases to use to improve your excel, sql,&#xA;etc., skills.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;sect1&#34;&gt;&#xA;&lt;h2 id=&#34;_mysql&#34;&gt;mysql&lt;/h2&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;ulist&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;sakila&lt;/p&gt;&#xA;&lt;div class=&#34;literalblock&#34;&gt;&#xA;&lt;div class=&#34;content&#34;&gt;&#xA;&lt;pre&gt;&amp;lt;https://dev.mysql.com/doc/sakila/en/&amp;gt;&lt;/pre&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;world&lt;/p&gt;&#xA;&lt;div class=&#34;literalblock&#34;&gt;&#xA;&lt;div class=&#34;content&#34;&gt;&#xA;&lt;pre&gt;&amp;lt;https://dev.mysql.com/doc/world-setup/en/&amp;gt;&lt;/pre&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;employee&lt;/p&gt;&#xA;&lt;div class=&#34;literalblock&#34;&gt;&#xA;&lt;div class=&#34;content&#34;&gt;&#xA;&lt;pre&gt;&amp;lt;https://dev.mysql.com/doc/employee/en/&amp;gt;&lt;/pre&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;sect1&#34;&gt;&#xA;&lt;h2 id=&#34;_microsoft&#34;&gt;microsoft&lt;/h2&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;ulist&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;wide world importers&lt;/p&gt;&#xA;&lt;div class=&#34;literalblock&#34;&gt;&#xA;&lt;div class=&#34;content&#34;&gt;&#xA;&lt;pre&gt;&amp;lt;https://github.com/microsoft/sql-server-samples/tree/master/samples/databases/wide-world-importers&amp;gt;&lt;/pre&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;quoteblock&#34;&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;this list will be updated later w/ more data&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/004/</link>
+      <link>https://rustamjafar.com/en/004/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/004/</guid>
+      <guid>https://rustamjafar.com/en/004/</guid>
       <description>&lt;h1&gt;data analysis&lt;/h1&gt;&#xA;&lt;div class=&#34;quoteblock&#34;&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;data analysis is just a tool that assists you in what you actually like&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;during my job search, w/ my little knowledge of excel, sql and python, i was&#xA;looking for any position as a junior data analyst or anything alike.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;one day, i’d tried it into an electrical construction company (they needed someone who just&#xA;knows excel good), they’d agreed to give me a job position, but i’d refused back then&#xA;due to the salary was very low, even though, the construction is what i like&#xA;the most.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/005/</link>
+      <link>https://rustamjafar.com/en/005/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/005/</guid>
+      <guid>https://rustamjafar.com/en/005/</guid>
       <description>&lt;h1&gt;penmanship&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: this note is about to be translated into arabic&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;quoteblock&#34;&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;it is all about being an individual&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;one day, i started to repeat my english grammar. going through exercises, i&#xA;found that i need to complete some exercises by taking a physical pen and writing them down. after&#xA;i took a pen and began to write, i noticed that my handwriting worsened to a&#xA;great extent. during my time in university, i thought, i had a good penmanship,&#xA;(it was not great, though). so i realized that my handwriting became worse than&#xA;it was before.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/006/</link>
+      <link>https://rustamjafar.com/en/006/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/006/</guid>
+      <guid>https://rustamjafar.com/en/006/</guid>
       <description>&lt;h1&gt;bash: `entr` utility&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;using &lt;code&gt;entr&lt;/code&gt; when writing bash scripts is precious. this little utility&#xA;&lt;strong&gt;listens for the file you give it to be  modified and executes whatever&#xA;it is set to execute&lt;/strong&gt;. you can even execute the same file that &lt;code&gt;entr&lt;/code&gt;&#xA;is listening to.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;so in my case, as i am not a pro bash script writer, the usage is:&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;listingblock&#34;&gt;&#xA;&lt;div class=&#34;content&#34;&gt;&#xA;&lt;pre class=&#34;highlight&#34;&gt;&lt;code&gt;$ entr -sc &amp;#34;source &amp;lt;file_to_execute&amp;gt;&amp;#34; &amp;lt;&amp;lt;&amp;lt; $( echo &amp;lt;file_to_listen&amp;gt; )&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;i would also like to point out that there can be completely different&#xA;&lt;code&gt;file_to_execute&lt;/code&gt; and &lt;code&gt;file_to_listen&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/007/</link>
+      <link>https://rustamjafar.com/en/007/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/007/</guid>
+      <guid>https://rustamjafar.com/en/007/</guid>
       <description>&lt;h1&gt;latex: fonts terminology&lt;/h1&gt;&#xA;&lt;div id=&#34;toc&#34; class=&#34;toc&#34;&gt;&#xA;&lt;div id=&#34;toctitle&#34;&gt;&lt;/div&gt;&#xA;&lt;ul class=&#34;sectlevel1&#34;&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#_font_sizes&#34;&gt;font sizes&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#_font_styles&#34;&gt;font styles&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#_font_families&#34;&gt;font families&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#_workflow&#34;&gt;workflow&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;div id=&#34;preamble&#34;&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;here i will try to describe some confusing terms i’ve used while setting up my&#xA;latex document:&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;ulist&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;font sizes&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;font styles&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;font families&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;font typefaces&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;sect1&#34;&gt;&#xA;&lt;h2 id=&#34;_font_sizes&#34;&gt;font sizes&lt;/h2&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;in latex font size is declared by using special commands:&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;ulist&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;code&gt;\small&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;code&gt;\large&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;etc.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;check out ref guide &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Fonts#Sizing_text&#34; class=&#34;bare&#34;&gt;https://en.wikibooks.org/wiki/LaTeX/Fonts#Sizing_text&lt;/a&gt; for a&#xA;complete list&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;i also want to note that these commands are &lt;strong&gt;relative to the size set in&#xA;document’s preamble&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/008/</link>
+      <link>https://rustamjafar.com/en/008/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/008/</guid>
+      <guid>https://rustamjafar.com/en/008/</guid>
       <description>&lt;h1&gt;git: commit identity&lt;/h1&gt;&#xA;&lt;div class=&#34;sect1&#34;&gt;&#xA;&lt;h2 id=&#34;_issue&#34;&gt;issue&lt;/h2&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;usually, i don’t use graphical user interface when working w/ git repos, and all of my work is&#xA;happening in terminal. the same w/ github web page, i rarely visit it.&#xA;one day, i decided to do so, to see how things are&#xA;going there, and discovered that on my github landing page there was no&#xA;any single commit that i had been doing through time. actually, when going into&#xA;the repos, all of the commits were listed, but…​&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/009/</link>
+      <link>https://rustamjafar.com/en/009/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/009/</guid>
+      <guid>https://rustamjafar.com/en/009/</guid>
       <description>&lt;h1&gt;handling charity&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: this note is about to be translated into arabic&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;in today’s world there’re plenty of donating strategies to use. for now i will&#xA;consider giving to a charity in terms of how much money to donate, and &lt;strong&gt;not&lt;/strong&gt;&#xA;who should be the recipient of them.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;so, these strategies include: creating different calendars, including&#xA;payments frequency, amounts of wealth to be given keeping in my mind different&#xA;types of social classes, etc.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/010/</link>
+      <link>https://rustamjafar.com/en/010/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/010/</guid>
+      <guid>https://rustamjafar.com/en/010/</guid>
       <description>&lt;h1&gt;a beautiful soil&lt;/h1&gt;&#xA;&lt;div class=&#34;quoteblock&#34;&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;know your roots&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;being born and raised in dagestan, i think this list is worth remembering&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;ulist&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;the district of agul&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;the district of akhty&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;the district of akhvakh&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;the district of akushi&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;the district of babayurt&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;the district of botlikh&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;the district of buynaksk&lt;/p&gt;&#xA;&lt;div class=&#34;ulist&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;the city of buynaksk&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;the district of charoda&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;the district of dakhada&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;the district of derbent&lt;/p&gt;&#xA;&lt;div class=&#34;ulist&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;the city of derbent&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;the city of dagestan ogni&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/011/</link>
+      <link>https://rustamjafar.com/en/011/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/011/</guid>
+      <guid>https://rustamjafar.com/en/011/</guid>
       <description>&lt;h1&gt;bash: script_dir one liner&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;here’s the small one liner to get the current directory of a script executed&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;listingblock&#34;&gt;&#xA;&lt;div class=&#34;content&#34;&gt;&#xA;&lt;pre class=&#34;highlight&#34;&gt;&lt;code&gt;SCRIPT_DIR=$(cd $(dirname &amp;#34;${BASH_SOURCE[0]}&amp;#34;) &amp;amp;&amp;amp; pwd)&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;thanks to&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://codefather.tech/blog/bash-get-script-directory/&#34; class=&#34;bare&#34;&gt;https://codefather.tech/blog/bash-get-script-directory/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/012/</link>
+      <link>https://rustamjafar.com/en/012/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/012/</guid>
+      <guid>https://rustamjafar.com/en/012/</guid>
       <description>&lt;h1&gt;rawgit&lt;/h1&gt;&#xA;&lt;div class=&#34;quoteblock&#34;&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;but all things must end&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;following is the excrept from ryan groove’s, &lt;a href=&#34;https://twitter.com/yaypie&#34; class=&#34;bare&#34;&gt;https://twitter.com/yaypie&lt;/a&gt;,&#xA;creator of rawgit, final letter&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;quoteblock&#34;&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;RawGit is now in a sunset phase and will soon shut down. It’s been a fun&#xA;five years, but all things must end.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;GitHub repositories that served content through RawGit within the last month&#xA;will continue to be served until at least October of 2019. URLs for other&#xA;repositories are no longer being served.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/013/</link>
+      <link>https://rustamjafar.com/en/013/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/013/</guid>
+      <guid>https://rustamjafar.com/en/013/</guid>
       <description>&lt;h1&gt;touch typing&lt;/h1&gt;&#xA;&lt;div class=&#34;quoteblock&#34;&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;it is all about xxi&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;i think being able to type w/out looking at a keyboard and looking for a letter&#xA;you want to type is very important in the age of computers. that’s why i want&#xA;to suggest you a website that will help you on your way to blind typing.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.typingstudy.com/&#34; class=&#34;bare&#34;&gt;https://www.typingstudy.com/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;no matter what the language is, you choose whatever you work, and start&#xA;training. hope this helps.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/014/</link>
+      <link>https://rustamjafar.com/en/014/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/014/</guid>
+      <guid>https://rustamjafar.com/en/014/</guid>
       <description>&lt;h1&gt;arabic: web safe fonts&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;excerpt from the article below:&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;ulist&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;arial (serif)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;tahoma (sans-serif)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;courier new (monotype)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://medium.com/@harbbaraa15/the-comprehensive-guide-for-arabic-web-font-8c6e382a7119&#34; class=&#34;bare&#34;&gt;https://medium.com/@harbbaraa15/the-comprehensive-guide-for-arabic-web-font-8c6e382a7119&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;below is an interesting article on wikipedia about &lt;strong&gt;simplified arabic font&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Simplified_Arabic&#34; class=&#34;bare&#34;&gt;https://en.wikipedia.org/wiki/Simplified_Arabic&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/015/</link>
+      <link>https://rustamjafar.com/en/015/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/015/</guid>
+      <guid>https://rustamjafar.com/en/015/</guid>
       <description>&lt;h1&gt;linux: symbolic links&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;a small code reminder to me for creating symbolic links in linux cli:&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;code&gt;ln -s &amp;lt;target-file&amp;gt; &amp;lt;symlink-name&amp;gt;&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/016/</link>
+      <link>https://rustamjafar.com/en/016/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/016/</guid>
+      <guid>https://rustamjafar.com/en/016/</guid>
       <description>&lt;h1&gt;math: s&amp;amp;z precalculus&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;here’s a yt playlist w/ solutions to stitz and zeager algebra course&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PL953A3729B0E03AAA&amp;amp;feature=shared&#34; class=&#34;bare&#34;&gt;https://youtube.com/playlist?list=PL953A3729B0E03AAA&amp;amp;feature=shared&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;you can find an official book w/ all the latex source code, formula summary&#xA;sheet and power points for different chapters here&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.stitz-zeager.com/&#34; class=&#34;bare&#34;&gt;https://www.stitz-zeager.com/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;finally, in my opinion, it is one of the fundamental books in math community&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/017/</link>
+      <link>https://rustamjafar.com/en/017/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/017/</guid>
+      <guid>https://rustamjafar.com/en/017/</guid>
       <description>&lt;h1&gt;nginx: local server static webpage&lt;/h1&gt;&#xA;&lt;div id=&#34;preamble&#34;&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;ulist&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;[mime types](#mime-types)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;[403 forbidden](#403-forbidden)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;below are some problems that occured while i was setting up nginx local server&#xA;for testing my website.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;sect1&#34;&gt;&#xA;&lt;h2 id=&#34;_mime_types&#34;&gt;mime types&lt;/h2&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;when browser throws out &lt;strong&gt;mime&lt;/strong&gt; type error, try adding following to nginx config&#xA;file &lt;code&gt;/etc/nginx/nginx.conf&lt;/code&gt;:&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;listingblock&#34;&gt;&#xA;&lt;div class=&#34;content&#34;&gt;&#xA;&lt;pre class=&#34;highlight&#34;&gt;&lt;code&gt;http {&#xA;  include /etc/nginx/mime.types;&#xA;  include /etc/nginx/conf.d/*.conf;&#xA;}&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;don’t forget reloading w/:&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;code&gt;sudo nginx -s reload&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;sect1&#34;&gt;&#xA;&lt;h2 id=&#34;_403_forbidden&#34;&gt;403 forbidden&lt;/h2&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;first, read about this error here:&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403&#34; class=&#34;bare&#34;&gt;https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;then, set &lt;code&gt;user&lt;/code&gt; in your &lt;code&gt;/etc/nginx/nginx.conf&lt;/code&gt; file as:&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/018/</link>
+      <link>https://rustamjafar.com/en/018/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/018/</guid>
+      <guid>https://rustamjafar.com/en/018/</guid>
       <description>&lt;h1&gt;ssh: permissions&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;here’s a small list of permissions that ssh wants you to follow&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;table class=&#34;tableblock frame-all grid-all stretch&#34;&gt;&#xA;&lt;colgroup&gt;&#xA;&lt;col style=&#34;width: 50%;&#34;/&gt;&#xA;&lt;col style=&#34;width: 50%;&#34;/&gt;&#xA;&lt;/colgroup&gt;&#xA;&lt;tbody&gt;&#xA;&lt;tr&gt;&#xA;&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;code&gt;.ssh&lt;/code&gt; directory&lt;/p&gt;&lt;/td&gt;&#xA;&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;code&gt;700 (drwx------)&lt;/code&gt;&lt;/p&gt;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;public key&lt;/p&gt;&lt;/td&gt;&#xA;&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;code&gt;644 (rw-r—​r--)&lt;/code&gt;&lt;/p&gt;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;private key&lt;/p&gt;&lt;/td&gt;&#xA;&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;code&gt;600 (rw-------)&lt;/code&gt;&lt;/p&gt;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;home directory&lt;/p&gt;&lt;/td&gt;&#xA;&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;&lt;code&gt;755 (drwxr-xr-x)&lt;/code&gt;&lt;/p&gt;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;thanks to&#xA;&lt;a href=&#34;https://superuser.com/questions/215504/permissions-on-private-key-in-ssh-folder&#34; class=&#34;bare&#34;&gt;https://superuser.com/questions/215504/permissions-on-private-key-in-ssh-folder&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/019/</link>
+      <link>https://rustamjafar.com/en/019/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/019/</guid>
+      <guid>https://rustamjafar.com/en/019/</guid>
       <description>&lt;h1&gt;bryce vandegrift&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;another power user&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://brycevandegrift.xyz/&#34; class=&#34;bare&#34;&gt;https://brycevandegrift.xyz/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/020/</link>
+      <link>https://rustamjafar.com/en/020/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/020/</guid>
+      <guid>https://rustamjafar.com/en/020/</guid>
       <description>&lt;h1&gt;latex: installing tex&lt;/h1&gt;&#xA;&lt;div id=&#34;preamble&#34;&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;install tex properly for the long run&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;sect1&#34;&gt;&#xA;&lt;h2 id=&#34;_issue&#34;&gt;issue&lt;/h2&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;the thing w/ installing tex distribution through ubuntu repositories, such as&#xA;apt, apt-get, etc., is that you won’t be able to manage stand-alone tex packages&#xA;later as needed.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://help.ubuntu.com/community/LaTeX&#34; class=&#34;bare&#34;&gt;https://help.ubuntu.com/community/LaTeX&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;so, for you to install single &lt;strong&gt;tex package&lt;/strong&gt; you first have to check in which &lt;strong&gt;ubuntu&#xA;package&lt;/strong&gt; it is located, through &lt;code&gt;apt-cache search &amp;lt;tex-package-name&amp;gt;&lt;/code&gt;, and&#xA;then install that &lt;strong&gt;ubuntu package&lt;/strong&gt; which in turn contains other unnecessary&#xA;&lt;strong&gt;tex packages&lt;/strong&gt; that you don’t need right now, thus taking free space on you&#xA;machine.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/021/</link>
+      <link>https://rustamjafar.com/en/021/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/021/</guid>
+      <guid>https://rustamjafar.com/en/021/</guid>
       <description>&lt;h1&gt;physics: beginner’s guide&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;here’s a link for everyone starting learning physics&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;i think this is one of the best on the internet&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.susanrigetti.com/physics&#34; class=&#34;bare&#34;&gt;https://www.susanrigetti.com/physics&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/022/</link>
+      <link>https://rustamjafar.com/en/022/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/022/</guid>
+      <guid>https://rustamjafar.com/en/022/</guid>
       <description>&lt;h1&gt;transparency&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;some words on transparency. excerpt from &lt;strong&gt;practical autodesk autocad 2023 by pandev &amp;amp; shoukry&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;quoteblock&#34;&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;generally, transparency is added to make objects of a similar color distinct,&#xA;and it is also added when you want to print drawings so that they consume&#xA;less ink.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/023/</link>
+      <link>https://rustamjafar.com/en/023/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/023/</guid>
+      <guid>https://rustamjafar.com/en/023/</guid>
       <description>&lt;h1&gt;bitcoin: paper wallet&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;the most used website to generate bitcoin paper wallet&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bitaddress.org&#34; class=&#34;bare&#34;&gt;https://www.bitaddress.org&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/024/</link>
+      <link>https://rustamjafar.com/en/024/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/024/</guid>
+      <guid>https://rustamjafar.com/en/024/</guid>
       <description>&lt;h1&gt;nobel prize 2023&lt;/h1&gt;&#xA;&lt;div id=&#34;preamble&#34;&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;ulist&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;[physics](#physics)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;[chemistry](#chemistry)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;[physiology/medicine](#physiologymedicine)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;[literature](#literature)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;[peace](#peace)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;[economics](#economics)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;below are individuals who and the reason why they recieved this award in 2023&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;i write this down as a remainder for myself (only focusing on professional&#xA;side, not personal)&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;sect1&#34;&gt;&#xA;&lt;h2 id=&#34;_physics&#34;&gt;physics&lt;/h2&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;ulist&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;pierre agostini&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;ferenc krausz&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;anne l’huillier&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&amp;#34;for experimental methods that generate attosecond pulses of light for the study of electron dynamics in matter&amp;#34;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;sect1&#34;&gt;&#xA;&lt;h2 id=&#34;_chemistry&#34;&gt;chemistry&lt;/h2&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;ulist&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;moungi bawendi&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;louis brus&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;aleksey yekimov&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/025/</link>
+      <link>https://rustamjafar.com/en/025/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/025/</guid>
+      <guid>https://rustamjafar.com/en/025/</guid>
       <description>&lt;h1&gt;css: multi-directional layout&lt;/h1&gt;&#xA;&lt;div id=&#34;preamble&#34;&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;here’re some notes for those of you who use multi-dir on their websites.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;sect1&#34;&gt;&#xA;&lt;h2 id=&#34;_css_tricks&#34;&gt;css-tricks&lt;/h2&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;first, i recommend scamming through this article if you can find a solution here.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://css-tricks.com/building-multi-directional-layouts&#34; class=&#34;bare&#34;&gt;https://css-tricks.com/building-multi-directional-layouts&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;code&gt;&amp;lt;div dir=&amp;#34;auto&amp;#34;&amp;gt;{content}&amp;lt;/div&amp;gt;&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;you can use any other tag in place of &lt;code&gt;div&lt;/code&gt;. just keep in mind the tag is not&#xA;recursive, meaning its children won’t be affected by this.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;sect1&#34;&gt;&#xA;&lt;h2 id=&#34;_unicode_bidi&#34;&gt;unicode-bidi&lt;/h2&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;i’ve also found smth. interesting on stack overflow&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/026/</link>
+      <link>https://rustamjafar.com/en/026/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/026/</guid>
+      <guid>https://rustamjafar.com/en/026/</guid>
       <description>&lt;h1&gt;mirror’s edge: the conglomerate&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;i found it interesting the openning speech of protagonist in mirror’s edge&#xA;video game. below is the partial transcript:&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;quoteblock&#34;&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;once, the city used to pulse with energy. dirty and dangerous, but alive&#xA;and wonderful. now it’s something else. the changes came slowly at first.&#xA;most did not realize or did not care, and accepted them. they chose a&#xA;comfortable life. some didn’t. …​ and those who refused to conform were&#xA;pushed to the sideline…​ criminalized. …​&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/027/</link>
+      <link>https://rustamjafar.com/en/027/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/027/</guid>
+      <guid>https://rustamjafar.com/en/027/</guid>
       <description>&lt;h1&gt;argument vs parameter&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;some cs vocabulary&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;ulist&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;argument is a &lt;strong&gt;coin&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;parameter is a &lt;strong&gt;coin acceptor&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/028/</link>
+      <link>https://rustamjafar.com/en/028/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/028/</guid>
+      <guid>https://rustamjafar.com/en/028/</guid>
       <description>&lt;h1&gt;blockchain: usdt gas fees&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;get data on usdt gas fees here&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://gasfeesnow.com&#34; class=&#34;bare&#34;&gt;https://gasfeesnow.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/029/</link>
+      <link>https://rustamjafar.com/en/029/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/029/</guid>
+      <guid>https://rustamjafar.com/en/029/</guid>
       <description>&lt;h1&gt;blockchain: coins vs tokens&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;make the difference&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;all coins &lt;strong&gt;may be&lt;/strong&gt; considered tokens, but no all tokens are considered&#xA;coins. so, coins have their &lt;strong&gt;own&lt;/strong&gt; blockchain, while tokens are build on&#xA;existing blockchains, using technologies of the blockhain they are built upon.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;thanks to &lt;a href=&#34;https://www.youtube.com/watch?v=aLh8jlYYvZA&#34; class=&#34;bare&#34;&gt;https://www.youtube.com/watch?v=aLh8jlYYvZA&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/030/</link>
+      <link>https://rustamjafar.com/en/030/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/030/</guid>
+      <guid>https://rustamjafar.com/en/030/</guid>
       <description>&lt;h1&gt;japanese: imabi&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;going to check out the following website for learning japanese&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://imabi.org/&#34; class=&#34;bare&#34;&gt;https://imabi.org/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;will leave comments on this later&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/031/</link>
+      <link>https://rustamjafar.com/en/031/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/031/</guid>
+      <guid>https://rustamjafar.com/en/031/</guid>
       <description>&lt;h1&gt;bash: subshell&lt;/h1&gt;&#xA;&lt;div id=&#34;preamble&#34;&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;small reminder for myself about running shell scripts&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;sect1&#34;&gt;&#xA;&lt;h2 id=&#34;_current_shell&#34;&gt;current shell&lt;/h2&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;code&gt;. &amp;lt;script&amp;gt;&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;this one above runs script in current shell, thus:&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;ulist&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;all the local variables of current shell are available to &lt;code&gt;&amp;lt;script&amp;gt;&lt;/code&gt;.&#xA;the &lt;code&gt;.&lt;/code&gt; is interchangable w/ &lt;code&gt;source&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;exported variables from &lt;code&gt;&amp;lt;script&amp;gt;&lt;/code&gt; are also available to current shell.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;sect1&#34;&gt;&#xA;&lt;h2 id=&#34;_subshell&#34;&gt;subshell&lt;/h2&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;code&gt;./&amp;lt;script&amp;gt;&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;this one creates subshell for &lt;code&gt;&amp;lt;script&amp;gt;&lt;/code&gt; and then executes it in there.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/032/</link>
+      <link>https://rustamjafar.com/en/032/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/032/</guid>
+      <guid>https://rustamjafar.com/en/032/</guid>
       <description>&lt;h1&gt;cs: cpu architectures&lt;/h1&gt;&#xA;&lt;table class=&#34;tableblock frame-all grid-all stretch&#34;&gt;&#xA;&lt;colgroup&gt;&#xA;&lt;col style=&#34;width: 50%;&#34;/&gt;&#xA;&lt;col style=&#34;width: 50%;&#34;/&gt;&#xA;&lt;/colgroup&gt;&#xA;&lt;tbody&gt;&#xA;&lt;tr&gt;&#xA;&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;x86_64, x86, amd64&lt;/p&gt;&lt;/td&gt;&#xA;&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;64-bit amd/intel&lt;/p&gt;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;AArch64, arm64, ARMv8, ARMv9&lt;/p&gt;&lt;/td&gt;&#xA;&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;64-bit arm&lt;/p&gt;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;i386&lt;/p&gt;&lt;/td&gt;&#xA;&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;32-bit amd/intel&lt;/p&gt;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;AArch32, arm, ARMv1..v7&lt;/p&gt;&lt;/td&gt;&#xA;&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;32-bit arm&lt;/p&gt;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;rv64gc, rv64g&lt;/p&gt;&lt;/td&gt;&#xA;&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;64-bit risc-v&lt;/p&gt;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;ppc64le&lt;/p&gt;&lt;/td&gt;&#xA;&lt;td class=&#34;tableblock halign-left valign-top&#34;&gt;&lt;p class=&#34;tableblock&#34;&gt;64-bit powerpc&lt;/p&gt;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;thanks to &lt;a href=&#34;https://itsfoss.com/arm-aarch64-x86_64/&#34; class=&#34;bare&#34;&gt;https://itsfoss.com/arm-aarch64-x86_64/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/033/</link>
+      <link>https://rustamjafar.com/en/033/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/033/</guid>
+      <guid>https://rustamjafar.com/en/033/</guid>
       <description>&lt;h1&gt;business handwriting: timing&lt;/h1&gt;&#xA;&lt;div id=&#34;toc&#34; class=&#34;toc&#34;&gt;&#xA;&lt;div id=&#34;toctitle&#34;&gt;&lt;/div&gt;&#xA;&lt;ul class=&#34;sectlevel1&#34;&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#_double_straight_lines_and_ovals_drill_2&#34;&gt;double straight lines and ovals (drill 2)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#_single_ovals_drill_4&#34;&gt;single ovals (drill 4)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#_loops_drill_24&#34;&gt;loops (drill 24)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#_10_stroked_capital_m_drill_25&#34;&gt;10-stroked capital m (drill 25)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#_alphabet_letters&#34;&gt;alphabet letters&lt;/a&gt;&#xA;&lt;ul class=&#34;sectlevel2&#34;&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#_capital_a&#34;&gt;capital a&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#_capital_b_drill_86_87&#34;&gt;capital b (drill 86, 87)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;div id=&#34;preamble&#34;&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: get the note to be completed&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;here’re some average times a student has to spend while training handwriting.&#xA;these drills are taken from &lt;strong&gt;the palmer method of business writing&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;sect1&#34;&gt;&#xA;&lt;h2 id=&#34;_double_straight_lines_and_ovals_drill_2&#34;&gt;double straight lines and ovals (drill 2)&lt;/h2&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;ulist&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;200 downward strokes to a minute&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;ovals are clockwise, then anticlockwise&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/034/</link>
+      <link>https://rustamjafar.com/en/034/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/034/</guid>
+      <guid>https://rustamjafar.com/en/034/</guid>
       <description>&lt;h1&gt;ssh: keep alive the session&lt;/h1&gt;&#xA;&lt;div id=&#34;toc&#34; class=&#34;toc&#34;&gt;&#xA;&lt;div id=&#34;toctitle&#34;&gt;&lt;/div&gt;&#xA;&lt;ul class=&#34;sectlevel1&#34;&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#_server_keep_alive&#34;&gt;server keep alive&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#_client_keep_alive&#34;&gt;client keep alive&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;sect1&#34;&gt;&#xA;&lt;h2 id=&#34;_server_keep_alive&#34;&gt;server keep alive&lt;/h2&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;the settings shown below has to be put into &lt;code&gt;config&lt;/code&gt; file on the &lt;strong&gt;server&lt;/strong&gt; side&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;sect1&#34;&gt;&#xA;&lt;h2 id=&#34;_client_keep_alive&#34;&gt;client keep alive&lt;/h2&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;the settings shown below has to be put into &lt;code&gt;.ssh/config&lt;/code&gt; on the &lt;strong&gt;client&lt;/strong&gt; side&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;ulist&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;code&gt;ServerAliveCountMax &amp;lt;number&amp;gt;&lt;/code&gt; means:&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;client will send &lt;code&gt;&amp;lt;number&amp;gt;&lt;/code&gt; of packets before disconnecting from the sever&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;ulist&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;code&gt;ServerAliveInterval `&amp;lt;seconds&amp;gt;&lt;/code&gt; means:&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;client will send packets every &lt;code&gt;&amp;lt;seconds&amp;gt;&lt;/code&gt; to keep the connection alive&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/035/</link>
+      <link>https://rustamjafar.com/en/035/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/035/</guid>
+      <guid>https://rustamjafar.com/en/035/</guid>
       <description>&lt;h1&gt;typing multiple languages&lt;/h1&gt;&#xA;&lt;div id=&#34;preamble&#34;&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;in this note i want to share my exprience of typing several languages. i’m&#xA;going to talk about which encoding and text editor i use&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;sect1&#34;&gt;&#xA;&lt;h2 id=&#34;_utf_8&#34;&gt;utf-8&lt;/h2&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;utf-8 is encoding to use.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: reason to be expalined&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;sect1&#34;&gt;&#xA;&lt;h2 id=&#34;_vim&#34;&gt;vim&lt;/h2&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;vim is note editor of choice.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: reason to be expalined&#xA;TODO: separate note on how to configure vim for multilingualism&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/038/</link>
+      <link>https://rustamjafar.com/en/038/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/038/</guid>
+      <guid>https://rustamjafar.com/en/038/</guid>
       <description>&lt;h1&gt;books: project gutenberg&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;check out &lt;a href=&#34;https://gutenberg.org/&#34; class=&#34;bare&#34;&gt;https://gutenberg.org/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: notes later&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/039/</link>
+      <link>https://rustamjafar.com/en/039/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/039/</guid>
+      <guid>https://rustamjafar.com/en/039/</guid>
       <description>&lt;h1&gt;lightweight typesetting&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;considering asciidoc over markdown&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;my thoughts seem to align with those of rwxrob&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=4StJh_j7MgA&#34; class=&#34;bare&#34;&gt;https://www.youtube.com/watch?v=4StJh_j7MgA&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: i’ll deliver my thoughts on this later&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/040/</link>
+      <link>https://rustamjafar.com/en/040/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/040/</guid>
+      <guid>https://rustamjafar.com/en/040/</guid>
       <description>&lt;h1&gt;comptia: cs fundamentals&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;consider going through comptia courses when you wan’t to start smth. new in&#xA;computer science (cs), they’re not vendor specific, thus will give a general&#xA;glimpse into the field&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/041/</link>
+      <link>https://rustamjafar.com/en/041/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/041/</guid>
+      <guid>https://rustamjafar.com/en/041/</guid>
       <description>&lt;h1&gt;calibre: managing book library&lt;/h1&gt;&#xA;&lt;div id=&#34;preamble&#34;&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;i recommend that you use &lt;strong&gt;calibre&lt;/strong&gt; software to manage your book library.&#xA;when you export it use both methods:&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;sect1&#34;&gt;&#xA;&lt;h2 id=&#34;_calibre_database&#34;&gt;calibre database&lt;/h2&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;sect1&#34;&gt;&#xA;&lt;h2 id=&#34;_hard_files&#34;&gt;hard files&lt;/h2&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;like &lt;em&gt;pdf&lt;/em&gt;s, &lt;em&gt;epub&lt;/em&gt;s, etc.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: elaborate on these topics&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/042/</link>
+      <link>https://rustamjafar.com/en/042/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/042/</guid>
+      <guid>https://rustamjafar.com/en/042/</guid>
       <description>&lt;h1&gt;bitcoin: exchange&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bestchange.com/&#34; class=&#34;bare&#34;&gt;https://www.bestchange.com/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/043/</link>
+      <link>https://rustamjafar.com/en/043/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/043/</guid>
+      <guid>https://rustamjafar.com/en/043/</guid>
       <description>&lt;h1&gt;entrepreneurship: skills&lt;/h1&gt;&#xA;&lt;div id=&#34;preamble&#34;&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;self-improvement is important in entrepreneurship. and it is well known that&#xA;two types of skills should be improved. these are soft and hard skills. below&#xA;are my own thoughts on which resources should be used.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;sect1&#34;&gt;&#xA;&lt;h2 id=&#34;_soft_skills&#34;&gt;soft skills&lt;/h2&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;ulist&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;all the books of robert greene&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;some books that go under the title of emily post&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;although these both don’t go well with each other&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;sect1&#34;&gt;&#xA;&lt;h2 id=&#34;_hard_skills&#34;&gt;hard skills&lt;/h2&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;for hard skills you can:&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/044/</link>
+      <link>https://rustamjafar.com/en/044/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/044/</guid>
+      <guid>https://rustamjafar.com/en/044/</guid>
       <description>&lt;h1&gt;website: new workflow&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;my current workflow of maintaining the website consists of:&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;ulist&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;markdown&lt;/strong&gt; for marking up the document&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;pandoc&lt;/strong&gt; for generating html pages&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;bash&lt;/strong&gt; for some of my small scripts that are used to generate the&#xA;whole website&lt;/p&gt;&#xA;&lt;div class=&#34;ulist&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/m7tkr/www/tree/main/docs/scripts&#34; class=&#34;bare&#34;&gt;https://github.com/m7tkr/www/tree/main/docs/scripts&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;as i said earlier, i’m considering transition from markdown to asciidoc.&#xA;as it turned out, using asciidoc w/ pandoc and bash is very time-consuming for&#xA;generating html pages. thus i’ve decided to learn hugo&#xA;(static website generator written in golang) &lt;a href=&#34;https://gohugo.io/&#34; class=&#34;bare&#34;&gt;https://gohugo.io/&lt;/a&gt; for&#xA;its support of asciidoc, and, as such, replacing both of pandoc and bash.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/045/</link>
+      <link>https://rustamjafar.com/en/045/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/045/</guid>
+      <guid>https://rustamjafar.com/en/045/</guid>
       <description>&lt;h1&gt;james r hoffa&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;who remembers him?&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/047/</link>
+      <link>https://rustamjafar.com/en/047/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/047/</guid>
+      <guid>https://rustamjafar.com/en/047/</guid>
       <description>&lt;h1&gt;reddit: pros&lt;/h1&gt;&#xA;&lt;div class=&#34;quoteblock&#34;&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;ask the reddit community first&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;you can also find the reddit page of the field you are interested in&#xA;and check for some useful links on its front page&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/048/</link>
+      <link>https://rustamjafar.com/en/048/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/048/</guid>
+      <guid>https://rustamjafar.com/en/048/</guid>
       <description>&lt;h1&gt;color minimalism&lt;/h1&gt;&#xA;&lt;div id=&#34;toc&#34; class=&#34;toc&#34;&gt;&#xA;&lt;div id=&#34;toctitle&#34;&gt;&lt;/div&gt;&#xA;&lt;ul class=&#34;sectlevel1&#34;&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#_custom_colorscheme&#34;&gt;custom colorscheme&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#_colors_in_my_life&#34;&gt;colors in my life&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;div id=&#34;preamble&#34;&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;here i explain how i use colours in vim&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;sect1&#34;&gt;&#xA;&lt;h2 id=&#34;_custom_colorscheme&#34;&gt;custom colorscheme&lt;/h2&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;to maintain my own colorscheme in vim i use &lt;em&gt;lifepillar/vim-colortemplate&lt;/em&gt;,&#xA;&lt;a href=&#34;https://github.com/lifepillar/vim-colortemplate&#34; class=&#34;bare&#34;&gt;https://github.com/lifepillar/vim-colortemplate&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;show current buffer highlight groups:&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;listingblock&#34;&gt;&#xA;&lt;div class=&#34;content&#34;&gt;&#xA;&lt;pre class=&#34;highlight&#34;&gt;&lt;code&gt;:hi[ghlight]&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;show color group under cursor in vim w/:&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;listingblock&#34;&gt;&#xA;&lt;div class=&#34;content&#34;&gt;&#xA;&lt;pre class=&#34;highlight&#34;&gt;&lt;code&gt;:execute &amp;#39;hi&amp;#39; synIDattr(synID(line(&amp;#34;.&amp;#34;), col(&amp;#34;.&amp;#34;), 1), &amp;#34;name&amp;#34;)&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;when setting colors for specific color group, specify it for both light and&#xA;dark variants of the colorscheme. TODO: elaborate on this.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;sect1&#34;&gt;&#xA;&lt;h2 id=&#34;_colors_in_my_life&#34;&gt;colors in my life&lt;/h2&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;in general, i try to use as few colours as possible. so i try to stick&#xA;to the basic 16 colours in my vim colorscheme.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/049/</link>
+      <link>https://rustamjafar.com/en/049/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/049/</guid>
+      <guid>https://rustamjafar.com/en/049/</guid>
       <description>&lt;h1&gt;kipling: if — &lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;here’s one of the greatest poems in modern history&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;quoteblock&#34;&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;If you can keep your head when all about you&lt;br/&gt;&#xA;Are losing theirs and blaming it on you;&lt;br/&gt;&#xA;If you can trust yourself when all men doubt you,&lt;br/&gt;&#xA;But make allowance for their doubting too:&lt;br/&gt;&#xA;If you can wait and not be tired by waiting,&lt;br/&gt;&#xA;Or being lied about, don’t deal in lies,&lt;br/&gt;&#xA;Or being hated don’t give way to hating,&lt;br/&gt;&#xA;And yet don’t look too good, nor talk too wise;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/050/</link>
+      <link>https://rustamjafar.com/en/050/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/050/</guid>
+      <guid>https://rustamjafar.com/en/050/</guid>
       <description>&lt;h1&gt;git: reset&lt;/h1&gt;&#xA;&lt;div id=&#34;preamble&#34;&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;a few notes for myself in regards to what is said in the title&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;ulist&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;head&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;index&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;working tree&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;sect1&#34;&gt;&#xA;&lt;h2 id=&#34;_soft_reset&#34;&gt;soft reset&lt;/h2&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;code&gt;&lt;strong&gt;git reset --soft &amp;lt;commit-name&amp;gt;&lt;/strong&gt;&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;simply moves &lt;em&gt;head&lt;/em&gt; to &lt;code&gt;&amp;lt;commit-name&amp;gt;&lt;/code&gt;, &lt;em&gt;index&lt;/em&gt; and &lt;em&gt;working tree&lt;/em&gt; are intact.&#xA;this one is same as:&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;code&gt;git commit --ammend&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;sect1&#34;&gt;&#xA;&lt;h2 id=&#34;_mixed_reset&#34;&gt;mixed reset&lt;/h2&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;code&gt;&lt;strong&gt;git reset --mixed &amp;lt;commit-name&amp;gt;&lt;/strong&gt;&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;updates &lt;em&gt;index&lt;/em&gt; with whatever &lt;code&gt;&amp;lt;commit-name&amp;gt;&lt;/code&gt; &lt;em&gt;head&lt;/em&gt; points to, &lt;em&gt;working tree&lt;/em&gt;&#xA;is intact.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;sect1&#34;&gt;&#xA;&lt;h2 id=&#34;_hard_reset&#34;&gt;hard reset&lt;/h2&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;code&gt;&lt;strong&gt;git reset --hard &amp;lt;commit-name&amp;gt;&lt;/strong&gt;&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;updates &lt;em&gt;head&lt;/em&gt;, &lt;em&gt;index&lt;/em&gt; and &lt;em&gt;working tree&lt;/em&gt; w/ whatever &lt;code&gt;&amp;lt;commit-name&amp;gt;&lt;/code&gt; &lt;em&gt;head&lt;/em&gt;&#xA;points to.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/051/</link>
+      <link>https://rustamjafar.com/en/051/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/051/</guid>
+      <guid>https://rustamjafar.com/en/051/</guid>
       <description>&lt;h1&gt;petro: wiki&lt;/h1&gt;&#xA;&lt;div id=&#34;toc&#34; class=&#34;toc&#34;&gt;&#xA;&lt;div id=&#34;toctitle&#34;&gt;&lt;/div&gt;&#xA;&lt;ul class=&#34;sectlevel1&#34;&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#_general_engineering&#34;&gt;general engineering&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#_drilling_engineering&#34;&gt;drilling engineering&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#_faculties_and_construction_engineering&#34;&gt;faculties and construction engineering&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#_production_operations_engineering&#34;&gt;production operations engineering&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#_reservoir_engineering_and_petrophysics&#34;&gt;reservoir engineering and petrophysics&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#_emerging_peripheral_technologies&#34;&gt;emerging peripheral technologies&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#_index_and_standards&#34;&gt;index and standards&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;div id=&#34;preamble&#34;&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;w/ my specialist’s degree in medicine, i’ve been admitted to graduate school to&#xA;get master’s degree in petroleum engineering (more on this background later).&#xA;so as i have no undergraduate knowledge in this field, i need to catch up my&#xA;fellow students quickly. thus searching inside the petro industry i think&#xA;one good resource that extensively covers this field is the spe website&#xA;&lt;a href=&#34;https://www.spe.org/en/&#34; class=&#34;bare&#34;&gt;https://www.spe.org/en/&lt;/a&gt;. in particular, they do this by offering a&#xA;wikipage based on their petroleum engineering handbook located&#xA;at &lt;a href=&#34;https://petrowiki.spe.org/PetroWiki&#34; class=&#34;bare&#34;&gt;https://petrowiki.spe.org/PetroWiki&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/052/</link>
+      <link>https://rustamjafar.com/en/052/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/052/</guid>
+      <guid>https://rustamjafar.com/en/052/</guid>
       <description>&lt;h1&gt;math: greek alphabet&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;you definitely need this one if you’re a part of math community&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;imageblock&#34;&gt;&#xA;&lt;div class=&#34;content&#34;&gt;&#xA;&lt;img src=&#34;../052_image.jpg&#34; alt=&#34;greek-alphabet&#34;/&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/053/</link>
+      <link>https://rustamjafar.com/en/053/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/053/</guid>
+      <guid>https://rustamjafar.com/en/053/</guid>
       <description>&lt;h1&gt;math: calculus&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;there’s a very good explanation on reddit by u/Dr0110111001101111&#xA;&lt;a href=&#34;https://www.reddit.com/user/Dr0110111001101111/&#34; class=&#34;bare&#34;&gt;https://www.reddit.com/user/Dr0110111001101111/&lt;/a&gt; about stewart’s calculus:&#xA;early transcendentals&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;quoteblock&#34;&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;Early Transcendentals is the way to go. This is the book that made James&#xA;Stewart a very wealthy guy.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;Prior to Stewart writing that book, virtually every calculus book used a&#xA;sequence that is now known as &amp;#34;late transcendentals&amp;#34;. They didn’t have a term&#xA;for it back then, because they didn’t need one. It was the only way to go.&#xA;The most fundamental difference is the way certain topics are defined, which&#xA;results in a slightly different order of topics.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/054/</link>
+      <link>https://rustamjafar.com/en/054/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/054/</guid>
+      <guid>https://rustamjafar.com/en/054/</guid>
       <description>&lt;h1&gt;linux: time zone&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;all the info is available at &lt;a href=&#34;https://wiki.archlinux.org/title/System_time&#34; class=&#34;bare&#34;&gt;https://wiki.archlinux.org/title/System_time&lt;/a&gt;.&#xA;below are the commands i used in my personal case.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;show current time zone for the system:&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;code&gt;timedatectl status&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;list availabe time zones w/:&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;code&gt;timedatectl list-timezones&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;set time zone w/:&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;code&gt;timedatectl set-timezone &amp;lt;Zone/SubZone&amp;gt;&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/055/</link>
+      <link>https://rustamjafar.com/en/055/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/055/</guid>
+      <guid>https://rustamjafar.com/en/055/</guid>
       <description>&lt;h1&gt;math: glossary&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;this both get out of my head all the time, definition vs theorem, and others.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://users.math.msu.edu/users/duncan42/AxiomNotes.pdf&#34; class=&#34;bare&#34;&gt;https://users.math.msu.edu/users/duncan42/AxiomNotes.pdf&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/056/</link>
+      <link>https://rustamjafar.com/en/056/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/056/</guid>
+      <guid>https://rustamjafar.com/en/056/</guid>
       <description>&lt;h1&gt;math: trigonometry&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;here’s some visuals of basic circular functions&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;imageblock&#34;&gt;&#xA;&lt;div class=&#34;content&#34;&gt;&#xA;&lt;img src=&#34;../056_image.jpeg&#34; alt=&#34;trigonometry-functions&#34;/&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;thanks to&#xA;&lt;a href=&#34;https://simpliengineering.com/t/origin-of-trig-terms-tangent-and-secant/1886&#34; class=&#34;bare&#34;&gt;https://simpliengineering.com/t/origin-of-trig-terms-tangent-and-secant/1886&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;there’s also a good comment following by the user &lt;em&gt;BAretired&lt;/em&gt;:&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;quoteblock&#34;&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;I love that diagram of a circle of unit radius. It makes everything so&#xA;clear and actually gives us a rough idea of approximately what size the&#xA;various trig functions should be.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/057/</link>
+      <link>https://rustamjafar.com/en/057/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/057/</guid>
+      <guid>https://rustamjafar.com/en/057/</guid>
       <description>&lt;h1&gt;clothes: standards&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;clearly explainded standards for men’s apparel&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://propercloth.com/reference/category/fit-advice/&#34; class=&#34;bare&#34;&gt;https://propercloth.com/reference/category/fit-advice/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/058/</link>
+      <link>https://rustamjafar.com/en/058/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/058/</guid>
+      <guid>https://rustamjafar.com/en/058/</guid>
       <description>&lt;h1&gt;libretexts&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;i recommend that you check out the library section of the web site below.&#xA;generally, this is all about science.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://libretexts.org/&#34; class=&#34;bare&#34;&gt;https://libretexts.org/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/059/</link>
+      <link>https://rustamjafar.com/en/059/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/059/</guid>
+      <guid>https://rustamjafar.com/en/059/</guid>
       <description>&lt;h1&gt;latex: manage packages&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;code&gt;tlmgr&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;listingblock&#34;&gt;&#xA;&lt;div class=&#34;content&#34;&gt;&#xA;&lt;pre class=&#34;highlight&#34;&gt;&lt;code&gt;$ tlmgr usertree&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;listingblock&#34;&gt;&#xA;&lt;div class=&#34;content&#34;&gt;&#xA;&lt;pre class=&#34;highlight&#34;&gt;&lt;code&gt;$ sudo `which tlmgr` &amp;lt;options&amp;gt; &amp;lt;package-name&amp;gt;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;code&gt;kpsewhich&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: finish up writing this note&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/060/</link>
+      <link>https://rustamjafar.com/en/060/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/060/</guid>
+      <guid>https://rustamjafar.com/en/060/</guid>
       <description>&lt;h1&gt;windows: multilang keyboard&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;on windows os having multiple input languages, you can select previous&#xA;input method w/:&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;code&gt;ctrl&lt;/code&gt; + &lt;code&gt;win&lt;/code&gt; + &lt;code&gt;space&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;the above will only work if you use &lt;code&gt;win&lt;/code&gt; + &lt;code&gt;space&lt;/code&gt; to change your&#xA;input language and not the default &lt;code&gt;shift&lt;/code&gt; + &lt;code&gt;alt&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: explain this later&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/061/</link>
+      <link>https://rustamjafar.com/en/061/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/061/</guid>
+      <guid>https://rustamjafar.com/en/061/</guid>
       <description>&lt;h1&gt;linux: manage fonts&lt;/h1&gt;&#xA;&lt;div id=&#34;toc&#34; class=&#34;toc&#34;&gt;&#xA;&lt;div id=&#34;toctitle&#34;&gt;&lt;/div&gt;&#xA;&lt;ul class=&#34;sectlevel1&#34;&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#_fontconfig&#34;&gt;fontconfig&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#_check_installed_fonts&#34;&gt;check installed fonts&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#_download_font_file&#34;&gt;download font file&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#_manually_install_font&#34;&gt;manually install font&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#_delete_font&#34;&gt;delete font&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;div id=&#34;preamble&#34;&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;in this note, i’ll try to show how i manage fonts on my linux machine.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;sect1&#34;&gt;&#xA;&lt;h2 id=&#34;_fontconfig&#34;&gt;fontconfig&lt;/h2&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;em&gt;fontconfig&lt;/em&gt; is the system that controls fonts in linux machines. it includes&#xA;the following programs:&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;ulist&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;em&gt;fc-cache&lt;/em&gt; to maintain the fontconfig cache&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;em&gt;fc-list&lt;/em&gt; to list installed fonts&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;em&gt;fc-match&lt;/em&gt; to test the matching rules&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;em&gt;fc-cat&lt;/em&gt; to dump the binary cache files in string form&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/062/</link>
+      <link>https://rustamjafar.com/en/062/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/062/</guid>
+      <guid>https://rustamjafar.com/en/062/</guid>
       <description>&lt;h1&gt;typeface: arabic monospaced&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;there’re not that many monospace arabic fonts out there, but an interesting&#xA;attempt has been made by user eliheuer and published on github at&#xA;&lt;a href=&#34;https://github.com/eliheuer/hasubi-mono&#34; class=&#34;bare&#34;&gt;https://github.com/eliheuer/hasubi-mono&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/063/</link>
+      <link>https://rustamjafar.com/en/063/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/063/</guid>
+      <guid>https://rustamjafar.com/en/063/</guid>
       <description>&lt;h1&gt;latex: manage fonts&lt;/h1&gt;&#xA;&lt;div id=&#34;toc&#34; class=&#34;toc&#34;&gt;&#xA;&lt;div id=&#34;toctitle&#34;&gt;&lt;/div&gt;&#xA;&lt;ul class=&#34;sectlevel1&#34;&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#_compiling&#34;&gt;compiling&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#_fonts&#34;&gt;fonts&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#_fontspec_package&#34;&gt;fontspec package&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#_set_default_font_family&#34;&gt;set default font family&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#_selecting_font&#34;&gt;selecting font&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;div id=&#34;preamble&#34;&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;i will show which tex commands i use for selecting different fonts when&#xA;creating tex document. all the info below is just a summary of the following&#xA;articles.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;sect1&#34;&gt;&#xA;&lt;h2 id=&#34;_compiling&#34;&gt;compiling&lt;/h2&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;for compiling tex document i recommend that you use xelatex instead of&#xA;pdflatex engine because of its native support of utf-8,&#xA;&lt;a href=&#34;https://www.overleaf.com/learn/latex/Articles/Unicode%2C_UTF-8_and_multilingual_text%3A_An_introduction&#34; class=&#34;bare&#34;&gt;https://www.overleaf.com/learn/latex/Articles/Unicode%2C_UTF-8_and_multilingual_text%3A_An_introduction&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;sect1&#34;&gt;&#xA;&lt;h2 id=&#34;_fonts&#34;&gt;fonts&lt;/h2&gt;&#xA;&lt;div class=&#34;sectionbody&#34;&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;make sure &lt;em&gt;otf&lt;/em&gt; or &lt;em&gt;ttf&lt;/em&gt; fonts are installed on your machine.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/064/</link>
+      <link>https://rustamjafar.com/en/064/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/064/</guid>
+      <guid>https://rustamjafar.com/en/064/</guid>
       <description>&lt;h1&gt;rwxrob: don’t quit your job&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;in this video, &lt;a href=&#34;https://youtu.be/hHaH0SChHzw&#34; class=&#34;bare&#34;&gt;https://youtu.be/hHaH0SChHzw&lt;/a&gt;, rwxrob says that you shouldn’t&#xA;quit while taking his beginner boost course.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;there’s also a good comment i agree with from user @sp123&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;quoteblock&#34;&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;Its better to try with obstacles to see if you actually enjoy it.&#xA;Someone quitting their job then realizing they dont like it caused&#xA;themselves unnecessary pain&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;what i would add is that if you want to start smth new, first try&#xA;to balance your work and study, maybe work part time or schedule your&#xA;study time after hours, if neither helps, choose the one that matters&#xA;most to you.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/065/</link>
+      <link>https://rustamjafar.com/en/065/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/065/</guid>
+      <guid>https://rustamjafar.com/en/065/</guid>
       <description>&lt;h1&gt;admiral mcraven&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: here be mcravens 10 advice&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/066/</link>
+      <link>https://rustamjafar.com/en/066/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/066/</guid>
+      <guid>https://rustamjafar.com/en/066/</guid>
       <description>&lt;h1&gt;notes: structure&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: here i will describe the folder structure i use when taking&#xA;notes on a pc&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/067/</link>
+      <link>https://rustamjafar.com/en/067/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/067/</guid>
+      <guid>https://rustamjafar.com/en/067/</guid>
       <description>&lt;h1&gt;vocabulary: context&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;learn new vocabulary in context, always use sentences, whatever they are.&#xA;never ever learn just words on their own.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/068/</link>
+      <link>https://rustamjafar.com/en/068/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/068/</guid>
+      <guid>https://rustamjafar.com/en/068/</guid>
       <description>&lt;h1&gt;encryption: gpg and sha&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;use gpg for email encryption and sha to make sure that you’ve got the original&#xA;that hasn’t been corrupted&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;you can use &lt;em&gt;have i been pwned&lt;/em&gt; to check whether your email has been&#xA;compromised at &lt;a href=&#34;https://haveibeenpwned.com/&#34; class=&#34;bare&#34;&gt;https://haveibeenpwned.com/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/069/</link>
+      <link>https://rustamjafar.com/en/069/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/069/</guid>
+      <guid>https://rustamjafar.com/en/069/</guid>
       <description>&lt;h1&gt;speed reading: a word at a time&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://onewordreader.com/&#34; class=&#34;bare&#34;&gt;http://onewordreader.com/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: i’ll try first, then will follow up with my own thoughts on this.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/070/</link>
+      <link>https://rustamjafar.com/en/070/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/070/</guid>
+      <guid>https://rustamjafar.com/en/070/</guid>
       <description>&lt;h1&gt;time management&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;always time your sessions, no matter what the session is, no matter&#xA;where it takes place.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;when timing your session, place your watch where you can always see it in a matter of seconds.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: go into this in more detail later&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/071/</link>
+      <link>https://rustamjafar.com/en/071/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/071/</guid>
+      <guid>https://rustamjafar.com/en/071/</guid>
       <description>&lt;h1&gt;mba: curriculum&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;becoming a manager, definitely recommend taking some mba courses.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.gsb.stanford.edu/programs/mba/academic-experience/curriculum/first-year&#34; class=&#34;bare&#34;&gt;https://www.gsb.stanford.edu/programs/mba/academic-experience/curriculum/first-year&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: elaborate on this&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/072/</link>
+      <link>https://rustamjafar.com/en/072/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/072/</guid>
+      <guid>https://rustamjafar.com/en/072/</guid>
       <description>&lt;h1&gt;vocabulary: multilang&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;nowadays, english is the language of science. so if you are studying&#xA;science outside english-speaking countries, make sure you use the right&#xA;translation, so that the locals can understand you.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/073/</link>
+      <link>https://rustamjafar.com/en/073/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/073/</guid>
+      <guid>https://rustamjafar.com/en/073/</guid>
       <description>&lt;h1&gt;system dynamics&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: research this&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/074/</link>
+      <link>https://rustamjafar.com/en/074/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/074/</guid>
+      <guid>https://rustamjafar.com/en/074/</guid>
       <description>&lt;h1&gt;latex: multilang&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;babel vs polyglossia&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;installing hypenation for each language&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: i will try both and then write up my thoughts later.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/075/</link>
+      <link>https://rustamjafar.com/en/075/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/075/</guid>
+      <guid>https://rustamjafar.com/en/075/</guid>
       <description>&lt;h1&gt;mba: executives&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;in my opinion, there’re 3 types of managers you can learn from, and they&#xA;are american, german and japanese managers. they all use different&#xA;strategies for execution.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: elaborate on this&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/076/</link>
+      <link>https://rustamjafar.com/en/076/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/076/</guid>
+      <guid>https://rustamjafar.com/en/076/</guid>
       <description>&lt;h1&gt;cs: suckless philosophy&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;i recommend that you read &lt;em&gt;suckless.org&lt;/em&gt; philosophy to sharpen your programming&#xA;skills at &lt;a href=&#34;https://suckless.org/&#34; class=&#34;bare&#34;&gt;https://suckless.org/&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;and of rwxrob’s recommendations in one of his beginner’s boost is to&#xA;read the style and coding guidelines for each specific language, as it will&#xA;make your code consistent throughout the document. that is, if you’re&#xA;coding in c, just google &amp;#34;c coding guidlines&amp;#34; and you’ll get the results.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/077/</link>
+      <link>https://rustamjafar.com/en/077/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/077/</guid>
+      <guid>https://rustamjafar.com/en/077/</guid>
       <description>&lt;h1&gt;bash: shellcheck&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;when coding bash, you can check your scripts with &lt;a href=&#34;https://www.shellcheck.net/&#34; class=&#34;bare&#34;&gt;https://www.shellcheck.net/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/078/</link>
+      <link>https://rustamjafar.com/en/078/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/078/</guid>
+      <guid>https://rustamjafar.com/en/078/</guid>
       <description>&lt;h1&gt;kardashev scale&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;an interesting mention from elon musk’s x page&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: explore this topic&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/079/</link>
+      <link>https://rustamjafar.com/en/079/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/079/</guid>
+      <guid>https://rustamjafar.com/en/079/</guid>
       <description>&lt;h1&gt;windows: terminal&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;configuring github bash in windows terminal app is described at&#xA;&lt;a href=&#34;https://neutrondev.com/add-git-bash-windows-terminal/&#34; class=&#34;bare&#34;&gt;https://neutrondev.com/add-git-bash-windows-terminal/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: another note explaning my linux workflow on windows machines&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/080/</link>
+      <link>https://rustamjafar.com/en/080/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/080/</guid>
+      <guid>https://rustamjafar.com/en/080/</guid>
       <description>&lt;h1&gt;math: desmos&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;check out some of the desmos tutorials. there’s hidden power underneath.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: check out geogebra&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/081/</link>
+      <link>https://rustamjafar.com/en/081/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/081/</guid>
+      <guid>https://rustamjafar.com/en/081/</guid>
       <description>&lt;h1&gt;lesswrong&lt;/h1&gt;&#xA;&lt;div class=&#34;quoteblock&#34;&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;While &lt;em&gt;truthfulness&lt;/em&gt; is a property of beliefs, &lt;em&gt;rationality&lt;/em&gt; is a property of&#xA;reasoning processes&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;attribution&#34;&gt;&#xA;— LessWrong&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.lesswrong.com&#34; class=&#34;bare&#34;&gt;https://www.lesswrong.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;it is my recommendation that you read their user guide first&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/082/</link>
+      <link>https://rustamjafar.com/en/082/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/082/</guid>
+      <guid>https://rustamjafar.com/en/082/</guid>
       <description>&lt;h1&gt;klin: data viz&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;some pretty good data visualization projects from these gentlemen at&#xA;&lt;a href=&#34;https://www.kiln.digital/&#34; class=&#34;bare&#34;&gt;https://www.kiln.digital/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/083/</link>
+      <link>https://rustamjafar.com/en/083/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/083/</guid>
+      <guid>https://rustamjafar.com/en/083/</guid>
       <description>&lt;h1&gt;forensics&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;i don’t know, but i think forensics can be a great help in life, because of the&#xA;breadth of topics it covers. you can start at&#xA;&lt;a href=&#34;https://www.forensicsciencesimplified.org/&#34; class=&#34;bare&#34;&gt;https://www.forensicsciencesimplified.org/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/084/</link>
+      <link>https://rustamjafar.com/en/084/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/084/</guid>
+      <guid>https://rustamjafar.com/en/084/</guid>
       <description>&lt;h1&gt;anki: workflow&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;creating decks, notes, note types, note styles, cards, and tags in anki, don’t&#xA;overcomplicate them and try to keep them as simple as possible.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: explain workflow i use when learning languages&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/085/</link>
+      <link>https://rustamjafar.com/en/085/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/085/</guid>
+      <guid>https://rustamjafar.com/en/085/</guid>
       <description>&lt;h1&gt;petro: slb glossary&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;what a good energy industry glossary slb has&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://glossary.slb.com/&#34; class=&#34;bare&#34;&gt;https://glossary.slb.com/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/086/</link>
+      <link>https://rustamjafar.com/en/086/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/086/</guid>
+      <guid>https://rustamjafar.com/en/086/</guid>
       <description>&lt;h1&gt;american posture league&lt;/h1&gt;&#xA;&lt;div class=&#34;quoteblock&#34;&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;The enterprise was not a commercial success, …​&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;attribution&#34;&gt;&#xA;— from wikipedia&lt;br/&gt;&#xA;&lt;cite&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/American_Posture_League&#34; class=&#34;bare&#34;&gt;https://en.wikipedia.org/wiki/American_Posture_League&lt;/a&gt;&lt;/cite&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/087/</link>
+      <link>https://rustamjafar.com/en/087/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/087/</guid>
+      <guid>https://rustamjafar.com/en/087/</guid>
       <description>&lt;h1&gt;khan academy: player&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;by default, khan academy uses youtube player to play its videos, but&#xA;you can disable this behaviuor by doing the following:&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;quoteblock&#34;&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;At the end of a video’s link right after &lt;code&gt;?modal=1—&lt;/code&gt;, add this string:&#xA;&lt;code&gt;&amp;amp;disable_youtube=1&lt;/code&gt;. By doing this, YouTube will be blocked and the&#xA;fallback player will be triggered. In case the video’s link ends in anything&#xA;that’s not &lt;code&gt;?modal=1&lt;/code&gt;, add &lt;code&gt;?modal=1&amp;amp;disable_youtube=1&lt;/code&gt; instead.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;attribution&#34;&gt;&#xA;— u/Andrew&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;you can find the original post here&#xA;&lt;a href=&#34;https://support.khanacademy.org/hc/en-us/community/posts/19692710485901-Switch-back-to-default-video-player&#34; class=&#34;bare&#34;&gt;https://support.khanacademy.org/hc/en-us/community/posts/19692710485901-Switch-back-to-default-video-player&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/088/</link>
+      <link>https://rustamjafar.com/en/088/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/088/</guid>
+      <guid>https://rustamjafar.com/en/088/</guid>
       <description>&lt;h1&gt;mafia closing speech&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;here be the closing speech from the video game &amp;#34;mafia: the city of lost haven&amp;#34;.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/089/</link>
+      <link>https://rustamjafar.com/en/089/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/089/</guid>
+      <guid>https://rustamjafar.com/en/089/</guid>
       <description>&lt;h1&gt;nick: names&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;some recommendations from me when creating a nickname that will be used in the&#xA;english-speaking community:&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;olist arabic&#34;&gt;&#xA;&lt;ol class=&#34;arabic&#34;&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;take latin examples from ancient rome, e.g., …​&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;from above you can omit parts, e.g., navi&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: tbc …​&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/090/</link>
+      <link>https://rustamjafar.com/en/090/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/090/</guid>
+      <guid>https://rustamjafar.com/en/090/</guid>
       <description>&lt;h1&gt;mba: billions&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;in one of the episodes of the &amp;#34;billions&amp;#34; series, the protagonist, taylor mason,&#xA;says:&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;quoteblock&#34;&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;Even when you try to keep things mathematical, the satisfying solution is&#xA;not always available.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/091/</link>
+      <link>https://rustamjafar.com/en/091/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/091/</guid>
+      <guid>https://rustamjafar.com/en/091/</guid>
       <description>&lt;h1&gt;nginx: proxy&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: describe this&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/092/</link>
+      <link>https://rustamjafar.com/en/092/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/092/</guid>
+      <guid>https://rustamjafar.com/en/092/</guid>
       <description>&lt;h1&gt;aard: vocabulary&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://aarddict.org/&#34; class=&#34;bare&#34;&gt;https://aarddict.org/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;i recommend that you use aard dictionary for it is based on wiktionary.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: expand on this and on wiktionary&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/093/</link>
+      <link>https://rustamjafar.com/en/093/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/093/</guid>
+      <guid>https://rustamjafar.com/en/093/</guid>
       <description>&lt;h1&gt;cs: lynx&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;lynx is the &lt;em&gt;text&lt;/em&gt; web browser&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://lynx.invisible-island.net/&#34; class=&#34;bare&#34;&gt;https://lynx.invisible-island.net/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: expand on this&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/094/</link>
+      <link>https://rustamjafar.com/en/094/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/094/</guid>
+      <guid>https://rustamjafar.com/en/094/</guid>
       <description>&lt;h1&gt;golden ratio: logos&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;when creating smth try to use the golden section, for nature is based on it.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;it is approx 1.618&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: elaborate on this&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/095/</link>
+      <link>https://rustamjafar.com/en/095/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/095/</guid>
+      <guid>https://rustamjafar.com/en/095/</guid>
       <description>&lt;h1&gt;calendar&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;i recommend that you learn how to use calendar effectively.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: elaborate on this&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/096/</link>
+      <link>https://rustamjafar.com/en/096/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/096/</guid>
+      <guid>https://rustamjafar.com/en/096/</guid>
       <description>&lt;h1&gt;google scholar&lt;/h1&gt;&#xA;&lt;div class=&#34;quoteblock&#34;&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;Stand on the shoulders of giants&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;don’t forget about it&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/097/</link>
+      <link>https://rustamjafar.com/en/097/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/097/</guid>
+      <guid>https://rustamjafar.com/en/097/</guid>
       <description>&lt;h1&gt;search-centered&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;personally, i struggle to maintain the content structure of my files on the pc,&#xA;so when i heard &lt;em&gt;rwxrob&lt;/em&gt;&amp;#39;s about being search-centeric, it made my&#xA;life a lot easier.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: elaborate on this&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/098/</link>
+      <link>https://rustamjafar.com/en/098/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/098/</guid>
+      <guid>https://rustamjafar.com/en/098/</guid>
       <description>&lt;h1&gt;mba: it’s up to us!&lt;/h1&gt;&#xA;&lt;div class=&#34;quoteblock&#34;&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;No one is coming, it’s up to us!&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;this is from the back cover of brendan bechtel’s ipad.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;imageblock&#34;&gt;&#xA;&lt;div class=&#34;content&#34;&gt;&#xA;&lt;img src=&#34;../098_image_01.jpg&#34; alt=&#34;brendan-bechtel&#34;/&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/099/</link>
+      <link>https://rustamjafar.com/en/099/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/099/</guid>
+      <guid>https://rustamjafar.com/en/099/</guid>
       <description>&lt;h1&gt;petro: spe curriculum&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;the spe model petroleum engineering curriculum is linked below&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.spe.org/members/docs/Model-Petroleum-Engineering-Curriculum.pdf&#34; class=&#34;bare&#34;&gt;https://www.spe.org/members/docs/Model-Petroleum-Engineering-Curriculum.pdf&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/100/</link>
+      <link>https://rustamjafar.com/en/100/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/100/</guid>
+      <guid>https://rustamjafar.com/en/100/</guid>
       <description>&lt;h1&gt;cs: unix philosophy&lt;/h1&gt;&#xA;&lt;div class=&#34;quoteblock&#34;&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;The Unix philosophy is documented by Doug McIlroy in the Bell System Technical&#xA;Journal from 1978:&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;ulist&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Make each program do one thing well. To do a new job, build afresh rather&#xA;than complicate old programs by adding new &amp;#34;features&amp;#34;.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Expect the output of every program to become the input to another, as yet&#xA;unknown, program. Don’t clutter output with extraneous information. Avoid&#xA;stringently columnar or binary input formats. Don’t insist on&#xA;interactive input.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Design and build software, even operating systems, to be tried early,&#xA;ideally within weeks. Don’t hesitate to throw away the clumsy parts&#xA;and rebuild them.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Use tools in preference to unskilled help to lighten a programming&#xA;task, even if you have to detour to build the tools and expect to throw&#xA;some of them out after you’ve finished using them.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/101/</link>
+      <link>https://rustamjafar.com/en/101/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/101/</guid>
+      <guid>https://rustamjafar.com/en/101/</guid>
       <description>&lt;h1&gt;wayback machine&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;check out way back machine for the copy of web pages that are not available&#xA;as for today&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://webcf.waybackmachine.org/&#34; class=&#34;bare&#34;&gt;https://webcf.waybackmachine.org/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/102/</link>
+      <link>https://rustamjafar.com/en/102/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/102/</guid>
+      <guid>https://rustamjafar.com/en/102/</guid>
       <description>&lt;h1&gt;fixit: battery replacement&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;check out cameron sino branded batteries when choosing a replacement for&#xA;your device. i’ve already replaced my google pixel’s battery with one&#xA;of this brand. i’ll try to report on my experience using few months later.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;zhanglida glue. below is the page to help you choose the correct type of&#xA;adhesive&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.zhanlidaadhesive.com/which-to-buy/?v=920f83e594a1&#34; class=&#34;bare&#34;&gt;https://www.zhanlidaadhesive.com/which-to-buy/?v=920f83e594a1&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/103/</link>
+      <link>https://rustamjafar.com/en/103/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/103/</guid>
+      <guid>https://rustamjafar.com/en/103/</guid>
       <description>&lt;h1&gt;TOGGLING CAPS LOCK&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;WHILE WATCHING TRUMP’S NBC INTERVIEW, I DECIDED TO TURN ON SUBTITLES TO LEARN&#xA;SOME NEW VOCABULARY. I NOTICED THAT THESE SUBTITLES WERE WRITTEN IN CAPS-LOCKED&#xA;MODE. HONESTLY, I LOVED IT AND WILL BE USING CAPS LOCK LETTERS IN MY DAILY&#xA;LIFE.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;BELOW IS TRUMP’S INTERVIEW&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=b607adhuu2i&amp;amp;t=6s&#34; class=&#34;bare&#34;&gt;https://www.youtube.com/watch?v=b607adhuu2i&amp;amp;t=6s&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: ELABORATE ON THIS (DON’T FORGET LINUX IS CASE-SENSITIVE)&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/104/</link>
+      <link>https://rustamjafar.com/en/104/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/104/</guid>
+      <guid>https://rustamjafar.com/en/104/</guid>
       <description>&lt;h1&gt;DO NOT DISCREDIT YOURSELF&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;BELOW I WILL POST EXCERPTS FROM 2020 TRUMP’S 60 MUNIUTE INTERVIEW.&#xA;I KNOW WHO THE INTERVIEWER WAS, BUT HONESTLY, I JUST DON’T WANT HER NAME TO&#xA;BE POSTED ON MY SITE. THAT’S WHY I’ILL JUST USE THE WORD &amp;#34;INTERVIEWER&amp;#34;&#xA;INSTEAD.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;quoteblock&#34;&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;…​&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&amp;lt;INTERVIEWER&amp;gt;: (23:10) Do you think that your tweets and your name&#xA;calling are turning people off?&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;Donald Trump: (23:18) No, I think I wouldn’t be here if I didn’t have&#xA;social media, because the media is corrupt. In my opinion, the media&#xA;is corrupt. But the media is fake, and frankly, if I didn’t have social media,&#xA;I’d have no way of getting out my voice.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/105/</link>
+      <link>https://rustamjafar.com/en/105/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/105/</guid>
+      <guid>https://rustamjafar.com/en/105/</guid>
       <description>&lt;h1&gt;LINUX: FREE VS TIME&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;WHAT IT TAKES TO LEARN LINUX? BASICALLY, WITH ALL PROGRAMS THAT ARE FREE&#xA;AND OPEN SOURCE, YOU SACRIFICE YOUR FREE TIME.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: FIND THE COMMENTARY THAT CONCISELY EXPLAINS THE CONCEPT&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/106/</link>
+      <link>https://rustamjafar.com/en/106/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/106/</guid>
+      <guid>https://rustamjafar.com/en/106/</guid>
       <description>&lt;h1&gt;DAILY&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;FOCUS: ROBERTGREENE, EMILYPOST, R, DECISION THEORY, WRITING WITH LEFT HAND,&#xA;WORLD FOLKLORE, HISTORY, HANDWRITING,REGEX, C, GO, MAKING FONTS,&#xA;DATA SCIENCE, TABLEAU OR SIMILAR,&#xA;JAPANESE, ARABIC, SETERRA.&#xA;PODCASTS: THAMANYA, 99 INVISIBLE, TED BUSINESS, AWESOME ETIQUETTE,&#xA;PROSTO ISTORIIA.&#xA;CHANNELS: OBSHCHESTVENNIY INTERES RGVK, TIMOUR GHAZI, USEFUL CHARTS, MKBHD,&#xA;THE B1M, GEOGUESSR, SSTLNSK, WORLD, CHASE TAG, MURAD LA RIBA,&#xA;CULTURE MAFIA, IMSA, WRC RALLY, WEC, CALEB CURRY CS, LUKE SMITH,&#xA;RWXROB, NATGEO.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/107/</link>
+      <link>https://rustamjafar.com/en/107/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/107/</guid>
-      <description>&lt;h1&gt;VIM: CAPS LOCK SHORTCUTS&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;SOME USEFULL SHORTCUTS TO TURN YOUR TEXT INTO UPPER OR LOWER CASE LETTERS&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://stackoverflow.com/questions/2946051/changing-case-in-vim&#34; class=&#34;bare&#34;&gt;https://stackoverflow.com/questions/2946051/changing-case-in-vim&lt;/a&gt;,&#xA;fallback &lt;a href=&#34;http://localhost:1313/107_saved.html&#34; class=&#34;bare&#34;&gt;/107_saved.html&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: CONCISELY REWRITE THE ARTICLE&lt;/p&gt;&#xA;&lt;/div&gt;</description>
+      <guid>https://rustamjafar.com/en/107/</guid>
+      <description>&lt;h1&gt;VIM: CAPS LOCK SHORTCUTS&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;SOME USEFULL SHORTCUTS TO TURN YOUR TEXT INTO UPPER OR LOWER CASE LETTERS&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://stackoverflow.com/questions/2946051/changing-case-in-vim&#34; class=&#34;bare&#34;&gt;https://stackoverflow.com/questions/2946051/changing-case-in-vim&lt;/a&gt;,&#xA;fallback &lt;a href=&#34;https://rustamjafar.com/107_saved.html&#34; class=&#34;bare&#34;&gt;/107_saved.html&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: CONCISELY REWRITE THE ARTICLE&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/108/</link>
+      <link>https://rustamjafar.com/en/108/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/108/</guid>
+      <guid>https://rustamjafar.com/en/108/</guid>
       <description>&lt;h1&gt;WEBSITE: WORKFLOW&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;AS OF 20240518114611, I’VE SET HUGO UP AND I’VE MOVED MY ENTIRE WEBSITE THERE.&#xA;YOU CAN READ ABOUT MY PREVIOUS WORKFLOW IN THE NOTE BY REFERENCING MENTIONED&#xA;ID. IN GENERAL, I LOVE HUGO. IT IS A REALLY COOL TOOL TO USE IF YOU&#xA;BUILD WEBSITES ON A REGULAR BASIS.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;BUT THE THING IS, I DON’T USE IT IN THE WAY DESCRIBED ABOVE.&#xA;I’M PURSUING MASTER’S IN ENGINEERING, NOT IN CS. I STUDY&#xA;ENGINEERING A LOT, INCLUDING EVERYTHING THAT GOES W/ IT. SOMEHOW I MANAGE TO&#xA;KEEP MY NOTES BY USING EVERY TOOL AVAILABLE TO WRITE THEM DOWN WHEREVER AND&#xA;WHENEVER I AM (MORE ON THIS LATER). IT TAKES TIME FOR ME TO UPLOAD&#xA;THEM TO THE INTERNET. BASICALLY, I SET ONE DAY&#xA;ASIDE TO DO THIS. HUGO ITSELF ASSUMES YOU’RE USING IT IN TERMINAL&#xA;(I LOVE IT). IT HAPPENS THAT  WHEN I COME BACK TO MY TERMINAL WINDOW,&#xA;I COMPLETELY FORGET WHAT I LEARNED ABOUT HUGO AND SPEND SOME TIME&#xA;RELEARNING IT. IT TAKES TIME AND I DON’T REGRET IT. BUT&#xA;EVERY TIME I DO SO, I THINK THERE’RE LANGUAGES I LOVE THAT I COULD HAVE&#xA;SPENT TIME LEARNING INSTEAD OF HUGO, FOR HUGO IS NOT A&#xA;LANGUAGE, IT’S A FRAMEWORK. THESE LANGUAGES INCLUDE BASH, C, AND GO.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/109/</link>
+      <link>https://rustamjafar.com/en/109/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/109/</guid>
+      <guid>https://rustamjafar.com/en/109/</guid>
       <description>&lt;h1&gt;BE CONCISE&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;THE ABILITY TO EXPRESS YOURSELF WITH FEW WORDS WILL GREATLY HELP YOU A LOT&#xA;IN LIFE. AND DON’T USE DIFFICULT WORDS. USE WORDS THAT EVERYONE CAN&#xA;UNDERSTAND. THIS IS THE POWER OF ENGLISH LANGUAGE. YOU HAVE TO SOUND NATURAL.&#xA;AT MOST YOU NEED ABOUT 2000 WORDS IN LANGUAGE&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/110/</link>
+      <link>https://rustamjafar.com/en/110/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/110/</guid>
-      <description>&lt;h1&gt;HTML: MULTI-DIRECTIONAL LAYOUT&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;IN NOTE 20240211114916 I RECOMMENDED THAT YOU USE CSS TO CONTROL YOUR&#xA;LAYOUT DIRECTION. IN GENERAL, I WAS WRONG. USE HTML INSTEAD. READ THE&#xA;ARTICLE BELOW TO LEARN MORE.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://rtlstyling.com/posts/rtl-styling/&#34; class=&#34;bare&#34;&gt;https://rtlstyling.com/posts/rtl-styling/&lt;/a&gt;, FALLBACK &lt;a href=&#34;http://localhost:1313/110_saved.html&#34; class=&#34;bare&#34;&gt;/110_saved.html&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
+      <guid>https://rustamjafar.com/en/110/</guid>
+      <description>&lt;h1&gt;HTML: MULTI-DIRECTIONAL LAYOUT&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;IN NOTE 20240211114916 I RECOMMENDED THAT YOU USE CSS TO CONTROL YOUR&#xA;LAYOUT DIRECTION. IN GENERAL, I WAS WRONG. USE HTML INSTEAD. READ THE&#xA;ARTICLE BELOW TO LEARN MORE.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://rtlstyling.com/posts/rtl-styling/&#34; class=&#34;bare&#34;&gt;https://rtlstyling.com/posts/rtl-styling/&lt;/a&gt;, FALLBACK &lt;a href=&#34;https://rustamjafar.com/110_saved.html&#34; class=&#34;bare&#34;&gt;/110_saved.html&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/111/</link>
+      <link>https://rustamjafar.com/en/111/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/111/</guid>
+      <guid>https://rustamjafar.com/en/111/</guid>
       <description>&lt;h1&gt;SKETCHING IN ENGINEERING&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;AS AN ENGINEER YOU NEED TO BE ABLE TO SKETCH ANY CONCEPT QUICKLY,&#xA;BEAUTIFULLY, AND CONCISELY. THAT’S WHY I ENCOURAGE YOU TO LEARN HOW TO&#xA;SKETCH. A GOOD PLACE TO START IS THE DRAW A BOX DOT COME WEBSITE&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://drawabox.com/&#34; class=&#34;bare&#34;&gt;https://drawabox.com/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;HERE ARE SOME EXAMPLES FROM SAL KHAN, FOUNDER OF KHAN ACADEMY&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;imageblock&#34;&gt;&#xA;&lt;div class=&#34;content&#34;&gt;&#xA;&lt;img src=&#34;../111_image_01.png&#34; alt=&#34;sketching_01&#34;/&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;ANOTHER ONE&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;imageblock&#34;&gt;&#xA;&lt;div class=&#34;content&#34;&gt;&#xA;&lt;img src=&#34;../111_image_02.png&#34; alt=&#34;sketching_02&#34;/&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/112/</link>
+      <link>https://rustamjafar.com/en/112/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/112/</guid>
+      <guid>https://rustamjafar.com/en/112/</guid>
       <description>&lt;h1&gt;PROTECT YOUR MAIL&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;START HERE &lt;a href=&#34;https://www.fsf.org/resources/webmail-systems&#34; class=&#34;bare&#34;&gt;https://www.fsf.org/resources/webmail-systems&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/113/</link>
+      <link>https://rustamjafar.com/en/113/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/113/</guid>
+      <guid>https://rustamjafar.com/en/113/</guid>
       <description>&lt;h1&gt;ANKI: LONG-TERM&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;A GOOD REVIEW SCHEDULE FOR A LONG-TERM LEARNING IS EXPLAINED IN THE VIDEO&#xA;BELOW.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=1XaJjbCSXT0&#34; class=&#34;bare&#34;&gt;https://www.youtube.com/watch?v=1XaJjbCSXT0&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;THANKS TO CONAN LIU, &lt;a href=&#34;https://www.youtube.com/@ConanLiuMD&#34; class=&#34;bare&#34;&gt;https://www.youtube.com/@ConanLiuMD&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: REWRITE THE EXPLANATION BRIEFLY&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/114/</link>
+      <link>https://rustamjafar.com/en/114/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/114/</guid>
+      <guid>https://rustamjafar.com/en/114/</guid>
       <description>&lt;h1&gt;JAPANESE: WRITING PAPER&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;YOU CAN DOWNLOAD BOTH 10MM AND 15MM GRID/NO-GRID JAPANESE WRITING PAPER&#xA;FROM THE LINK BELOW&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://teamjapanese.com/japanese-writing-paper/&#34; class=&#34;bare&#34;&gt;https://teamjapanese.com/japanese-writing-paper/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;THANKS TO TEAM JAPANESE DOT COM, &lt;a href=&#34;https://teamjapanese.com/&#34; class=&#34;bare&#34;&gt;https://teamjapanese.com/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: CONSIDER ADDING FALLBACK FILES&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/115/</link>
+      <link>https://rustamjafar.com/en/115/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/115/</guid>
+      <guid>https://rustamjafar.com/en/115/</guid>
       <description>&lt;h1&gt;MD. JAHID HASAN&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;IMO, THIS IS WHAT A SCIENTIST’S PERSONAL WEBSITE SHOULD LOOK LIKE. ALSO&#xA;CHECKOUT HIS CS SKILLS. THIS MAN IS ENORMOUS.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://jahid-hasan.com/&#34; class=&#34;bare&#34;&gt;https://jahid-hasan.com/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;MD/MHD IS A SHORT FORM OF MUHAMMAD/MOHAMMAD, FOR THE CURIOUS. THANKS TO&#xA;&lt;a href=&#34;https://forum.wordreference.com/threads/md-mhd-with-a-name-india-saudi-arabia-malaysia-etc.1876920/&#34; class=&#34;bare&#34;&gt;https://forum.wordreference.com/threads/md-mhd-with-a-name-india-saudi-arabia-malaysia-etc.1876920/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/116/</link>
+      <link>https://rustamjafar.com/en/116/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/116/</guid>
+      <guid>https://rustamjafar.com/en/116/</guid>
       <description>&lt;h1&gt;DRAW.IO&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;THIS IS AN APP THAT DOES ITS JOB WELL. CHECK OUT THE LINK BELOW.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.drawio.com/&#34; class=&#34;bare&#34;&gt;https://www.drawio.com/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/117/</link>
+      <link>https://rustamjafar.com/en/117/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/117/</guid>
+      <guid>https://rustamjafar.com/en/117/</guid>
       <description>&lt;h1&gt;WINDOWS: APPS I USE&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;FOR A LONG TIME IN MY LIFE I’VE BEEN USING MACOS. NOW, WITH MY&#xA;CAREER SHIFTING MORE INTO ENGINEERING, I’VE PURCHASED MS SURFACE MACHINE, WHICH&#xA;MAKES ME SPEND MORE TIME USING WINDOWS OS. HERE I’LL POST SOME APPLICATIONS&#xA;THAT I FIND REALLY USEFULL.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;ulist&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;POWERTOYS, &lt;a href=&#34;https://github.com/microsoft/PowerToys&#34; class=&#34;bare&#34;&gt;https://github.com/microsoft/PowerToys&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;WINSCP, &lt;a href=&#34;https://winscp.net/&#34; class=&#34;bare&#34;&gt;https://winscp.net/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;SOURCETREE, &lt;a href=&#34;https://www.sourcetreeapp.com/&#34; class=&#34;bare&#34;&gt;https://www.sourcetreeapp.com/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;NOTEPADD++, &lt;a href=&#34;https://notepad-plus-plus.org/&#34; class=&#34;bare&#34;&gt;https://notepad-plus-plus.org/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;THIS LIST IS SUBJECT TO CHANGE&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: I’LL SHARE MY EXPREIENCE OF USING MAC OS AND WINDOWS OS IN A&#xA;SEPARATE POST.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/118/</link>
+      <link>https://rustamjafar.com/en/118/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/118/</guid>
+      <guid>https://rustamjafar.com/en/118/</guid>
       <description>&lt;h1&gt;CS: SERVER&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;IMO, YOU SHOULD HAVE A MOBILE SERVER THAT YOU CAN ALWAYS START UP.&#xA;BASICALLY, TO EXCHANGE DATA BETWEEN YOUR DEVICES WITHOUT THE NEED FOR&#xA;THIRD-PARTY CLOUD PROVIDERS. OR YOU CAN SET UP A HOME SERVER IF YOU HAVE GOT&#xA;ENOUGH TIME.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: ELABORATE ON THIS.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/119/</link>
+      <link>https://rustamjafar.com/en/119/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/119/</guid>
+      <guid>https://rustamjafar.com/en/119/</guid>
       <description>&lt;h1&gt;ABSTRACT EXPRESSIONISM&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;I LOVE ABSTRACT EXPRESSIONISM. BELOW IS A LIST OF MY FAV ARTISTS.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;ulist&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;FAYGA OSTROVER&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;THIS LISTING WILL GET ITS UPDATES IN THE FUTURE.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/120/</link>
+      <link>https://rustamjafar.com/en/120/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/120/</guid>
+      <guid>https://rustamjafar.com/en/120/</guid>
       <description>&lt;h1&gt;MBA: MINDSET&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;AS I GET FURTHER  INTO LIFE, I FIND MYSELFT IN A POSITION WHERE I JUST DON’T&#xA;HAVE ENOUGH TIME TO DO SIMPLE TASKS. SO, I WOULD RATHER PAY SOMETHING FOR&#xA;SOMETHING TO HAPPEN&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;THIS IS A SIMPLE MBA MINDSET THAT I HAVE READ MANY TIMES OVER. BUT DEFINTELY&#xA;HAS TO GET ITS PLACE AMONG MY NOTES TO BE CEMENTED IN MY MIND.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: EXPLAIN THIS.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/121/</link>
+      <link>https://rustamjafar.com/en/121/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/121/</guid>
+      <guid>https://rustamjafar.com/en/121/</guid>
       <description>&lt;h1&gt;WORDPRESS&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;USE WORDPRESS, IT IS GOOD. THIS IS ALL ABOUT THE GRAPHICAL USER INTERFACE.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: EXPLAIN THIS.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/122/</link>
+      <link>https://rustamjafar.com/en/122/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/122/</guid>
+      <guid>https://rustamjafar.com/en/122/</guid>
       <description>&lt;h1&gt;MAKING THE FIRST STEP&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;WHEN YOU FIND YOURSELF RESISTANT TO TAKING THE FIRST STEP, I RECOMMEND YOU USE&#xA;&amp;#34;UGLY METHOD APPROACH TO PERFECTIONISM&amp;#34; AS MENTIONED BY ONE OF THE REDDITORS.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;quoteblock&#34;&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;The &amp;#34;ugly method&amp;#34; approach to perfectionism.&#xA;For first drafts/attempts, I deliberately do things poorly to overcome&#xA;starting resistance. Quality can be added later.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;attribution&#34;&gt;&#xA;— FROM DELETED REDDIT USER link below&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.reddit.com/r/getdisciplined/s/BWYoH7NCNP&#34; class=&#34;bare&#34;&gt;https://www.reddit.com/r/getdisciplined/s/BWYoH7NCNP&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: MORE ON MARX’S PHILOSPHY OF QUANTITY AND QUALITY.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/123/</link>
+      <link>https://rustamjafar.com/en/123/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/123/</guid>
+      <guid>https://rustamjafar.com/en/123/</guid>
       <description>&lt;h1&gt;MAN-MADE WORLD&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&amp;#34;MAN-MADE WORLD&amp;#34; WALLPAPER COLLECTION IN THE LINK BELOW.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://wallwiz.com/share/manmade-world&#34; class=&#34;bare&#34;&gt;https://wallwiz.com/share/manmade-world&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/124/</link>
+      <link>https://rustamjafar.com/en/124/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/124/</guid>
+      <guid>https://rustamjafar.com/en/124/</guid>
       <description>&lt;h1&gt;CLI VS GUI&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;WE CAN USE COMPUTER SOFTWARE IN TWO WAYS. THE FIRST IS THE COMMAND LINE&#xA;INTERFACE, CLI. THE SECOND IS THROUGH THE GRAPHICAL USER INTERFACE, GUI. USING SOFTWARE&#xA;THROUGH CLI REQUIRES YOU TO TYPE EACH COMMAND AND ITS AVAILABLE OPTION EACH&#xA;TIME YOU WANT TO RUN SOMETHING. THIS TAKES TIME. ON THE OTHER HAND, WITH GUI,&#xA;YOU JUST CLICK A BUTTON WITH YOUR MOUSE TO RUN THE COMMAND YOU WANT, AND&#xA;THAT’S IT. THIS SAVES A LOT OF TIME. BUT WHEN WRITING SOFTWARE, IT IS&#xA;DIFFICULT TO MAKE EVERY CLI COMMAND AVAILABLE IN GUI. SO USING GUI INSTEAD&#xA;OF CLI WILL LIMIT THE FUNCTIONALITY OF THE APPLICATION FROM ONE SIDE, BUT&#xA;WILL MAKE YOU MORE PRODUCTIVE FROM THE OTHER SIDE.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/125/</link>
+      <link>https://rustamjafar.com/en/125/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/125/</guid>
+      <guid>https://rustamjafar.com/en/125/</guid>
       <description>&lt;h1&gt;PHRASAL VERBS &amp;amp; IDIOMS&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;LEARN PHRASAL VERBS AND IDIOMS. THEY CAN BE A GREAT HELP IN COMMUNICATION.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;FOR RESOURCES TO USE, CHECK OUT THE REDDIT POST,&#xA;&lt;a href=&#34;https://www.reddit.com/r/languagelearning/s/A6KGEfyTsj&#34; class=&#34;bare&#34;&gt;https://www.reddit.com/r/languagelearning/s/A6KGEfyTsj&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/126/</link>
+      <link>https://rustamjafar.com/en/126/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/126/</guid>
+      <guid>https://rustamjafar.com/en/126/</guid>
       <description>&lt;h1&gt;MATH: LOGIC STUDY GUIDE&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;START HERE&#xA;&lt;a href=&#34;https://www.logicmatters.net/TYL/&#34; class=&#34;bare&#34;&gt;https://www.logicmatters.net/TYL/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;THANKS TO&#xA;&lt;a href=&#34;https://www.reddit.com/r/askphilosophy/s/VCgKcmV8OP&#34; class=&#34;bare&#34;&gt;https://www.reddit.com/r/askphilosophy/s/VCgKcmV8OP&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/127/</link>
+      <link>https://rustamjafar.com/en/127/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/127/</guid>
+      <guid>https://rustamjafar.com/en/127/</guid>
       <description>&lt;h1&gt;BOOK PUBLISHERS&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;IN THE PAST, I STUDIED A LOT OF MEDICINE AND CS. AND ONE OF MY&#xA;RECOMMENDATIONS FOR YOU WHEN CHOOSING A BOOK TO READ IS TO CHECK ITS&#xA;PUBLISHER. BELOW ARE WHAT I CONSIDER TO BE SOME OF THE BEST.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;ulist&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;em&gt;OREILLY&lt;/em&gt; FOR CS&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;em&gt;ELSEVIER&lt;/em&gt; FOR MEDICAL SCIENCES&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/128/</link>
+      <link>https://rustamjafar.com/en/128/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/128/</guid>
+      <guid>https://rustamjafar.com/en/128/</guid>
       <description>&lt;h1&gt;AUTOCAD: PANNING&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;PANNING WITH &lt;code&gt;RMB + A&lt;/code&gt;. EASY PANNING WITHOUT USING THE SCROLL WHEEL.&#xA;RMB IS RIGHT MOUSE BUTTON.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/129/</link>
+      <link>https://rustamjafar.com/en/129/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/129/</guid>
+      <guid>https://rustamjafar.com/en/129/</guid>
       <description>&lt;h1&gt;O’NEIL: THE FOGGY DEW&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;ONE OF THE IRELAND’S REBEL POEMS.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;quoteblock&#34;&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;As down the glen one Easter morn to a city fair rode I&lt;br/&gt;&#xA;There Armed lines of marching men in squadrons passed me by&lt;br/&gt;&#xA;No pipe did hum no battle drum did sound its loud tattoo&lt;br/&gt;&#xA;But the Angelus Bell o’er the Liffey’s swells rang out in the foggy dew&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;Right proudly high in Dublin Town hung they out a flag of war&lt;br/&gt;&#xA;&amp;#39;Twas better to die &amp;#39;neath an Irish sky than at Suvla or Sud-El-Bar&lt;br/&gt;&#xA;And from the plains of Royal Meath strong men came hurrying through&lt;br/&gt;&#xA;While Britannia’s Huns, with their long range guns sailed in through the foggy dew&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/130/</link>
+      <link>https://rustamjafar.com/en/130/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/130/</guid>
+      <guid>https://rustamjafar.com/en/130/</guid>
       <description>&lt;h1&gt;BIRDSEYE: BE HONEST AND TRUE&lt;/h1&gt;&#xA;&lt;div class=&#34;quoteblock&#34;&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;Be honest and true, boys!&lt;br/&gt;&#xA;Whatever you do, boys,&lt;br/&gt;&#xA;Let this be your motto through life.&lt;br/&gt;&#xA;Both now and forever,&lt;br/&gt;&#xA;Be this your endeavor,&lt;br/&gt;&#xA;When wrong with the right is at strife.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;The best and the truest,&lt;br/&gt;&#xA;Alas! are the fewest;&lt;br/&gt;&#xA;But be one of these if you can.&lt;br/&gt;&#xA;In duty ne’er fail; you&lt;br/&gt;&#xA;Will find ’twill avail you,&lt;br/&gt;&#xA;And bring its reward when a man.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/131/</link>
+      <link>https://rustamjafar.com/en/131/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/131/</guid>
+      <guid>https://rustamjafar.com/en/131/</guid>
       <description>&lt;h1&gt;DISTRIBUTED PROOFREADS&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.pgdp.net&#34; class=&#34;bare&#34;&gt;https://www.pgdp.net&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;THIS TEAM IS DOING A GREAT JOB PRESERVING AN AMERICAN HISTORY BY DIGITIZING IT.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: CHECK OUT FIRST, CONTINUE WITH MY THOUGHTS ABOUT DIGITIZATION&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/132/</link>
+      <link>https://rustamjafar.com/en/132/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/132/</guid>
+      <guid>https://rustamjafar.com/en/132/</guid>
       <description>&lt;h1&gt;BIRDSEYE: BE SURE HOW YOU BEGIN&lt;/h1&gt;&#xA;&lt;div class=&#34;quoteblock&#34;&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&amp;#34;When once begun,&lt;br/&gt;&#xA;The work’s half done,&amp;#34;&lt;br/&gt;&#xA;So says the proverb old;&lt;br/&gt;&#xA;But even here,&lt;br/&gt;&#xA;You’ll see it clear,&lt;br/&gt;&#xA;The truth is but half told;&lt;br/&gt;&#xA;For wisdom says&lt;br/&gt;&#xA;There are two ways,&lt;br/&gt;&#xA;One loses and one wins;&lt;br/&gt;&#xA;You’ll find, young friends,&lt;br/&gt;&#xA;That all depends&lt;br/&gt;&#xA;Upon how one begins.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;If wrong begun&lt;br/&gt;&#xA;And work half done,&lt;br/&gt;&#xA;So much the worse for you;&lt;br/&gt;&#xA;If right — go on&lt;br/&gt;&#xA;Until you’ve won&lt;br/&gt;&#xA;The goal you had in view.&lt;br/&gt;&#xA;In life you gaze&lt;br/&gt;&#xA;Upon the ways&lt;br/&gt;&#xA;Of virtue and of sin;&lt;br/&gt;&#xA;Be led by truth,&lt;br/&gt;&#xA;And in your youth&lt;br/&gt;&#xA;Be sure how you begin.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/133/</link>
+      <link>https://rustamjafar.com/en/133/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/133/</guid>
+      <guid>https://rustamjafar.com/en/133/</guid>
       <description>&lt;h1&gt;GOLDEN DAYS FOR BOYS AND GIRLS&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;WHAT A BEAUTIFUL NEWSPAPER. IT WAS MENTIONED IN THE FIFTH SEASON&#xA;OF THE SERIES BOARDWALK EMPIRE.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/134/</link>
+      <link>https://rustamjafar.com/en/134/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/134/</guid>
+      <guid>https://rustamjafar.com/en/134/</guid>
       <description>&lt;h1&gt;WINDOWS: MS WORD&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;LEARN TO USE MS WORD THE RIGHT WAY. CREATE YOUR OWN STANDARD TEMPLATE.&#xA;KEEP IT WITH YOU AND HAVE IT AVAILABLE TO YOU EVERY TIME YOU CREATE A DOCUMENT&#xA;THIS WILL MAKE YOUR DOCUMENTS LOOK AS PROFESSIONAL AS JAPANESE ONES.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;DON’T FORGET ABOUT LATEX IF YOU HAVE ENOUGH FREE TIME.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/135/</link>
+      <link>https://rustamjafar.com/en/135/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/135/</guid>
+      <guid>https://rustamjafar.com/en/135/</guid>
       <description>&lt;h1&gt;CS: YAML&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;I AM CONSIDERING USING YAML FOR METADATA FOR MY NOTES FOR ITS SIMPLICITY.&#xA;PANDOC RECOGNIZES IT AS WELL.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://yaml.org/spec/1.2.2/&#34; class=&#34;bare&#34;&gt;https://yaml.org/spec/1.2.2/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/136/</link>
+      <link>https://rustamjafar.com/en/136/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/136/</guid>
+      <guid>https://rustamjafar.com/en/136/</guid>
       <description>&lt;h1&gt;CATHAL BRUGHA&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;THE IRISHMAN&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: JOT DOWN A FEW FACTS ABOUT HIM USING THE LINK BELOW&#xA;&lt;a href=&#34;https://m.independent.ie/irish-news/cathal-brugha-a-very-complex-patriot/34267743.html&#34; class=&#34;bare&#34;&gt;https://m.independent.ie/irish-news/cathal-brugha-a-very-complex-patriot/34267743.html&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/137/</link>
+      <link>https://rustamjafar.com/en/137/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/137/</guid>
+      <guid>https://rustamjafar.com/en/137/</guid>
       <description>&lt;h1&gt;WINDOWS: SCREENSHOT SHORTCUTS&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;I ALWAYS FORGET THEM.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;code&gt;PRNT SCRN&lt;/code&gt;: SAVES TO BUFFER&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;code&gt;WIN + PRNT SCRN&lt;/code&gt;: SAVES TO SCRNSHT FOLDER&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;code&gt;ALT + S&lt;/code&gt;: OPENS SNIPPING TOOL&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/138/</link>
+      <link>https://rustamjafar.com/en/138/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/138/</guid>
+      <guid>https://rustamjafar.com/en/138/</guid>
       <description>&lt;h1&gt;MBA VS MANAGEMENT&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;AN INTERESTING COMPARISON IS MADE BY ONE OF THE REDDITORS BELOW.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;quoteblock&#34;&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;It’s more for organizational leadership and providing guidance on how to&#xA;effectively ensure a cohesive workforce, etc. But an MBA grad can provide more&#xA;guidance on how to grow a business, implement marketing strategies, audit&#xA;a business to find areas of opportunity, etc&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.reddit.com/r/careerguidance/s/F9TFHXzQdm&#34; class=&#34;bare&#34;&gt;https://www.reddit.com/r/careerguidance/s/F9TFHXzQdm&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;IMO, CONSIDER GETTING (1) MASTER’S IN MANAGEMENT (MSIM) AT THE BEST UNIVERSITY AVAILABLE TO YOU       .&#xA;CONSDIER GETTING (2) AN MBA DEGREE IN THE PLACE WHERE YOU’RE PLANNING TO&#xA;START YOUR BUSINESS. AS THIS  WILL GIVE YOU A GENERAL PERSPECTIVE OF THE&#xA;LOCATION AND SOME GOOD CONNECTIONS AS WELL.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/139/</link>
+      <link>https://rustamjafar.com/en/139/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/139/</guid>
+      <guid>https://rustamjafar.com/en/139/</guid>
       <description>&lt;h1&gt;TO FORMER PHYSICIANS&lt;/h1&gt;&#xA;&lt;div class=&#34;quoteblock&#34;&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TO ALL FORMER PHYSICIANS THIS NOTE GOES.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;AND SPECIAL THANKS TO THE FORMER PHYSICIANS LISTED BELOW, AS I GREW UP WATCHING&#xA;THEIR CONTENT ON YOUTUBE. THANK YOU VERY MUCH FOR MAKING MY LIFE AND&#xA;EDUCATION BETTER.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;ulist&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;ALI ABDAAL (UK), &lt;a href=&#34;https://www.youtube.com/@aliabdaal&#34; class=&#34;bare&#34;&gt;https://www.youtube.com/@aliabdaal&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;KEVIN JUBBAL (US), &lt;a href=&#34;https://www.youtube.com/@kevinjubbalmd&#34; class=&#34;bare&#34;&gt;https://www.youtube.com/@kevinjubbalmd&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/140/</link>
+      <link>https://rustamjafar.com/en/140/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/140/</guid>
+      <guid>https://rustamjafar.com/en/140/</guid>
       <description>&lt;h1&gt;PETRO: SLB’S OILFIELD REVIEW&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: CHECK OUT FIRT, THEN DELIVER MY THOUGHTS ON THIS.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/141/</link>
+      <link>https://rustamjafar.com/en/141/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/141/</guid>
+      <guid>https://rustamjafar.com/en/141/</guid>
       <description>&lt;h1&gt;SETERRA &amp;amp; GEOGUESSR&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;I RECOMMEND THAT YOU USE SETERRA FROM TIME TO TIME TO KEEP YOUR GEOGRAPHY&#xA;SKILLS FRESH.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;YOU MIGHT ALSO WANT TO TAKE A LOOK AT GEOGUESSR. THEIR GEOGRAPHY CHAMPIONSHIP&#xA;IS FANTASTIC.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;IF YOU’D LIKE TO TEST YOUR SKILLS THERE’RE SOME FREE VERSIONS FOR GEOGUESSR.&#xA;I’LL LIST A FEW OF THEM BELOW:&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;ulist&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://openguessr.com/&#34; class=&#34;bare&#34;&gt;https://openguessr.com/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.worldguessr.com/&#34; class=&#34;bare&#34;&gt;https://www.worldguessr.com/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/142/</link>
+      <link>https://rustamjafar.com/en/142/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/142/</guid>
+      <guid>https://rustamjafar.com/en/142/</guid>
       <description>&lt;h1&gt;AAPL. GOOGL. MSFT.&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;AT THE TIME OF WRITING THIS NOTE, TECH GIANTS LIKE APPLE (AAPL), GOOGLE (GOOGL),&#xA;AND MICROSOFT (MSFT) ARE ENORMOUSLY LARGE AND COVER EVERY TECH ASPECT&#xA;OF OUR LIVES. IMO, OUT OF THE THREE LISTED ABOVE GOOGL WINS IN TERMS&#xA;OF THE INTEGRATION OF ITS ECOSYSTEM ACROSS DIFFERENT DEVICES, NO MATTER&#xA;WHAT THEY ARE, INCLUDING LINUX.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;TODO: a few words about ecosystem for your team&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/143/</link>
+      <link>https://rustamjafar.com/en/143/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/143/</guid>
+      <guid>https://rustamjafar.com/en/143/</guid>
       <description>&lt;h1&gt;ANGEL AUSTIN&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;GOING TO SPEND SOME TIME ANALYZING THIS PAGE, LINKED BELOW,  FROM A USER&#xA;FROM CHELYABINSK, RUSSIA. AT LEAST MY GUESS IS SO.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://vogueindustry.com/about-site&#34; class=&#34;bare&#34;&gt;https://vogueindustry.com/about-site&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/144/</link>
+      <link>https://rustamjafar.com/en/144/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/144/</guid>
+      <guid>https://rustamjafar.com/en/144/</guid>
       <description>&lt;h1&gt;ICEBERG EVERYTHING&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;BEFORE YOU DIVE INTO ANYTHING, I SUGGEST YOU WATCH THE ICEBERG VIDEOS ON&#xA;YOUTUBE FIRST. REDDIT USERS, I.E. HUMANITY, HAVE ALREADY DONE A HUGE WORK.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;SEARCH YOUTUBE FOR: &lt;code&gt;ICEBERG &amp;lt;TOPIC-OF-INTEREST&amp;gt;&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/en/145/</link>
+      <link>https://rustamjafar.com/en/145/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/145/</guid>
+      <guid>https://rustamjafar.com/en/145/</guid>
       <description>&lt;h1&gt;HORATIO ALGER&lt;/h1&gt;&#xA;&lt;div class=&#34;paragraph&#34;&gt;&#xA;&lt;p&gt;I GREW UP READING BOOKS BY THIS AMERICAN AUTHOR. AND I STILL LIKE THEM VERY MUCH.&#xA;I RECOMMEND YOU, YOUNG BOYS AND YOUNG GIRLS, TO READ HIS NOVELS, FOR THEY WILL&#xA;FORM A CERTAIN HORATIO’S MENTALITY IN YOU.&lt;/p&gt;&#xA;&lt;/div&gt;</description>
     </item>
   </channel>
